@@ -1,0 +1,1177 @@
+CPU: Core 2, speed 2500.12 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 100000
+samples  %        image name               symbol name
+-------------------------------------------------------------------------------
+647415   51.1225  kallsyms                 copy_user_generic_string
+  647415   100.000  kallsyms                 copy_user_generic_string [self]
+-------------------------------------------------------------------------------
+46004     3.6327  nf_conntrack             /nf_conntrack
+  46004    100.000  nf_conntrack             /nf_conntrack [self]
+-------------------------------------------------------------------------------
+23036     1.8190  kallsyms                 put_compound_page
+  23036    100.000  kallsyms                 put_compound_page [self]
+-------------------------------------------------------------------------------
+21589     1.7048  e1000e                   /e1000e
+  21589    100.000  e1000e                   /e1000e [self]
+-------------------------------------------------------------------------------
+18685     1.4754  ip_tables                /ip_tables
+  18685    100.000  ip_tables                /ip_tables [self]
+-------------------------------------------------------------------------------
+13806     1.0902  kallsyms                 tcp_recvmsg
+  13806    100.000  kallsyms                 tcp_recvmsg [self]
+-------------------------------------------------------------------------------
+12879     1.0170  kallsyms                 skb_copy_datagram_iovec
+  12879    100.000  kallsyms                 skb_copy_datagram_iovec [self]
+-------------------------------------------------------------------------------
+12415     0.9803  kallsyms                 nf_iterate
+  12415    100.000  kallsyms                 nf_iterate [self]
+-------------------------------------------------------------------------------
+10855     0.8572  kallsyms                 tcp_transmit_skb
+  10855    100.000  kallsyms                 tcp_transmit_skb [self]
+-------------------------------------------------------------------------------
+10710     0.8457  kallsyms                 _raw_spin_lock
+  10710    100.000  kallsyms                 _raw_spin_lock [self]
+-------------------------------------------------------------------------------
+10479     0.8275  kallsyms                 skb_release_data
+  10479    100.000  kallsyms                 skb_release_data [self]
+-------------------------------------------------------------------------------
+10073     0.7954  kallsyms                 tcp_rcv_established
+  10073    100.000  kallsyms                 tcp_rcv_established [self]
+-------------------------------------------------------------------------------
+9748      0.7697  kallsyms                 update_cfs_shares
+  9748     100.000  kallsyms                 update_cfs_shares [self]
+-------------------------------------------------------------------------------
+9599      0.7580  kallsyms                 update_curr
+  9599     100.000  kallsyms                 update_curr [self]
+-------------------------------------------------------------------------------
+9570      0.7557  kallsyms                 memcpy_toiovec
+  9570     100.000  kallsyms                 memcpy_toiovec [self]
+-------------------------------------------------------------------------------
+9407      0.7428  kallsyms                 __schedule
+  9407     100.000  kallsyms                 __schedule [self]
+-------------------------------------------------------------------------------
+9073      0.7164  kallsyms                 dequeue_entity
+  9073     100.000  kallsyms                 dequeue_entity [self]
+-------------------------------------------------------------------------------
+7936      0.6267  iptable_nat              /iptable_nat
+  7936     100.000  iptable_nat              /iptable_nat [self]
+-------------------------------------------------------------------------------
+7928      0.6260  kallsyms                 tcp_v4_do_rcv
+  7928     100.000  kallsyms                 tcp_v4_do_rcv [self]
+-------------------------------------------------------------------------------
+7752      0.6121  kallsyms                 __slab_free
+  7752     100.000  kallsyms                 __slab_free [self]
+-------------------------------------------------------------------------------
+7425      0.5863  kallsyms                 native_write_msr_safe
+  7425     100.000  kallsyms                 native_write_msr_safe [self]
+-------------------------------------------------------------------------------
+7011      0.5536  kallsyms                 _raw_spin_lock_bh
+  7011     100.000  kallsyms                 _raw_spin_lock_bh [self]
+-------------------------------------------------------------------------------
+6472      0.5111  kallsyms                 free_pages_prepare
+  6472     100.000  kallsyms                 free_pages_prepare [self]
+-------------------------------------------------------------------------------
+6410      0.5062  kallsyms                 __ip_local_out
+  6410     100.000  kallsyms                 __ip_local_out [self]
+-------------------------------------------------------------------------------
+6046      0.4774  kallsyms                 ip_queue_xmit
+  6046     100.000  kallsyms                 ip_queue_xmit [self]
+-------------------------------------------------------------------------------
+6010      0.4746  kallsyms                 sk_wait_data
+  6010     100.000  kallsyms                 sk_wait_data [self]
+-------------------------------------------------------------------------------
+5849      0.4619  kallsyms                 tcp_event_data_recv
+  5849     100.000  kallsyms                 tcp_event_data_recv [self]
+-------------------------------------------------------------------------------
+5539      0.4374  kallsyms                 dev_hard_start_xmit
+  5539     100.000  kallsyms                 dev_hard_start_xmit [self]
+-------------------------------------------------------------------------------
+5481      0.4328  kallsyms                 free_one_page
+  5481     100.000  kallsyms                 free_one_page [self]
+-------------------------------------------------------------------------------
+5388      0.4255  kallsyms                 ip_finish_output
+  5388     100.000  kallsyms                 ip_finish_output [self]
+-------------------------------------------------------------------------------
+5212      0.4116  libpthread-2.19.so       recv
+  5212     100.000  libpthread-2.19.so       recv [self]
+-------------------------------------------------------------------------------
+5004      0.3951  kallsyms                 __alloc_skb
+  5004     100.000  kallsyms                 __alloc_skb [self]
+-------------------------------------------------------------------------------
+4984      0.3936  kallsyms                 kmem_cache_free
+  4984     100.000  kallsyms                 kmem_cache_free [self]
+-------------------------------------------------------------------------------
+4978      0.3931  kallsyms                 cpuacct_charge
+  4978     100.000  kallsyms                 cpuacct_charge [self]
+-------------------------------------------------------------------------------
+4949      0.3908  kallsyms                 dequeue_task_fair
+  4949     100.000  kallsyms                 dequeue_task_fair [self]
+-------------------------------------------------------------------------------
+4892      0.3863  kallsyms                 local_bh_enable
+  4892     100.000  kallsyms                 local_bh_enable [self]
+-------------------------------------------------------------------------------
+4867      0.3843  kallsyms                 put_page
+  4867     100.000  kallsyms                 put_page [self]
+-------------------------------------------------------------------------------
+4807      0.3796  kallsyms                 __dev_queue_xmit
+  4807     100.000  kallsyms                 __dev_queue_xmit [self]
+-------------------------------------------------------------------------------
+4505      0.3557  nf_conntrack_ipv4        /nf_conntrack_ipv4
+  4505     100.000  nf_conntrack_ipv4        /nf_conntrack_ipv4 [self]
+-------------------------------------------------------------------------------
+4379      0.3458  kallsyms                 sock_recvmsg
+  4379     100.000  kallsyms                 sock_recvmsg [self]
+-------------------------------------------------------------------------------
+4325      0.3415  kallsyms                 account_entity_dequeue
+  4325     100.000  kallsyms                 account_entity_dequeue [self]
+-------------------------------------------------------------------------------
+4176      0.3298  kallsyms                 sched_clock_local
+  4176     100.000  kallsyms                 sched_clock_local [self]
+-------------------------------------------------------------------------------
+4130      0.3261  kallsyms                 fget_light
+  4130     100.000  kallsyms                 fget_light [self]
+-------------------------------------------------------------------------------
+4129      0.3260  kallsyms                 put_prev_task_fair
+  4129     100.000  kallsyms                 put_prev_task_fair [self]
+-------------------------------------------------------------------------------
+4063      0.3208  kallsyms                 update_cfs_rq_blocked_load
+  4063     100.000  kallsyms                 update_cfs_rq_blocked_load [self]
+-------------------------------------------------------------------------------
+3984      0.3146  kallsyms                 tcp_prequeue_process
+  3984     100.000  kallsyms                 tcp_prequeue_process [self]
+-------------------------------------------------------------------------------
+3808      0.3007  kallsyms                 __perf_event_task_sched_out
+  3808     100.000  kallsyms                 __perf_event_task_sched_out [self]
+-------------------------------------------------------------------------------
+3668      0.2896  kallsyms                 SYSC_recvfrom
+  3668     100.000  kallsyms                 SYSC_recvfrom [self]
+-------------------------------------------------------------------------------
+3584      0.2830  kallsyms                 _raw_spin_lock_irqsave
+  3584     100.000  kallsyms                 _raw_spin_lock_irqsave [self]
+-------------------------------------------------------------------------------
+3336      0.2634  kallsyms                 __tcp_v4_send_check
+  3336     100.000  kallsyms                 __tcp_v4_send_check [self]
+-------------------------------------------------------------------------------
+3320      0.2622  kallsyms                 __sched_text_start
+  3320     100.000  kallsyms                 __sched_text_start [self]
+-------------------------------------------------------------------------------
+3300      0.2606  kallsyms                 __slab_alloc
+  3300     100.000  kallsyms                 __slab_alloc [self]
+-------------------------------------------------------------------------------
+3268      0.2581  kallsyms                 release_sock
+  3268     100.000  kallsyms                 release_sock [self]
+-------------------------------------------------------------------------------
+3255      0.2570  kallsyms                 finish_task_switch
+  3255     100.000  kallsyms                 finish_task_switch [self]
+-------------------------------------------------------------------------------
+3205      0.2531  kallsyms                 dst_release
+  3205     100.000  kallsyms                 dst_release [self]
+-------------------------------------------------------------------------------
+3134      0.2475  iperf                    /usr/bin/iperf
+  3134     100.000  iperf                    /usr/bin/iperf [self]
+-------------------------------------------------------------------------------
+3071      0.2425  kallsyms                 kmem_cache_alloc_node
+  3071     100.000  kallsyms                 kmem_cache_alloc_node [self]
+-------------------------------------------------------------------------------
+2895      0.2286  kallsyms                 ksize
+  2895     100.000  kallsyms                 ksize [self]
+-------------------------------------------------------------------------------
+2824      0.2230  kallsyms                 tcp_cleanup_rbuf
+  2824     100.000  kallsyms                 tcp_cleanup_rbuf [self]
+-------------------------------------------------------------------------------
+2811      0.2220  kallsyms                 sock_def_readable
+  2811     100.000  kallsyms                 sock_def_readable [self]
+-------------------------------------------------------------------------------
+2742      0.2165  kallsyms                 __tcp_ack_snd_check
+  2742     100.000  kallsyms                 __tcp_ack_snd_check [self]
+-------------------------------------------------------------------------------
+2681      0.2117  kallsyms                 ipv4_dst_check
+  2681     100.000  kallsyms                 ipv4_dst_check [self]
+-------------------------------------------------------------------------------
+2673      0.2111  libpthread-2.19.so       __pthread_disable_asynccancel
+  2673     100.000  libpthread-2.19.so       __pthread_disable_asynccancel [self]
+-------------------------------------------------------------------------------
+2669      0.2108  kallsyms                 aa_revalidate_sk
+  2669     100.000  kallsyms                 aa_revalidate_sk [self]
+-------------------------------------------------------------------------------
+2659      0.2100  kallsyms                 __free_pages_ok.part.62
+  2659     100.000  kallsyms                 __free_pages_ok.part.62 [self]
+-------------------------------------------------------------------------------
+2651      0.2093  kallsyms                 native_read_tsc
+  2651     100.000  kallsyms                 native_read_tsc [self]
+-------------------------------------------------------------------------------
+2604      0.2056  kallsyms                 sched_clock_cpu
+  2604     100.000  kallsyms                 sched_clock_cpu [self]
+-------------------------------------------------------------------------------
+2555      0.2018  kallsyms                 skb_release_head_state
+  2555     100.000  kallsyms                 skb_release_head_state [self]
+-------------------------------------------------------------------------------
+2542      0.2007  kallsyms                 skb_free_head
+  2542     100.000  kallsyms                 skb_free_head [self]
+-------------------------------------------------------------------------------
+2517      0.1988  kallsyms                 ip_output
+  2517     100.000  kallsyms                 ip_output [self]
+-------------------------------------------------------------------------------
+2514      0.1985  kallsyms                 __kmalloc_node_track_caller
+  2514     100.000  kallsyms                 __kmalloc_node_track_caller [self]
+-------------------------------------------------------------------------------
+2483      0.1961  kallsyms                 schedule
+  2483     100.000  kallsyms                 schedule [self]
+-------------------------------------------------------------------------------
+2482      0.1960  kallsyms                 pick_next_task_fair
+  2482     100.000  kallsyms                 pick_next_task_fair [self]
+-------------------------------------------------------------------------------
+2461      0.1943  kallsyms                 local_bh_disable
+  2461     100.000  kallsyms                 local_bh_disable [self]
+-------------------------------------------------------------------------------
+2425      0.1915  kallsyms                 get_pageblock_flags_mask
+  2425     100.000  kallsyms                 get_pageblock_flags_mask [self]
+-------------------------------------------------------------------------------
+2417      0.1909  nf_nat                   /nf_nat
+  2417     100.000  nf_nat                   /nf_nat [self]
+-------------------------------------------------------------------------------
+2410      0.1903  kallsyms                 system_call
+  2410     100.000  kallsyms                 system_call [self]
+-------------------------------------------------------------------------------
+2395      0.1891  kallsyms                 local_bh_enable_ip
+  2395     100.000  kallsyms                 local_bh_enable_ip [self]
+-------------------------------------------------------------------------------
+2375      0.1875  kallsyms                 inet_recvmsg
+  2375     100.000  kallsyms                 inet_recvmsg [self]
+-------------------------------------------------------------------------------
+2332      0.1841  kallsyms                 tcp_parse_aligned_timestamp.part.34
+  2332     100.000  kallsyms                 tcp_parse_aligned_timestamp.part.34 [self]
+-------------------------------------------------------------------------------
+2284      0.1804  kallsyms                 swiotlb_map_page
+  2284     100.000  kallsyms                 swiotlb_map_page [self]
+-------------------------------------------------------------------------------
+2277      0.1798  kallsyms                 dequeue_task
+  2277     100.000  kallsyms                 dequeue_task [self]
+-------------------------------------------------------------------------------
+2262      0.1786  kallsyms                 tcp_send_ack
+  2262     100.000  kallsyms                 tcp_send_ack [self]
+-------------------------------------------------------------------------------
+2259      0.1784  kallsyms                 mod_timer_pending
+  2259     100.000  kallsyms                 mod_timer_pending [self]
+-------------------------------------------------------------------------------
+2251      0.1777  kallsyms                 nf_hook_slow
+  2251     100.000  kallsyms                 nf_hook_slow [self]
+-------------------------------------------------------------------------------
+2250      0.1777  kallsyms                 _cond_resched
+  2250     100.000  kallsyms                 _cond_resched [self]
+-------------------------------------------------------------------------------
+2166      0.1710  kallsyms                 update_rq_clock.part.63
+  2166     100.000  kallsyms                 update_rq_clock.part.63 [self]
+-------------------------------------------------------------------------------
+2161      0.1706  kallsyms                 __internal_add_timer
+  2161     100.000  kallsyms                 __internal_add_timer [self]
+-------------------------------------------------------------------------------
+2128      0.1680  kallsyms                 fput
+  2128     100.000  kallsyms                 fput [self]
+-------------------------------------------------------------------------------
+2065      0.1631  iptable_mangle           /iptable_mangle
+  2065     100.000  iptable_mangle           /iptable_mangle [self]
+-------------------------------------------------------------------------------
+2064      0.1630  kallsyms                 netif_skb_dev_features
+  2064     100.000  kallsyms                 netif_skb_dev_features [self]
+-------------------------------------------------------------------------------
+2050      0.1619  kallsyms                 ipv4_mtu
+  2050     100.000  kallsyms                 ipv4_mtu [self]
+-------------------------------------------------------------------------------
+2044      0.1614  kallsyms                 prepare_to_wait
+  2044     100.000  kallsyms                 prepare_to_wait [self]
+-------------------------------------------------------------------------------
+2021      0.1596  kallsyms                 __tcp_select_window
+  2021     100.000  kallsyms                 __tcp_select_window [self]
+-------------------------------------------------------------------------------
+1959      0.1547  kallsyms                 lock_sock_nested
+  1959     100.000  kallsyms                 lock_sock_nested [self]
+-------------------------------------------------------------------------------
+1956      0.1545  kallsyms                 _copy_to_user
+  1956     100.000  kallsyms                 _copy_to_user [self]
+-------------------------------------------------------------------------------
+1953      0.1542  kallsyms                 tcp_established_options
+  1953     100.000  kallsyms                 tcp_established_options [self]
+-------------------------------------------------------------------------------
+1934      0.1527  kallsyms                 pick_next_task_stop
+  1934     100.000  kallsyms                 pick_next_task_stop [self]
+-------------------------------------------------------------------------------
+1933      0.1526  kallsyms                 sch_direct_xmit
+  1933     100.000  kallsyms                 sch_direct_xmit [self]
+-------------------------------------------------------------------------------
+1901      0.1501  kallsyms                 skb_network_protocol
+  1901     100.000  kallsyms                 skb_network_protocol [self]
+-------------------------------------------------------------------------------
+1891      0.1493  kallsyms                 ctx_sched_out
+  1891     100.000  kallsyms                 ctx_sched_out [self]
+-------------------------------------------------------------------------------
+1888      0.1491  kallsyms                 update_min_vruntime
+  1888     100.000  kallsyms                 update_min_vruntime [self]
+-------------------------------------------------------------------------------
+1853      0.1463  kallsyms                 tcp_init_nondata_skb
+  1853     100.000  kallsyms                 tcp_init_nondata_skb [self]
+-------------------------------------------------------------------------------
+1808      0.1428  kallsyms                 pick_next_task_rt
+  1808     100.000  kallsyms                 pick_next_task_rt [self]
+-------------------------------------------------------------------------------
+1744      0.1377  kallsyms                 skb_push
+  1744     100.000  kallsyms                 skb_push [self]
+-------------------------------------------------------------------------------
+1722      0.1360  kallsyms                 netdev_pick_tx
+  1722     100.000  kallsyms                 netdev_pick_tx [self]
+-------------------------------------------------------------------------------
+1637      0.1293  kallsyms                 system_call_after_swapgs
+  1637     100.000  kallsyms                 system_call_after_swapgs [self]
+-------------------------------------------------------------------------------
+1596      0.1260  kallsyms                 idle_cpu
+  1596     100.000  kallsyms                 idle_cpu [self]
+-------------------------------------------------------------------------------
+1589      0.1255  kallsyms                 tcp_parse_md5sig_option
+  1589     100.000  kallsyms                 tcp_parse_md5sig_option [self]
+-------------------------------------------------------------------------------
+1580      0.1248  kallsyms                 _raw_spin_lock_irq
+  1580     100.000  kallsyms                 _raw_spin_lock_irq [self]
+-------------------------------------------------------------------------------
+1574      0.1243  kallsyms                 _raw_spin_unlock_irqrestore
+  1574     100.000  kallsyms                 _raw_spin_unlock_irqrestore [self]
+-------------------------------------------------------------------------------
+1572      0.1241  kallsyms                 native_sched_clock
+  1572     100.000  kallsyms                 native_sched_clock [self]
+-------------------------------------------------------------------------------
+1537      0.1214  kallsyms                 tcp_release_cb
+  1537     100.000  kallsyms                 tcp_release_cb [self]
+-------------------------------------------------------------------------------
+1510      0.1192  kallsyms                 __sk_dst_check
+  1510     100.000  kallsyms                 __sk_dst_check [self]
+-------------------------------------------------------------------------------
+1501      0.1185  kallsyms                 __cmpxchg_double_slab.isra.40
+  1501     100.000  kallsyms                 __cmpxchg_double_slab.isra.40 [self]
+-------------------------------------------------------------------------------
+1485      0.1173  libpthread-2.19.so       __pthread_enable_asynccancel
+  1485     100.000  libpthread-2.19.so       __pthread_enable_asynccancel [self]
+-------------------------------------------------------------------------------
+1434      0.1132  kallsyms                 local_clock
+  1434     100.000  kallsyms                 local_clock [self]
+-------------------------------------------------------------------------------
+1392      0.1099  kallsyms                 skb_release_all
+  1392     100.000  kallsyms                 skb_release_all [self]
+-------------------------------------------------------------------------------
+1383      0.1092  kallsyms                 _raw_spin_unlock
+  1383     100.000  kallsyms                 _raw_spin_unlock [self]
+-------------------------------------------------------------------------------
+1366      0.1079  kallsyms                 kmalloc_slab
+  1366     100.000  kallsyms                 kmalloc_slab [self]
+-------------------------------------------------------------------------------
+1364      0.1077  kallsyms                 __calc_delta
+  1364     100.000  kallsyms                 __calc_delta [self]
+-------------------------------------------------------------------------------
+1364      0.1077  kallsyms                 __mod_zone_page_state
+  1364     100.000  kallsyms                 __mod_zone_page_state [self]
+-------------------------------------------------------------------------------
+1345      0.1062  kallsyms                 tcp_rcv_space_adjust
+  1345     100.000  kallsyms                 tcp_rcv_space_adjust [self]
+-------------------------------------------------------------------------------
+1334      0.1053  kallsyms                 __perf_event_task_sched_in
+  1334     100.000  kallsyms                 __perf_event_task_sched_in [self]
+-------------------------------------------------------------------------------
+1330      0.1050  kallsyms                 tcp_v4_send_check
+  1330     100.000  kallsyms                 tcp_v4_send_check [self]
+-------------------------------------------------------------------------------
+1253      0.0989  kallsyms                 security_socket_recvmsg
+  1253     100.000  kallsyms                 security_socket_recvmsg [self]
+-------------------------------------------------------------------------------
+1244      0.0982  kallsyms                 tcp_options_write
+  1244     100.000  kallsyms                 tcp_options_write [self]
+-------------------------------------------------------------------------------
+1241      0.0980  kallsyms                 tcp_grow_window.isra.19
+  1241     100.000  kallsyms                 tcp_grow_window.isra.19 [self]
+-------------------------------------------------------------------------------
+1238      0.0978  kallsyms                 sys_recvfrom
+  1238     100.000  kallsyms                 sys_recvfrom [self]
+-------------------------------------------------------------------------------
+1230      0.0971  kallsyms                 perf_pmu_rotate_start.isra.39
+  1230     100.000  kallsyms                 perf_pmu_rotate_start.isra.39 [self]
+-------------------------------------------------------------------------------
+1173      0.0926  kallsyms                 tcp_md5_do_lookup
+  1173     100.000  kallsyms                 tcp_md5_do_lookup [self]
+-------------------------------------------------------------------------------
+1161      0.0917  nf_defrag_ipv4           /nf_defrag_ipv4
+  1161     100.000  nf_defrag_ipv4           /nf_defrag_ipv4 [self]
+-------------------------------------------------------------------------------
+1150      0.0908  kallsyms                 __kmalloc_reserve.isra.27
+  1150     100.000  kallsyms                 __kmalloc_reserve.isra.27 [self]
+-------------------------------------------------------------------------------
+1148      0.0907  kallsyms                 account_entity_enqueue
+  1148     100.000  kallsyms                 account_entity_enqueue [self]
+-------------------------------------------------------------------------------
+1144      0.0903  kallsyms                 sockfd_lookup_light
+  1144     100.000  kallsyms                 sockfd_lookup_light [self]
+-------------------------------------------------------------------------------
+1139      0.0899  kallsyms                 apparmor_socket_recvmsg
+  1139     100.000  kallsyms                 apparmor_socket_recvmsg [self]
+-------------------------------------------------------------------------------
+1135      0.0896  kallsyms                 find_busiest_group
+  1135     100.000  kallsyms                 find_busiest_group [self]
+-------------------------------------------------------------------------------
+1131      0.0893  kallsyms                 x86_pmu_disable
+  1131     100.000  kallsyms                 x86_pmu_disable [self]
+-------------------------------------------------------------------------------
+1130      0.0892  kallsyms                 harmonize_features.isra.92.part.93
+  1130     100.000  kallsyms                 harmonize_features.isra.92.part.93 [self]
+-------------------------------------------------------------------------------
+1128      0.0891  kallsyms                 intel_pmu_disable_all
+  1128     100.000  kallsyms                 intel_pmu_disable_all [self]
+-------------------------------------------------------------------------------
+1121      0.0885  kallsyms                 ret_from_sys_call
+  1121     100.000  kallsyms                 ret_from_sys_call [self]
+-------------------------------------------------------------------------------
+1098      0.0867  kallsyms                 kfree_skb_partial
+  1098     100.000  kallsyms                 kfree_skb_partial [self]
+-------------------------------------------------------------------------------
+1090      0.0861  kallsyms                 tcp_v4_md5_lookup
+  1090     100.000  kallsyms                 tcp_v4_md5_lookup [self]
+-------------------------------------------------------------------------------
+1081      0.0854  kallsyms                 _raw_spin_unlock_bh
+  1081     100.000  kallsyms                 _raw_spin_unlock_bh [self]
+-------------------------------------------------------------------------------
+1065      0.0841  kallsyms                 clear_buddies
+  1065     100.000  kallsyms                 clear_buddies [self]
+-------------------------------------------------------------------------------
+1047      0.0827  kallsyms                 idle_balance
+  1047     100.000  kallsyms                 idle_balance [self]
+-------------------------------------------------------------------------------
+944       0.0745  kallsyms                 sysret_check
+  944      100.000  kallsyms                 sysret_check [self]
+-------------------------------------------------------------------------------
+930       0.0734  kallsyms                 kfree_skbmem
+  930      100.000  kallsyms                 kfree_skbmem [self]
+-------------------------------------------------------------------------------
+900       0.0711  kallsyms                 perf_event_task_sched_out
+  900      100.000  kallsyms                 perf_event_task_sched_out [self]
+-------------------------------------------------------------------------------
+848       0.0670  kallsyms                 lock_timer_base.isra.35
+  848      100.000  kallsyms                 lock_timer_base.isra.35 [self]
+-------------------------------------------------------------------------------
+825       0.0651  kallsyms                 x86_pmu_enable
+  825      100.000  kallsyms                 x86_pmu_enable [self]
+-------------------------------------------------------------------------------
+767       0.0606  kallsyms                 rcu_note_context_switch
+  767      100.000  kallsyms                 rcu_note_context_switch [self]
+-------------------------------------------------------------------------------
+761       0.0601  kallsyms                 kfree_skb
+  761      100.000  kallsyms                 kfree_skb [self]
+-------------------------------------------------------------------------------
+756       0.0597  kallsyms                 free_compound_page
+  756      100.000  kallsyms                 free_compound_page [self]
+-------------------------------------------------------------------------------
+746       0.0589  kallsyms                 perf_event_context_sched_in
+  746      100.000  kallsyms                 perf_event_context_sched_in [self]
+-------------------------------------------------------------------------------
+704       0.0556  kallsyms                 get_seconds
+  704      100.000  kallsyms                 get_seconds [self]
+-------------------------------------------------------------------------------
+676       0.0534  kallsyms                 internal_add_timer
+  676      100.000  kallsyms                 internal_add_timer [self]
+-------------------------------------------------------------------------------
+653       0.0516  kallsyms                 dev_queue_xmit
+  653      100.000  kallsyms                 dev_queue_xmit [self]
+-------------------------------------------------------------------------------
+647       0.0511  kallsyms                 intel_pmu_enable_all
+  647      100.000  kallsyms                 intel_pmu_enable_all [self]
+-------------------------------------------------------------------------------
+558       0.0441  kallsyms                 pick_next_task_idle
+  558      100.000  kallsyms                 pick_next_task_idle [self]
+-------------------------------------------------------------------------------
+535       0.0422  kallsyms                 deactivate_task
+  535      100.000  kallsyms                 deactivate_task [self]
+-------------------------------------------------------------------------------
+535       0.0422  kallsyms                 ip_local_out
+  535      100.000  kallsyms                 ip_local_out [self]
+-------------------------------------------------------------------------------
+532       0.0420  kallsyms                 arch_local_irq_save
+  532      100.000  kallsyms                 arch_local_irq_save [self]
+-------------------------------------------------------------------------------
+505       0.0399  kallsyms                 detach_if_pending
+  505      100.000  kallsyms                 detach_if_pending [self]
+-------------------------------------------------------------------------------
+502       0.0396  kallsyms                 neigh_resolve_output
+  502      100.000  kallsyms                 neigh_resolve_output [self]
+-------------------------------------------------------------------------------
+496       0.0392  kallsyms                 sched_clock
+  496      100.000  kallsyms                 sched_clock [self]
+-------------------------------------------------------------------------------
+476       0.0376  kallsyms                 perf_pmu_enable
+  476      100.000  kallsyms                 perf_pmu_enable [self]
+-------------------------------------------------------------------------------
+466       0.0368  kallsyms                 __put_compound_page
+  466      100.000  kallsyms                 __put_compound_page [self]
+-------------------------------------------------------------------------------
+464       0.0366  kallsyms                 swiotlb_dma_mapping_error
+  464      100.000  kallsyms                 swiotlb_dma_mapping_error [self]
+-------------------------------------------------------------------------------
+462       0.0365  kallsyms                 finish_wait
+  462      100.000  kallsyms                 finish_wait [self]
+-------------------------------------------------------------------------------
+435       0.0343  kallsyms                 eth_header
+  435      100.000  kallsyms                 eth_header [self]
+-------------------------------------------------------------------------------
+421       0.0332  kallsyms                 system_call_fastpath
+  421      100.000  kallsyms                 system_call_fastpath [self]
+-------------------------------------------------------------------------------
+407       0.0321  iptable_filter           /iptable_filter
+  407      100.000  iptable_filter           /iptable_filter [self]
+-------------------------------------------------------------------------------
+335       0.0265  kallsyms                 hrtick_update
+  335      100.000  kallsyms                 hrtick_update [self]
+-------------------------------------------------------------------------------
+251       0.0198  kallsyms                 math_state_restore
+  251      100.000  kallsyms                 math_state_restore [self]
+-------------------------------------------------------------------------------
+249       0.0197  kallsyms                 device_not_available
+  249      100.000  kallsyms                 device_not_available [self]
+-------------------------------------------------------------------------------
+223       0.0176  kallsyms                 load_balance
+  223      100.000  kallsyms                 load_balance [self]
+-------------------------------------------------------------------------------
+211       0.0167  kallsyms                 update_blocked_averages
+  211      100.000  kallsyms                 update_blocked_averages [self]
+-------------------------------------------------------------------------------
+194       0.0153  kallsyms                 perf_pmu_disable
+  194      100.000  kallsyms                 perf_pmu_disable [self]
+-------------------------------------------------------------------------------
+170       0.0134  kallsyms                 cpumask_next_and
+  170      100.000  kallsyms                 cpumask_next_and [self]
+-------------------------------------------------------------------------------
+159       0.0126  kallsyms                 find_next_bit
+  159      100.000  kallsyms                 find_next_bit [self]
+-------------------------------------------------------------------------------
+148       0.0117  kallsyms                 __skb_dst_set_noref
+  148      100.000  kallsyms                 __skb_dst_set_noref [self]
+-------------------------------------------------------------------------------
+116       0.0092  kallsyms                 update_group_power
+  116      100.000  kallsyms                 update_group_power [self]
+-------------------------------------------------------------------------------
+109       0.0086  kallsyms                 do_nanosleep
+  109      100.000  kallsyms                 do_nanosleep [self]
+-------------------------------------------------------------------------------
+75        0.0059  kallsyms                 trigger_load_balance
+  75       100.000  kallsyms                 trigger_load_balance [self]
+-------------------------------------------------------------------------------
+75        0.0059  libpthread-2.19.so       pthread_cond_signal@@GLIBC_2.3.2
+  75       100.000  libpthread-2.19.so       pthread_cond_signal@@GLIBC_2.3.2 [self]
+-------------------------------------------------------------------------------
+73        0.0058  kallsyms                 apic_timer_interrupt
+  73       100.000  kallsyms                 apic_timer_interrupt [self]
+-------------------------------------------------------------------------------
+73        0.0058  kallsyms                 error_entry
+  73       100.000  kallsyms                 error_entry [self]
+-------------------------------------------------------------------------------
+69        0.0054  kallsyms                 target_load
+  69       100.000  kallsyms                 target_load [self]
+-------------------------------------------------------------------------------
+68        0.0054  kallsyms                 task_tick_fair
+  68       100.000  kallsyms                 task_tick_fair [self]
+-------------------------------------------------------------------------------
+67        0.0053  kallsyms                 source_load
+  67       100.000  kallsyms                 source_load [self]
+-------------------------------------------------------------------------------
+65        0.0051  libc-2.19.so             __nanosleep_nocancel
+  65       100.000  libc-2.19.so             __nanosleep_nocancel [self]
+-------------------------------------------------------------------------------
+62        0.0049  kallsyms                 update_wall_time
+  62       100.000  kallsyms                 update_wall_time [self]
+-------------------------------------------------------------------------------
+60        0.0047  libpthread-2.19.so       pthread_mutex_lock
+  60       100.000  libpthread-2.19.so       pthread_mutex_lock [self]
+-------------------------------------------------------------------------------
+56        0.0044  kallsyms                 error_exit
+  56       100.000  kallsyms                 error_exit [self]
+-------------------------------------------------------------------------------
+53        0.0042  kallsyms                 hrtimer_nanosleep
+  53       100.000  kallsyms                 hrtimer_nanosleep [self]
+-------------------------------------------------------------------------------
+51        0.0040  kallsyms                 hrtimer_init
+  51       100.000  kallsyms                 hrtimer_init [self]
+-------------------------------------------------------------------------------
+50        0.0039  kallsyms                 rcu_check_callbacks
+  50       100.000  kallsyms                 rcu_check_callbacks [self]
+-------------------------------------------------------------------------------
+47        0.0037  kallsyms                 unfreeze_partials.isra.44
+  47       100.000  kallsyms                 unfreeze_partials.isra.44 [self]
+-------------------------------------------------------------------------------
+46        0.0036  kallsyms                 update_vsyscall
+  46       100.000  kallsyms                 update_vsyscall [self]
+-------------------------------------------------------------------------------
+45        0.0036  kallsyms                 do_device_not_available
+  45       100.000  kallsyms                 do_device_not_available [self]
+-------------------------------------------------------------------------------
+40        0.0032  kallsyms                 hrtimer_interrupt
+  40       100.000  kallsyms                 hrtimer_interrupt [self]
+-------------------------------------------------------------------------------
+36        0.0028  kallsyms                 mod_timer
+  36       100.000  kallsyms                 mod_timer [self]
+-------------------------------------------------------------------------------
+35        0.0028  libc-2.19.so             __libc_disable_asynccancel
+  35       100.000  libc-2.19.so             __libc_disable_asynccancel [self]
+-------------------------------------------------------------------------------
+34        0.0027  kallsyms                 __acct_update_integrals
+  34       100.000  kallsyms                 __acct_update_integrals [self]
+-------------------------------------------------------------------------------
+34        0.0027  kallsyms                 __hrtimer_start_range_ns
+  34       100.000  kallsyms                 __hrtimer_start_range_ns [self]
+-------------------------------------------------------------------------------
+33        0.0026  kallsyms                 rb_insert_color
+  33       100.000  kallsyms                 rb_insert_color [self]
+-------------------------------------------------------------------------------
+32        0.0025  kallsyms                 ktime_get
+  32       100.000  kallsyms                 ktime_get [self]
+-------------------------------------------------------------------------------
+29        0.0023  libc-2.19.so             __libc_enable_asynccancel
+  29       100.000  libc-2.19.so             __libc_enable_asynccancel [self]
+-------------------------------------------------------------------------------
+28        0.0022  kallsyms                 sys_nanosleep
+  28       100.000  kallsyms                 sys_nanosleep [self]
+-------------------------------------------------------------------------------
+27        0.0021  kallsyms                 __do_softirq
+  27       100.000  kallsyms                 __do_softirq [self]
+-------------------------------------------------------------------------------
+27        0.0021  kallsyms                 run_timer_softirq
+  27       100.000  kallsyms                 run_timer_softirq [self]
+-------------------------------------------------------------------------------
+27        0.0021  kallsyms                 tcp_send_delayed_ack
+  27       100.000  kallsyms                 tcp_send_delayed_ack [self]
+-------------------------------------------------------------------------------
+26        0.0021  kallsyms                 account_system_time
+  26       100.000  kallsyms                 account_system_time [self]
+-------------------------------------------------------------------------------
+26        0.0021  kallsyms                 timerqueue_add
+  26       100.000  kallsyms                 timerqueue_add [self]
+-------------------------------------------------------------------------------
+24        0.0019  libpthread-2.19.so       pthread_mutex_unlock
+  24       100.000  libpthread-2.19.so       pthread_mutex_unlock [self]
+-------------------------------------------------------------------------------
+21        0.0017  kallsyms                 __update_cpu_load
+  21       100.000  kallsyms                 __update_cpu_load [self]
+-------------------------------------------------------------------------------
+21        0.0017  kallsyms                 enqueue_hrtimer
+  21       100.000  kallsyms                 enqueue_hrtimer [self]
+-------------------------------------------------------------------------------
+19        0.0015  kallsyms                 clear_page_c
+  19       100.000  kallsyms                 clear_page_c [self]
+-------------------------------------------------------------------------------
+18        0.0014  kallsyms                 profile_tick
+  18       100.000  kallsyms                 profile_tick [self]
+-------------------------------------------------------------------------------
+18        0.0014  libc-2.19.so             usleep
+  18       100.000  libc-2.19.so             usleep [self]
+-------------------------------------------------------------------------------
+17        0.0013  kallsyms                 _copy_from_user
+  17       100.000  kallsyms                 _copy_from_user [self]
+-------------------------------------------------------------------------------
+17        0.0013  kallsyms                 irq_work_run
+  17       100.000  kallsyms                 irq_work_run [self]
+-------------------------------------------------------------------------------
+17        0.0013  kallsyms                 local_apic_timer_interrupt
+  17       100.000  kallsyms                 local_apic_timer_interrupt [self]
+-------------------------------------------------------------------------------
+17        0.0013  kallsyms                 rebalance_domains
+  17       100.000  kallsyms                 rebalance_domains [self]
+-------------------------------------------------------------------------------
+17        0.0013  kallsyms                 scheduler_tick
+  17       100.000  kallsyms                 scheduler_tick [self]
+-------------------------------------------------------------------------------
+17        0.0013  kvm                      /kvm
+  17       100.000  kvm                      /kvm [self]
+-------------------------------------------------------------------------------
+16        0.0013  kallsyms                 __run_hrtimer
+  16       100.000  kallsyms                 __run_hrtimer [self]
+-------------------------------------------------------------------------------
+16        0.0013  kallsyms                 cpuacct_account_field
+  16       100.000  kallsyms                 cpuacct_account_field [self]
+-------------------------------------------------------------------------------
+16        0.0013  kallsyms                 lock_hrtimer_base.isra.19
+  16       100.000  kallsyms                 lock_hrtimer_base.isra.19 [self]
+-------------------------------------------------------------------------------
+16        0.0013  kallsyms                 tick_sched_timer
+  16       100.000  kallsyms                 tick_sched_timer [self]
+-------------------------------------------------------------------------------
+15        0.0012  kallsyms                 hrtimer_run_queues
+  15       100.000  kallsyms                 hrtimer_run_queues [self]
+-------------------------------------------------------------------------------
+15        0.0012  kallsyms                 raise_softirq
+  15       100.000  kallsyms                 raise_softirq [self]
+-------------------------------------------------------------------------------
+15        0.0012  kallsyms                 run_posix_cpu_timers
+  15       100.000  kallsyms                 run_posix_cpu_timers [self]
+-------------------------------------------------------------------------------
+14        0.0011  kallsyms                 hrtimer_forward
+  14       100.000  kallsyms                 hrtimer_forward [self]
+-------------------------------------------------------------------------------
+14        0.0011  kallsyms                 retint_swapgs
+  14       100.000  kallsyms                 retint_swapgs [self]
+-------------------------------------------------------------------------------
+14        0.0011  kallsyms                 sk_reset_timer
+  14       100.000  kallsyms                 sk_reset_timer [self]
+-------------------------------------------------------------------------------
+13        0.0010  kallsyms                 cpu_needs_another_gp
+  13       100.000  kallsyms                 cpu_needs_another_gp [self]
+-------------------------------------------------------------------------------
+13        0.0010  kallsyms                 irq_exit
+  13       100.000  kallsyms                 irq_exit [self]
+-------------------------------------------------------------------------------
+13        0.0010  kallsyms                 native_iret
+  13       100.000  kallsyms                 native_iret [self]
+-------------------------------------------------------------------------------
+13        0.0010  kallsyms                 perf_event_task_tick
+  13       100.000  kallsyms                 perf_event_task_tick [self]
+-------------------------------------------------------------------------------
+12       9.5e-04  kallsyms                 __irq_work_run
+  12       100.000  kallsyms                 __irq_work_run [self]
+-------------------------------------------------------------------------------
+12       9.5e-04  kallsyms                 calc_global_load
+  12       100.000  kallsyms                 calc_global_load [self]
+-------------------------------------------------------------------------------
+12       9.5e-04  kallsyms                 msecs_to_jiffies
+  12       100.000  kallsyms                 msecs_to_jiffies [self]
+-------------------------------------------------------------------------------
+11       8.7e-04  kallsyms                 cpumask_clear_cpu
+  11       100.000  kallsyms                 cpumask_clear_cpu [self]
+-------------------------------------------------------------------------------
+11       8.7e-04  kallsyms                 hrtimer_try_to_cancel
+  11       100.000  kallsyms                 hrtimer_try_to_cancel [self]
+-------------------------------------------------------------------------------
+10       7.9e-04  kallsyms                 jiffies_to_timeval
+  10       100.000  kallsyms                 jiffies_to_timeval [self]
+-------------------------------------------------------------------------------
+10       7.9e-04  kallsyms                 ktime_get_update_offsets
+  10       100.000  kallsyms                 ktime_get_update_offsets [self]
+-------------------------------------------------------------------------------
+10       7.9e-04  kallsyms                 rcu_irq_exit
+  10       100.000  kallsyms                 rcu_irq_exit [self]
+-------------------------------------------------------------------------------
+10       7.9e-04  kallsyms                 restore_args
+  10       100.000  kallsyms                 restore_args [self]
+-------------------------------------------------------------------------------
+10       7.9e-04  kallsyms                 set_normalized_timespec
+  10       100.000  kallsyms                 set_normalized_timespec [self]
+-------------------------------------------------------------------------------
+9        7.1e-04  kallsyms                 nohz_balance_exit_idle.part.53
+  9        100.000  kallsyms                 nohz_balance_exit_idle.part.53 [self]
+-------------------------------------------------------------------------------
+9        7.1e-04  kallsyms                 smp_apic_timer_interrupt
+  9        100.000  kallsyms                 smp_apic_timer_interrupt [self]
+-------------------------------------------------------------------------------
+9        7.1e-04  kallsyms                 tick_do_update_jiffies64
+  9        100.000  kallsyms                 tick_do_update_jiffies64 [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 do_softirq_own_stack
+  8        100.000  kallsyms                 do_softirq_own_stack [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 notifier_call_chain
+  8        100.000  kallsyms                 notifier_call_chain [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 rcu_process_callbacks
+  8        100.000  kallsyms                 rcu_process_callbacks [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 read_tsc
+  8        100.000  kallsyms                 read_tsc [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 sched_avg_update
+  8        100.000  kallsyms                 sched_avg_update [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 update_cpu_load_active
+  8        100.000  kallsyms                 update_cpu_load_active [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  kallsyms                 update_process_times
+  8        100.000  kallsyms                 update_process_times [self]
+-------------------------------------------------------------------------------
+8        6.3e-04  ld-2.19.so               _dl_lookup_symbol_x
+  8        100.000  ld-2.19.so               _dl_lookup_symbol_x [self]
+-------------------------------------------------------------------------------
+7        5.5e-04  kallsyms                 arch_scale_freq_power
+  7        100.000  kallsyms                 arch_scale_freq_power [self]
+-------------------------------------------------------------------------------
+7        5.5e-04  kallsyms                 clockevents_program_event
+  7        100.000  kallsyms                 clockevents_program_event [self]
+-------------------------------------------------------------------------------
+7        5.5e-04  kallsyms                 hrtimer_run_pending
+  7        100.000  kallsyms                 hrtimer_run_pending [self]
+-------------------------------------------------------------------------------
+7        5.5e-04  kallsyms                 irq_enter
+  7        100.000  kallsyms                 irq_enter [self]
+-------------------------------------------------------------------------------
+6        4.7e-04  kallsyms                 enqueue_entity
+  6        100.000  kallsyms                 enqueue_entity [self]
+-------------------------------------------------------------------------------
+6        4.7e-04  kallsyms                 native_apic_mem_write
+  6        100.000  kallsyms                 native_apic_mem_write [self]
+-------------------------------------------------------------------------------
+6        4.7e-04  kallsyms                 select_task_rq_fair
+  6        100.000  kallsyms                 select_task_rq_fair [self]
+-------------------------------------------------------------------------------
+6        4.7e-04  kallsyms                 update_rq_clock
+  6        100.000  kallsyms                 update_rq_clock [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 __cond_resched_softirq
+  5        100.000  kallsyms                 __cond_resched_softirq [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 __local_bh_enable
+  5        100.000  kallsyms                 __local_bh_enable [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 account_process_tick
+  5        100.000  kallsyms                 account_process_tick [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 fetch_task_cputime
+  5        100.000  kallsyms                 fetch_task_cputime [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 get_partial_node.isra.50
+  5        100.000  kallsyms                 get_partial_node.isra.50 [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 rb_next
+  5        100.000  kallsyms                 rb_next [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 rcu_bh_qs
+  5        100.000  kallsyms                 rcu_bh_qs [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 rcu_irq_enter
+  5        100.000  kallsyms                 rcu_irq_enter [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 ret_from_intr
+  5        100.000  kallsyms                 ret_from_intr [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 sched_clock_tick
+  5        100.000  kallsyms                 sched_clock_tick [self]
+-------------------------------------------------------------------------------
+5        3.9e-04  kallsyms                 try_to_wake_up
+  5        100.000  kallsyms                 try_to_wake_up [self]
+-------------------------------------------------------------------------------
+4        3.2e-04  kallsyms                 __remove_hrtimer
+  4        100.000  kallsyms                 __remove_hrtimer [self]
+-------------------------------------------------------------------------------
+4        3.2e-04  kallsyms                 check_preempt_wakeup
+  4        100.000  kallsyms                 check_preempt_wakeup [self]
+-------------------------------------------------------------------------------
+4        3.2e-04  kallsyms                 do_timer
+  4        100.000  kallsyms                 do_timer [self]
+-------------------------------------------------------------------------------
+4        3.2e-04  kallsyms                 enqueue_task_fair
+  4        100.000  kallsyms                 enqueue_task_fair [self]
+-------------------------------------------------------------------------------
+4        3.2e-04  kallsyms                 ipmi_timeout
+  4        100.000  kallsyms                 ipmi_timeout [self]
+-------------------------------------------------------------------------------
+4        3.2e-04  kallsyms                 rb_erase
+  4        100.000  kallsyms                 rb_erase [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 __queue_work
+  3        100.000  kallsyms                 __queue_work [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 can_migrate_task
+  3        100.000  kallsyms                 can_migrate_task [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 cascade
+  3        100.000  kallsyms                 cascade [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 do_softirq
+  3        100.000  kallsyms                 do_softirq [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 exit_idle
+  3        100.000  kallsyms                 exit_idle [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 free_hot_cold_page
+  3        100.000  kallsyms                 free_hot_cold_page [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 lapic_next_event
+  3        100.000  kallsyms                 lapic_next_event [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 note_gp_changes
+  3        100.000  kallsyms                 note_gp_changes [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 raw_notifier_call_chain
+  3        100.000  kallsyms                 raw_notifier_call_chain [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 rcu_sysidle_enter
+  3        100.000  kallsyms                 rcu_sysidle_enter [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 rcu_sysidle_exit
+  3        100.000  kallsyms                 rcu_sysidle_exit [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 tick_program_event
+  3        100.000  kallsyms                 tick_program_event [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 tick_sched_do_timer
+  3        100.000  kallsyms                 tick_sched_do_timer [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 timerqueue_del
+  3        100.000  kallsyms                 timerqueue_del [self]
+-------------------------------------------------------------------------------
+3        2.4e-04  kallsyms                 unlink_empty_async
+  3        100.000  kallsyms                 unlink_empty_async [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 __do_page_fault
+  2        100.000  kallsyms                 __do_page_fault [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 check_preempt_curr
+  2        100.000  kallsyms                 check_preempt_curr [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 copy_page_rep
+  2        100.000  kallsyms                 copy_page_rep [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 error_swapgs
+  2        100.000  kallsyms                 error_swapgs [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 flat_send_IPI_mask
+  2        100.000  kallsyms                 flat_send_IPI_mask [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 get_pwq.isra.20
+  2        100.000  kallsyms                 get_pwq.isra.20 [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 insert_work
+  2        100.000  kallsyms                 insert_work [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 ioread8
+  2        100.000  kallsyms                 ioread8 [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 ntp_tick_length
+  2        100.000  kallsyms                 ntp_tick_length [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 pgd_free
+  2        100.000  kallsyms                 pgd_free [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 rcu_advance_cbs
+  2        100.000  kallsyms                 rcu_advance_cbs [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 release_pages
+  2        100.000  kallsyms                 release_pages [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 retint_restore_args
+  2        100.000  kallsyms                 retint_restore_args [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 task_cputime
+  2        100.000  kallsyms                 task_cputime [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 tcp_queue_rcv
+  2        100.000  kallsyms                 tcp_queue_rcv [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 tick_sched_handle.isra.17
+  2        100.000  kallsyms                 tick_sched_handle.isra.17 [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 timekeeping_update.constprop.9
+  2        100.000  kallsyms                 timekeeping_update.constprop.9 [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  kallsyms                 unmap_page_range
+  2        100.000  kallsyms                 unmap_page_range [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  ld-2.19.so               do_lookup_x
+  2        100.000  ld-2.19.so               do_lookup_x [self]
+-------------------------------------------------------------------------------
+2        1.6e-04  libc-2.19.so             nanosleep
+  2        100.000  libc-2.19.so             nanosleep [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __call_rcu
+  1        100.000  kallsyms                 __call_rcu [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __d_alloc
+  1        100.000  kallsyms                 __d_alloc [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __d_lookup_rcu
+  1        100.000  kallsyms                 __d_lookup_rcu [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __enqueue_entity
+  1        100.000  kallsyms                 __enqueue_entity [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __inc_zone_state
+  1        100.000  kallsyms                 __inc_zone_state [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __mem_cgroup_uncharge_common
+  1        100.000  kallsyms                 __mem_cgroup_uncharge_common [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 __memset
+  1        100.000  kallsyms                 __memset [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 _raw_spin_trylock
+  1        100.000  kallsyms                 _raw_spin_trylock [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 acct_account_cputime
+  1        100.000  kallsyms                 acct_account_cputime [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 arp_solicit
+  1        100.000  kallsyms                 arp_solicit [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 can_vma_merge_before
+  1        100.000  kallsyms                 can_vma_merge_before [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 delay_tsc
+  1        100.000  kallsyms                 delay_tsc [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 delayed_work_timer_fn
+  1        100.000  kallsyms                 delayed_work_timer_fn [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 do_page_fault
+  1        100.000  kallsyms                 do_page_fault [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 ehci_enable_event
+  1        100.000  kallsyms                 ehci_enable_event [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 enqueue_task
+  1        100.000  kallsyms                 enqueue_task [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 exit_intr
+  1        100.000  kallsyms                 exit_intr [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 file_ra_state_init
+  1        100.000  kallsyms                 file_ra_state_init [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 find_get_page
+  1        100.000  kallsyms                 find_get_page [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 flush_signal_handlers
+  1        100.000  kallsyms                 flush_signal_handlers [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 flush_tlb_page
+  1        100.000  kallsyms                 flush_tlb_page [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 free_pcppages_bulk
+  1        100.000  kallsyms                 free_pcppages_bulk [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 futex_wake_op
+  1        100.000  kallsyms                 futex_wake_op [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 get_page_from_freelist
+  1        100.000  kallsyms                 get_page_from_freelist [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 get_work_pool
+  1        100.000  kallsyms                 get_work_pool [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 handle_new_recv_msgs
+  1        100.000  kallsyms                 handle_new_recv_msgs [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 hrtimer_start_range_ns
+  1        100.000  kallsyms                 hrtimer_start_range_ns [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 iowrite8
+  1        100.000  kallsyms                 iowrite8 [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 kmem_cache_alloc
+  1        100.000  kallsyms                 kmem_cache_alloc [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 llist_add_batch
+  1        100.000  kallsyms                 llist_add_batch [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 lockref_put_or_lock
+  1        100.000  kallsyms                 lockref_put_or_lock [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 mm_update_next_owner
+  1        100.000  kallsyms                 mm_update_next_owner [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 mmap_region
+  1        100.000  kallsyms                 mmap_region [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 native_smp_send_reschedule
+  1        100.000  kallsyms                 native_smp_send_reschedule [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 note_interrupt
+  1        100.000  kallsyms                 note_interrupt [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 page_cpupid_xchg_last
+  1        100.000  kallsyms                 page_cpupid_xchg_last [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 page_fault
+  1        100.000  kallsyms                 page_fault [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 page_remove_rmap
+  1        100.000  kallsyms                 page_remove_rmap [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 perf_adjust_freq_unthr_context.part.79
+  1        100.000  kallsyms                 perf_adjust_freq_unthr_context.part.79 [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 pfifo_fast_dequeue
+  1        100.000  kallsyms                 pfifo_fast_dequeue [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 qh_link_periodic
+  1        100.000  kallsyms                 qh_link_periodic [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 queue_work_on
+  1        100.000  kallsyms                 queue_work_on [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 rcu_report_qs_rnp
+  1        100.000  kallsyms                 rcu_report_qs_rnp [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 read_hpet
+  1        100.000  kallsyms                 read_hpet [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 res_counter_uncharge_until
+  1        100.000  kallsyms                 res_counter_uncharge_until [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 resched_task
+  1        100.000  kallsyms                 resched_task [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 reschedule_interrupt
+  1        100.000  kallsyms                 reschedule_interrupt [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 sched_ttwu_pending
+  1        100.000  kallsyms                 sched_ttwu_pending [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 set_next_buddy
+  1        100.000  kallsyms                 set_next_buddy [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 smi_recv_tasklet
+  1        100.000  kallsyms                 smi_recv_tasklet [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 sock_rfree
+  1        100.000  kallsyms                 sock_rfree [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 swiotlb_tbl_map_single
+  1        100.000  kallsyms                 swiotlb_tbl_map_single [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 sync_mm_rss
+  1        100.000  kallsyms                 sync_mm_rss [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 task_active_pid_ns
+  1        100.000  kallsyms                 task_active_pid_ns [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 tasklet_action
+  1        100.000  kallsyms                 tasklet_action [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 tcp_gro_receive
+  1        100.000  kallsyms                 tcp_gro_receive [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 tcp_init_tso_segs
+  1        100.000  kallsyms                 tcp_init_tso_segs [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 tcp_v4_destroy_sock
+  1        100.000  kallsyms                 tcp_v4_destroy_sock [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 terminate_walk
+  1        100.000  kallsyms                 terminate_walk [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 vma_compute_subtree_gap
+  1        100.000  kallsyms                 vma_compute_subtree_gap [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 wake_up_nohz_cpu
+  1        100.000  kallsyms                 wake_up_nohz_cpu [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 wake_up_process
+  1        100.000  kallsyms                 wake_up_process [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  kallsyms                 wq_worker_waking_up
+  1        100.000  kallsyms                 wq_worker_waking_up [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  ld-2.19.so               _dl_allocate_tls_init
+  1        100.000  ld-2.19.so               _dl_allocate_tls_init [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  ld-2.19.so               _dl_fixup
+  1        100.000  ld-2.19.so               _dl_fixup [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  ld-2.19.so               _dl_relocate_object
+  1        100.000  ld-2.19.so               _dl_relocate_object [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  ld-2.19.so               strcmp
+  1        100.000  ld-2.19.so               strcmp [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  libc-2.19.so             _IO_default_xsputn
+  1        100.000  libc-2.19.so             _IO_default_xsputn [self]
+-------------------------------------------------------------------------------
+1        7.9e-05  libc-2.19.so             _dl_addr
+  1        100.000  libc-2.19.so             _dl_addr [self]
+-------------------------------------------------------------------------------

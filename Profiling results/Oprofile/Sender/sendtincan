@@ -1,0 +1,1853 @@
+CPU: Core 2, speed 2500.02 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 90000
+samples  %        image name               app name                 symbol name
+1121590   6.2710  kallsyms                 ipop-tincan              copy_user_generic_string
+681144    3.8084  nf_conntrack             ipop-tincan              /nf_conntrack
+589358    3.2952  libc-2.19.so             ipop-tincan              _int_free
+453493    2.5356  libpthread-2.19.so       ipop-tincan              pthread_mutex_lock
+387973    2.1692  libc-2.19.so             ipop-tincan              _int_malloc
+373725    2.0896  libc-2.19.so             ipop-tincan              malloc
+373106    2.0861  kallsyms                 ipop-tincan              fget_light
+369034    2.0633  libc-2.19.so             ipop-tincan              __memcpy_sse2_unaligned
+357075    1.9965  kallsyms                 ipop-tincan              _raw_spin_lock_irqsave
+350051    1.9572  e1000e                   ipop-tincan              /e1000e
+302154    1.6894  ip_tables                ipop-tincan              /ip_tables
+299450    1.6743  kallsyms                 ipop-tincan              _raw_spin_lock
+294103    1.6444  kallsyms                 ipop-tincan              do_csum
+273004    1.5264  libstdc++.so.6.0.19      ipop-tincan              /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+259292    1.4498  kallsyms                 ipop-tincan              fput
+251032    1.4036  kallsyms                 ipop-tincan              __alloc_skb
+186659    1.0436  libpthread-2.19.so       ipop-tincan              pthread_mutex_unlock
+183188    1.0242  kallsyms                 ipop-tincan              do_select
+174454    0.9754  kallsyms                 ipop-tincan              fib_table_lookup
+172491    0.9644  kallsyms                 ipop-tincan              nf_iterate
+152933    0.8551  ipop-tincan              ipop-tincan              talk_base::PhysicalSocketServer::Wait(int, bool)
+152368    0.8519  kallsyms                 ipop-tincan              __slab_free
+140670    0.7865  kallsyms                 ipop-tincan              system_call
+133860    0.7484  kallsyms                 ipop-tincan              __memcpy
+127591    0.7134  kallsyms                 ipop-tincan              udp_sendmsg
+123543    0.6908  kallsyms                 ipop-tincan              sock_alloc_send_pskb
+117427    0.6566  libc-2.19.so             ipop-tincan              free
+114640    0.6410  iptable_nat              ipop-tincan              /iptable_nat
+112273    0.6277  libc-2.19.so             ipop-tincan              malloc_consolidate
+105974    0.5925  nf_conntrack_ipv4        ipop-tincan              /nf_conntrack_ipv4
+105376    0.5892  [vdso] (tgid:13787 range:0x7fff517f6000-0x7fff517f7fff) ipop-tincan              [vdso] (tgid:13787 range:0x7fff517f6000-0x7fff517f7fff)
+105031    0.5872  libpthread-2.19.so       ipop-tincan              pthread_cond_signal@@GLIBC_2.3.2
+104016    0.5816  kallsyms                 ipop-tincan              _raw_spin_unlock_irqrestore
+103345    0.5778  ipop-tincan              ipop-tincan              talk_base::hex_encode_with_delimiter(char*, unsigned long, char const*, unsigned long, char)
+99563     0.5567  kallsyms                 ipop-tincan              tun_do_read.isra.24
+92490     0.5171  kallsyms                 ipop-tincan              try_to_wake_up
+88448     0.4945  libc-2.19.so             ipop-tincan              __memcmp_sse4_1
+84068     0.4700  kallsyms                 ipop-tincan              __ip_make_skb
+83193     0.4651  kallsyms                 ipop-tincan              __ip_append_data.isra.44
+82290     0.4601  kallsyms                 ipop-tincan              __copy_skb_header
+81153     0.4537  kallsyms                 ipop-tincan              update_cfs_shares
+79774     0.4460  kallsyms                 ipop-tincan              dev_hard_start_xmit
+77164     0.4314  kallsyms                 ipop-tincan              put_compound_page
+74840     0.4184  kallsyms                 ipop-tincan              effective_load.isra.35
+72811     0.4071  kallsyms                 ipop-tincan              system_call_after_swapgs
+72258     0.4040  kallsyms                 ipop-tincan              skb_segment
+71807     0.4015  kallsyms                 ipop-tincan              __kmalloc_node_track_caller
+70759     0.3956  kallsyms                 ipop-tincan              __ip_route_output_key
+67892     0.3796  kallsyms                 ipop-tincan              kfree
+67054     0.3749  kallsyms                 ipop-tincan              __schedule
+66840     0.3737  kallsyms                 ipop-tincan              skb_copy_datagram_const_iovec
+62073     0.3471  kallsyms                 ipop-tincan              ip_finish_output
+61993     0.3466  kallsyms                 ipop-tincan              __pollwait
+61900     0.3461  kallsyms                 ipop-tincan              __netif_receive_skb_core
+61004     0.3411  kallsyms                 ipop-tincan              ksize
+60327     0.3373  kallsyms                 ipop-tincan              datagram_poll
+59780     0.3342  kallsyms                 ipop-tincan              kmem_cache_alloc_node
+58507     0.3271  kallsyms                 ipop-tincan              update_curr
+58452     0.3268  kallsyms                 ipop-tincan              xfrm_lookup
+57859     0.3235  kallsyms                 ipop-tincan              __skb_recv_datagram
+57240     0.3200  kallsyms                 ipop-tincan              tcp_clean_rtx_queue
+56466     0.3157  kallsyms                 ipop-tincan              native_read_tsc
+55264     0.3090  kallsyms                 ipop-tincan              tun_get_user
+53615     0.2998  kallsyms                 ipop-tincan              swiotlb_map_page
+53115     0.2970  ipop-tincan              ipop-tincan              talk_base::MessageQueue::Get(talk_base::Message*, int, bool) [clone .part.70]
+53024     0.2965  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, cricket::Transport*>, string const>::_M_lower_bound(_Rb_tree_node<pair<string const, cricket::Transport*>>*, _Rb_tree_node<pair<string const, cricket::Transport*>>*, string const&) [clone .isra.234]
+52929     0.2959  libpthread-2.19.so       ipop-tincan              __pthread_enable_asynccancel
+51475     0.2878  kallsyms                 ipop-tincan              kmem_cache_free
+50563     0.2827  kallsyms                 ipop-tincan              dequeue_entity
+50382     0.2817  kallsyms                 ipop-tincan              enqueue_entity
+49558     0.2771  kallsyms                 ipop-tincan              tcp_ack
+49541     0.2770  kallsyms                 ipop-tincan              sched_clock_cpu
+49142     0.2748  kallsyms                 ipop-tincan              tcp_write_xmit
+47614     0.2662  kallsyms                 ipop-tincan              local_bh_enable
+47422     0.2651  kallsyms                 ipop-tincan              sock_poll
+46083     0.2577  libpthread-2.19.so       ipop-tincan              __pthread_disable_asynccancel
+45750     0.2558  kallsyms                 ipop-tincan              ip_rcv
+45581     0.2549  kallsyms                 ipop-tincan              __dev_queue_xmit
+45053     0.2519  kallsyms                 ipop-tincan              skb_release_data
+43166     0.2413  kallsyms                 ipop-tincan              tcp_v4_rcv
+41951     0.2346  nf_nat                   ipop-tincan              /nf_nat
+41909     0.2343  ipop-tincan              ipop-tincan              map<string, cricket::Transport*>::operator[](string const&)
+41876     0.2341  kallsyms                 ipop-tincan              fsnotify
+41002     0.2293  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::DoPacketRecv(char*, unsigned long)
+40574     0.2269  ipop-tincan              ipop-tincan              char* string::_S_construct<char const*>(char const*, char const*, allocator<char> const&, forward_iterator_tag)
+40538     0.2267  kallsyms                 ipop-tincan              check_leaf.isra.8
+39596     0.2214  kallsyms                 ipop-tincan              vfs_read
+39307     0.2198  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::HandlePacket(talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&)
+39124     0.2188  kallsyms                 ipop-tincan              sock_wfree
+38979     0.2179  libpthread-2.19.so       ipop-tincan              pthread_cond_wait@@GLIBC_2.3.2
+38934     0.2177  kallsyms                 ipop-tincan              sysret_check
+38897     0.2175  kallsyms                 ipop-tincan              select_task_rq_fair
+37882     0.2118  iptable_mangle           ipop-tincan              /iptable_mangle
+36717     0.2053  kallsyms                 ipop-tincan              skb_release_head_state
+36710     0.2053  libpthread-2.19.so       ipop-tincan              __read_nocancel
+36458     0.2038  kallsyms                 ipop-tincan              tun_net_xmit
+35757     0.1999  ipop-tincan              ipop-tincan              talk_base::ToSockAddrStorageHelper(sockaddr_storage*, talk_base::IPAddress, int, int)
+35266     0.1972  libpthread-2.19.so       ipop-tincan              __sendto_nocancel
+35105     0.1963  kallsyms                 ipop-tincan              aa_revalidate_sk
+34066     0.1905  kallsyms                 ipop-tincan              dst_release
+33696     0.1884  kallsyms                 ipop-tincan              __memset
+33190     0.1856  kallsyms                 ipop-tincan              udp_send_skb
+33063     0.1849  kallsyms                 ipop-tincan              __ip_dev_find
+32840     0.1836  kallsyms                 ipop-tincan              vfs_write
+32818     0.1835  kallsyms                 ipop-tincan              nf_hook_slow
+32580     0.1822  ipop-tincan              ipop-tincan              talk_base::SocketDispatcher::GetDescriptor()
+31319     0.1751  kallsyms                 ipop-tincan              __slab_alloc
+30935     0.1730  kallsyms                 ipop-tincan              ip_output
+30343     0.1697  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::DoPacketSend(char const*, unsigned long)
+30272     0.1693  kallsyms                 ipop-tincan              update_cfs_rq_blocked_load
+30240     0.1691  kallsyms                 ipop-tincan              tcp_poll
+30103     0.1683  kallsyms                 ipop-tincan              udp_recvmsg
+29874     0.1670  kallsyms                 ipop-tincan              idle_cpu
+29446     0.1646  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::HandleQueueSignal_w()
+29114     0.1628  kallsyms                 ipop-tincan              SYSC_sendto
+28947     0.1618  ipop-tincan              ipop-tincan              cricket::Transport::GetChannel(int)
+28840     0.1613  kallsyms                 ipop-tincan              task_waking_fair
+28813     0.1611  kallsyms                 ipop-tincan              __ip_local_out
+28663     0.1603  kallsyms                 ipop-tincan              native_write_msr_safe
+28468     0.1592  kallsyms                 ipop-tincan              cpuacct_charge
+28362     0.1586  kallsyms                 ipop-tincan              udp_poll
+28332     0.1584  kallsyms                 ipop-tincan              __calc_delta
+27868     0.1558  libc-2.19.so             ipop-tincan              strlen
+27632     0.1545  kallsyms                 ipop-tincan              futex_wake
+27534     0.1539  kallsyms                 ipop-tincan              dequeue_task_fair
+27469     0.1536  kallsyms                 ipop-tincan              finish_task_switch
+27424     0.1533  kallsyms                 ipop-tincan              common_file_perm
+27330     0.1528  libc-2.19.so             ipop-tincan              __fdelt_chk
+27229     0.1522  kallsyms                 ipop-tincan              __do_softirq
+26922     0.1505  kallsyms                 ipop-tincan              memcpy_fromiovecend
+26841     0.1501  kallsyms                 ipop-tincan              get_futex_key_refs.isra.13
+26666     0.1491  ipop-tincan              ipop-tincan              talk_base::PhysicalSocket::SendTo(void const*, unsigned long, talk_base::SocketAddress const&)
+26274     0.1469  kallsyms                 ipop-tincan              udp4_hwcsum
+25658     0.1435  kallsyms                 ipop-tincan              __kmalloc_reserve.isra.27
+25635     0.1433  kallsyms                 ipop-tincan              tun_chr_aio_read
+25252     0.1412  kallsyms                 ipop-tincan              core_sys_select
+25006     0.1398  kallsyms                 ipop-tincan              futex_wait
+24999     0.1398  kallsyms                 ipop-tincan              ret_from_sys_call
+24916     0.1393  kallsyms                 ipop-tincan              net_rx_action
+24826     0.1388  libc-2.19.so             ipop-tincan              clock_gettime
+24383     0.1363  kallsyms                 ipop-tincan              skb_flow_dissect
+24227     0.1355  kallsyms                 ipop-tincan              remove_wait_queue
+24158     0.1351  kallsyms                 ipop-tincan              sched_clock_local
+23817     0.1332  kallsyms                 ipop-tincan              process_backlog
+23576     0.1318  ipop-tincan              ipop-tincan              talk_base::hex_encode_with_delimiter(char const*, unsigned long, char)
+23263     0.1301  kallsyms                 ipop-tincan              add_wait_queue
+23039     0.1288  kallsyms                 ipop-tincan              sock_sendmsg
+22908     0.1281  kallsyms                 ipop-tincan              enqueue_to_backlog
+22792     0.1274  kallsyms                 ipop-tincan              futex_wake_op
+22586     0.1263  ipop-tincan              ipop-tincan              cricket::ProxyConnection::Send(void const*, unsigned long, talk_base::PacketOptions const&)
+22563     0.1262  kallsyms                 ipop-tincan              tcp_v4_do_rcv
+22527     0.1260  kallsyms                 ipop-tincan              skb_free_datagram_locked
+22492     0.1258  ipop-tincan              ipop-tincan              talk_base::Thread::ProcessMessages(int)
+22455     0.1256  kallsyms                 ipop-tincan              sock_getsockopt
+22244     0.1244  kallsyms                 ipop-tincan              futex_wait_queue_me
+22162     0.1239  libpthread-2.19.so       ipop-tincan              recv
+22022     0.1231  kallsyms                 ipop-tincan              sockfd_lookup_light
+21969     0.1228  kallsyms                 ipop-tincan              wake_futex
+21863     0.1222  kallsyms                 ipop-tincan              __ip_select_ident
+21807     0.1219  libc-2.19.so             ipop-tincan              __select_nocancel
+21679     0.1212  kallsyms                 ipop-tincan              ipv4_mtu
+21618     0.1209  kallsyms                 ipop-tincan              do_futex
+21557     0.1205  libpthread-2.19.so       ipop-tincan              __lll_lock_wait
+21541     0.1204  ipop-tincan              ipop-tincan              talk_base::Thread::ReceiveSends()
+21492     0.1202  kallsyms                 ipop-tincan              __skb_checksum
+21463     0.1200  kallsyms                 ipop-tincan              put_prev_task_fair
+21408     0.1197  kallsyms                 ipop-tincan              __fsnotify_parent
+21321     0.1192  kallsyms                 ipop-tincan              select_estimate_accuracy
+21313     0.1192  libpthread-2.19.so       ipop-tincan              __write_nocancel
+21268     0.1189  kallsyms                 ipop-tincan              _raw_spin_unlock
+21134     0.1182  kallsyms                 ipop-tincan              kmalloc_slab
+21064     0.1178  ipop-tincan              ipop-tincan              cricket::UDPPort::SendTo(void const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketOptions const&, bool)
+20980     0.1173  kallsyms                 ipop-tincan              ktime_get_ts
+20975     0.1173  kallsyms                 ipop-tincan              schedule
+20770     0.1161  kallsyms                 ipop-tincan              local_bh_disable
+20633     0.1154  kallsyms                 ipop-tincan              ip_make_skb
+20612     0.1152  kallsyms                 ipop-tincan              skb_free_head
+20581     0.1151  kallsyms                 ipop-tincan              ip_setup_cork
+20502     0.1146  kallsyms                 ipop-tincan              poll_freewait
+20495     0.1146  kallsyms                 ipop-tincan              aa_file_perm
+20415     0.1141  kallsyms                 ipop-tincan              netdev_pick_tx
+20332     0.1137  kallsyms                 ipop-tincan              account_entity_dequeue
+20301     0.1135  kallsyms                 ipop-tincan              get_page_from_freelist
+20231     0.1131  kallsyms                 ipop-tincan              sch_direct_xmit
+20145     0.1126  kallsyms                 ipop-tincan              __inet_lookup_established
+19924     0.1114  kallsyms                 ipop-tincan              SYSC_recvfrom
+19906     0.1113  kallsyms                 ipop-tincan              memcpy_toiovecend
+19825     0.1108  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::SendPacket(char const*, unsigned long, talk_base::PacketOptions const&, int)
+19778     0.1106  libc-2.19.so             ipop-tincan              getsockopt
+19645     0.1098  kallsyms                 ipop-tincan              ip_idents_reserve
+19602     0.1096  kallsyms                 ipop-tincan              pipe_poll
+19522     0.1092  kallsyms                 ipop-tincan              get_futex_key
+19477     0.1089  kallsyms                 ipop-tincan              _raw_spin_lock_bh
+19446     0.1087  kallsyms                 ipop-tincan              inet_sendmsg
+19305     0.1079  kallsyms                 ipop-tincan              ip_rcv_finish
+19217     0.1074  kallsyms                 ipop-tincan              _copy_from_user
+19099     0.1068  kallsyms                 ipop-tincan              __cmpxchg_double_slab.isra.40
+19014     0.1063  ipop-tincan              ipop-tincan              talk_base::IPAddress::operator<(talk_base::IPAddress const&) const
+18629     0.1042  iptable_filter           ipop-tincan              /iptable_filter
+18136     0.1014  kallsyms                 ipop-tincan              do_sync_read
+18078     0.1011  ipop-tincan              ipop-tincan              talk_base::IPIsAny(talk_base::IPAddress const&)
+17949     0.1004  kallsyms                 ipop-tincan              update_rq_clock.part.63
+17914     0.1002  kallsyms                 ipop-tincan              tcp_rcv_established
+17903     0.1001  kallsyms                 ipop-tincan              sock_recvmsg
+17404     0.0973  ipop-tincan              ipop-tincan              peerlist_get_by_mac_addr
+17339     0.0969  kallsyms                 ipop-tincan              swiotlb_dma_mapping_error
+17333     0.0969  kallsyms                 ipop-tincan              __wake_up_common
+17224     0.0963  kallsyms                 ipop-tincan              kfree_skbmem
+17208     0.0962  kallsyms                 ipop-tincan              __perf_event_task_sched_out
+17138     0.0958  kallsyms                 ipop-tincan              ttwu_stat
+17057     0.0954  kallsyms                 ipop-tincan              security_file_permission
+16956     0.0948  kallsyms                 ipop-tincan              __pskb_trim_head
+16690     0.0933  kallsyms                 ipop-tincan              sys_read
+16330     0.0913  kallsyms                 ipop-tincan              pipe_read
+16235     0.0908  libpthread-2.19.so       ipop-tincan              __recvfrom_nocancel
+16228     0.0907  kallsyms                 ipop-tincan              bictcp_cong_avoid
+16151     0.0903  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, cricket::Transport*>, string const>::find(string const&)
+16107     0.0901  ipop-tincan              ipop-tincan              ipop_recv_thread
+15951     0.0892  kallsyms                 ipop-tincan              enqueue_task_fair
+15887     0.0888  ipop-tincan              ipop-tincan              talk_base::PhysicalSocketServer::WakeUp()
+15751     0.0881  kallsyms                 ipop-tincan              netif_rx
+15711     0.0878  kallsyms                 ipop-tincan              llist_add_batch
+15675     0.0876  kallsyms                 ipop-tincan              __srcu_read_lock
+15658     0.0875  ipop-tincan              ipop-tincan              cricket::Connection::OnReadPacket(char const*, unsigned long, talk_base::PacketTime const&)
+15655     0.0875  libpthread-2.19.so       ipop-tincan              __errno_location
+15598     0.0872  kallsyms                 ipop-tincan              account_entity_enqueue
+15564     0.0870  kallsyms                 ipop-tincan              resched_task
+15425     0.0862  ipop-tincan              ipop-tincan              talk_base::SocketDispatcher::OnEvent(unsigned int, int)
+15227     0.0851  ipop-tincan              ipop-tincan              ipop_send_thread
+15155     0.0847  kallsyms                 ipop-tincan              tcp_transmit_skb
+15000     0.0839  kallsyms                 ipop-tincan              local_bh_enable_ip
+14938     0.0835  kallsyms                 ipop-tincan              apparmor_socket_sendmsg
+14911     0.0834  kallsyms                 ipop-tincan              tcp_gso_segment
+14795     0.0827  kallsyms                 ipop-tincan              sock_tx_timestamp
+14680     0.0821  ipop-tincan              ipop-tincan              talk_base::AsyncUDPSocket::OnReadEvent(talk_base::AsyncSocket*)
+14547     0.0813  kallsyms                 ipop-tincan              do_softirq
+14535     0.0813  ipop-tincan              ipop-tincan              talk_base::SocketAddress::operator<(talk_base::SocketAddress const&) const
+14522     0.0812  kallsyms                 ipop-tincan              flat_send_IPI_mask
+14497     0.0811  kallsyms                 ipop-tincan              ip_local_deliver_finish
+14469     0.0809  ipop-tincan              ipop-tincan              talk_base::TimeIsLater(unsigned int, unsigned int)
+14454     0.0808  kallsyms                 ipop-tincan              tcp_init_tso_segs
+14437     0.0807  kallsyms                 ipop-tincan              __skb_get_hash
+14070     0.0787  kallsyms                 ipop-tincan              tcp_v4_early_demux
+14001     0.0783  kallsyms                 ipop-tincan              skb_release_all
+13945     0.0780  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::OnReadPacket(cricket::TransportChannel*, char const*, unsigned long, talk_base::PacketTime const&, int)
+13859     0.0775  kallsyms                 ipop-tincan              skb_dequeue
+13810     0.0772  kallsyms                 ipop-tincan              futex_wait_setup
+13800     0.0772  ipop-tincan              ipop-tincan              talk_base::Time()
+13776     0.0770  ipop-tincan              ipop-tincan              talk_base::SocketAddress::Clear()
+13681     0.0765  kallsyms                 ipop-tincan              eth_type_trans
+13664     0.0764  kallsyms                 ipop-tincan              tcp_schedule_loss_probe
+13643     0.0763  kallsyms                 ipop-tincan              skb_put
+13630     0.0762  kallsyms                 ipop-tincan              tun_chr_aio_write
+13615     0.0761  kallsyms                 ipop-tincan              tcp_check_space
+13594     0.0760  kallsyms                 ipop-tincan              update_min_vruntime
+13560     0.0758  kallsyms                 ipop-tincan              place_entity
+13511     0.0755  kallsyms                 ipop-tincan              do_sync_write
+13441     0.0752  kallsyms                 ipop-tincan              ip_send_check
+13415     0.0750  ipop-tincan              ipop-tincan              talk_base::EventDispatcher::GetDescriptor()
+13357     0.0747  kallsyms                 ipop-tincan              sys_write
+13320     0.0745  kallsyms                 ipop-tincan              tcp_established_options
+13250     0.0741  kallsyms                 ipop-tincan              skb_network_protocol
+13160     0.0736  kallsyms                 ipop-tincan              put_page
+12982     0.0726  ipop-tincan              ipop-tincan              talk_base::MessageQueue::Get(talk_base::Message*, int, bool)
+12942     0.0724  ipop-tincan              ipop-tincan              talk_base::RateTracker::Update(unsigned long)
+12905     0.0722  libc-2.19.so             ipop-tincan              __libc_disable_asynccancel
+12855     0.0719  kallsyms                 ipop-tincan              __getnstimeofday
+12824     0.0717  ipop-tincan              ipop-tincan              talk_base::MessageQueue::Post(talk_base::MessageHandler*, unsigned int, talk_base::MessageData*, bool)
+12773     0.0714  kallsyms                 ipop-tincan              mod_timer
+12750     0.0713  ipop-tincan              ipop-tincan              talk_base::PhysicalSocket::RecvFrom(void*, unsigned long, talk_base::SocketAddress*)
+12744     0.0713  kallsyms                 ipop-tincan              poll_select_copy_remaining
+12708     0.0711  libpthread-2.19.so       ipop-tincan              __lll_unlock_wake
+12667     0.0708  kallsyms                 ipop-tincan              ipv4_dst_check
+12665     0.0708  kallsyms                 ipop-tincan              skb_copy_datagram_from_iovec
+12650     0.0707  kallsyms                 ipop-tincan              ip_route_output_flow
+12639     0.0707  kallsyms                 ipop-tincan              inet_gso_segment
+12625     0.0706  libpthread-2.19.so       ipop-tincan              __pthread_mutex_cond_lock
+12308     0.0688  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::OnReadPacket(cricket::Connection*, char const*, unsigned long, talk_base::PacketTime const&)
+12225     0.0684  kallsyms                 ipop-tincan              mutex_unlock
+12220     0.0683  kallsyms                 ipop-tincan              sys_select
+12169     0.0680  nf_defrag_ipv4           ipop-tincan              /nf_defrag_ipv4
+12104     0.0677  kallsyms                 ipop-tincan              rw_verify_area
+11980     0.0670  kallsyms                 ipop-tincan              mutex_lock
+11839     0.0662  kallsyms                 ipop-tincan              poll_schedule_timeout
+11807     0.0660  kallsyms                 ipop-tincan              pick_next_task_fair
+11802     0.0660  kallsyms                 ipop-tincan              memcpy_toiovec
+11639     0.0651  kallsyms                 ipop-tincan              tun_sock_write_space
+11444     0.0640  kallsyms                 ipop-tincan              sys_futex
+11404     0.0638  kallsyms                 ipop-tincan              skb_push
+11100     0.0621  kallsyms                 ipop-tincan              plist_del
+11010     0.0616  kallsyms                 ipop-tincan              enqueue_task
+10994     0.0615  kallsyms                 ipop-tincan              source_load
+10901     0.0609  kallsyms                 ipop-tincan              tcp_set_skb_tso_segs
+10884     0.0609  kallsyms                 ipop-tincan              skb_copy_datagram_iovec
+10616     0.0594  kallsyms                 ipop-tincan              pipe_write
+10566     0.0591  kallsyms                 ipop-tincan              _raw_spin_lock_irq
+10331     0.0578  kallsyms                 ipop-tincan              tcp_wfree
+10306     0.0576  kallsyms                 ipop-tincan              _cond_resched
+10197     0.0570  kallsyms                 ipop-tincan              tcp_trim_head
+10131     0.0566  kallsyms                 ipop-tincan              sock_alloc_send_skb
+9985      0.0558  kallsyms                 ipop-tincan              inet_ehashfn
+9958      0.0557  kallsyms                 ipop-tincan              tcp_rearm_rto
+9905      0.0554  kallsyms                 ipop-tincan              apparmor_file_permission
+9802      0.0548  libc-2.19.so             ipop-tincan              __libc_enable_asynccancel
+9799      0.0548  kallsyms                 ipop-tincan              inet_recvmsg
+9774      0.0546  kallsyms                 ipop-tincan              read_tsc
+9603      0.0537  kallsyms                 ipop-tincan              dequeue_task
+9558      0.0534  kallsyms                 ipop-tincan              __switch_to
+9549      0.0534  kallsyms                 ipop-tincan              raw_local_deliver
+9468      0.0529  kallsyms                 ipop-tincan              sock_rfree
+9462      0.0529  kallsyms                 ipop-tincan              native_sched_clock
+9341      0.0522  libpthread-2.19.so       ipop-tincan              write
+9188      0.0514  kallsyms                 ipop-tincan              ip_local_out
+9095      0.0509  kallsyms                 ipop-tincan              sys_getsockopt
+9009      0.0504  ipop-tincan              ipop-tincan              talk_base::IPAddress::operator==(talk_base::IPAddress const&) const
+8998      0.0503  ipop-tincan              ipop-tincan              talk_base::SocketAddress::SetIP(talk_base::IPAddress const&)
+8792      0.0492  kallsyms                 ipop-tincan              netif_skb_dev_features
+8723      0.0488  ipop-tincan              ipop-tincan              talk_base::EventDispatcher::Signal()
+8678      0.0485  ipop-tincan              ipop-tincan              cricket::Port::GetStunMessage(char const*, unsigned long, talk_base::SocketAddress const&, cricket::IceMessage**, string*)
+8666      0.0485  ipop-tincan              ipop-tincan              _Rb_tree<talk_base::SocketAddress, pair<talk_base::SocketAddress const, cricket::Connection*>, talk_base::SocketAddress const>::find(talk_base::SocketAddress const&)
+8459      0.0473  ipop-tincan              ipop-tincan              talk_base::SocketAddressFromSockAddrStorage(sockaddr_storage const&, talk_base::SocketAddress*)
+8433      0.0472  kallsyms                 ipop-tincan              nf_ip_checksum
+8410      0.0470  kallsyms                 ipop-tincan              dev_queue_xmit
+8366      0.0468  kallsyms                 ipop-tincan              csum_partial
+8361      0.0467  libpthread-2.19.so       ipop-tincan              sendto
+8291      0.0464  kallsyms                 ipop-tincan              move_addr_to_kernel.part.14
+8199      0.0458  kallsyms                 ipop-tincan              ip_generic_getfrag
+8197      0.0458  kallsyms                 ipop-tincan              __udp4_lib_lookup
+8153      0.0456  kallsyms                 ipop-tincan              skb_flow_get_ports
+8117      0.0454  kallsyms                 ipop-tincan              plist_add
+7923      0.0443  ipop-tincan              ipop-tincan              cricket::UDPPort::OnReadPacket(talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketTime const&)
+7900      0.0442  kallsyms                 ipop-tincan              skb_clone
+7863      0.0440  ipop-tincan              ipop-tincan              talk_base::IPAddress::ipv4_address() const
+7860      0.0439  kallsyms                 ipop-tincan              __local_bh_enable
+7850      0.0439  kallsyms                 ipop-tincan              pick_next_task_rt
+7836      0.0438  kallsyms                 ipop-tincan              free_pages_prepare
+7754      0.0434  ipop-tincan              ipop-tincan              talk_base::hex_encode(char const*, unsigned long)
+7695      0.0430  kallsyms                 ipop-tincan              tcp_parse_aligned_timestamp.part.34
+7605      0.0425  kallsyms                 ipop-tincan              rb_insert_color
+7602      0.0425  kallsyms                 ipop-tincan              netif_rx_ni
+7561      0.0423  ipop-tincan              ipop-tincan              talk_base::SocketAddress::SocketAddress(talk_base::IPAddress const&, int)
+7529      0.0421  kallsyms                 ipop-tincan              cap_sk_getsecid
+7497      0.0419  kallsyms                 ipop-tincan              _copy_to_user
+7416      0.0415  ipop-tincan              ipop-tincan              talk_base::PhysicalSocket::SetError(int)
+7365      0.0412  kallsyms                 ipop-tincan              move_addr_to_user
+7330      0.0410  ipop-tincan              ipop-tincan              _Rb_tree<int, pair<int const, cricket::Transport::ChannelMapEntry>, int const>::find(int const&)
+7323      0.0409  kallsyms                 ipop-tincan              set_fd_set
+7306      0.0408  kallsyms                 ipop-tincan              tcp_is_cwnd_limited
+7286      0.0407  kallsyms                 ipop-tincan              security_sk_classify_flow
+7151      0.0400  kallsyms                 ipop-tincan              clear_buddies
+7151      0.0400  kallsyms                 ipop-tincan              net_rps_action_and_irq_enable.isra.90
+7074      0.0396  kallsyms                 ipop-tincan              bictcp_acked
+7056      0.0395  kallsyms                 ipop-tincan              rb_erase
+6897      0.0386  ipop-tincan              ipop-tincan              talk_base::PhysicalSocket::GetError() const
+6892      0.0385  kallsyms                 ipop-tincan              skb_queue_tail
+6807      0.0381  kallsyms                 ipop-tincan              __skb_checksum_complete_head
+6767      0.0378  kallsyms                 ipop-tincan              touch_atime
+6747      0.0377  kallsyms                 ipop-tincan              __kfree_skb
+6579      0.0368  kallsyms                 ipop-tincan              pick_next_task_stop
+6565      0.0367  kallsyms                 ipop-tincan              ip_queue_xmit
+6495      0.0363  ipop-tincan              ipop-tincan              sigslot::_connection5<tincan::TinCanConnectionManager, cricket::TransportChannel*, char const*, unsigned long, talk_base::PacketTime const&, int, sigslot::single_threaded>::emit(cricket::TransportChannel*, char const*, unsigned long, talk_base::PacketTime const&, int)
+6495      0.0363  kallsyms                 ipop-tincan              free_one_page
+6487      0.0363  kallsyms                 ipop-tincan              tcp_parse_md5sig_option
+6427      0.0359  kallsyms                 ipop-tincan              get_pageblock_flags_mask
+6427      0.0359  kallsyms                 ipop-tincan              xfrm_lookup_route
+6395      0.0358  kallsyms                 ipop-tincan              system_call_fastpath
+6385      0.0357  ipop-tincan              ipop-tincan              talk_base::SocketDispatcher::GetRequestedEvents()
+6291      0.0352  kallsyms                 ipop-tincan              tcp_md5_do_lookup
+6219      0.0348  kallsyms                 ipop-tincan              __wake_up
+6177      0.0345  kallsyms                 ipop-tincan              tcp_current_mss
+6070      0.0339  kallsyms                 ipop-tincan              do_softirq_own_stack
+5777      0.0323  ipop-tincan              ipop-tincan              talk_base::SocketAddress::EqualIPs(talk_base::SocketAddress const&) const
+5767      0.0322  libc-2.19.so             ipop-tincan              __lll_lock_wait_private
+5745      0.0321  kallsyms                 ipop-tincan              __enqueue_entity
+5733      0.0321  kallsyms                 ipop-tincan              sk_stream_write_space
+5728      0.0320  ipop-tincan              ipop-tincan              talk_base::AsyncUDPSocket::SendTo(void const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketOptions const&)
+5726      0.0320  kallsyms                 ipop-tincan              __skb_dst_set_noref
+5726      0.0320  kallsyms                 ipop-tincan              __srcu_read_unlock
+5720      0.0320  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::FindConnection(cricket::Connection*) const
+5680      0.0318  kallsyms                 ipop-tincan              neigh_resolve_output
+5654      0.0316  kallsyms                 ipop-tincan              sk_reset_timer
+5619      0.0314  kallsyms                 ipop-tincan              lock_hrtimer_base.isra.19
+5574      0.0312  kallsyms                 ipop-tincan              local_clock
+5562      0.0311  kallsyms                 ipop-tincan              ktime_get_real
+5540      0.0310  kallsyms                 ipop-tincan              get_futex_value_locked
+5491      0.0307  kallsyms                 ipop-tincan              __alloc_pages_nodemask
+5479      0.0306  kallsyms                 ipop-tincan              __hrtimer_start_range_ns
+5441      0.0304  bridge                   ipop-tincan              /bridge
+5440      0.0304  kallsyms                 ipop-tincan              rcu_bh_qs
+5426      0.0303  ipop-tincan              ipop-tincan              talk_base::MessageQueue::Dispatch(talk_base::Message*)
+5386      0.0301  kallsyms                 ipop-tincan              schedule_hrtimeout_range_clock
+5380      0.0301  kallsyms                 ipop-tincan              _raw_spin_unlock_bh
+5371      0.0300  kallsyms                 ipop-tincan              __sk_mem_reclaim
+5333      0.0298  kallsyms                 ipop-tincan              alloc_pages_current
+5304      0.0297  kallsyms                 ipop-tincan              native_smp_send_reschedule
+5287      0.0296  kallsyms                 ipop-tincan              __free_pages
+5281      0.0295  kallsyms                 ipop-tincan              ip_local_deliver
+5221      0.0292  kallsyms                 ipop-tincan              perf_event_task_sched_out
+5189      0.0290  kallsyms                 ipop-tincan              sock_put
+5178      0.0290  kallsyms                 ipop-tincan              tcp_sndbuf_expand
+5135      0.0287  kallsyms                 ipop-tincan              ns_to_timeval
+5129      0.0287  kallsyms                 ipop-tincan              sk_filter
+5121      0.0286  kallsyms                 ipop-tincan              __raise_softirq_irqoff
+4987      0.0279  kallsyms                 ipop-tincan              cap_socket_sock_rcv_skb
+4936      0.0276  kallsyms                 ipop-tincan              ip_route_input_noref
+4906      0.0274  kallsyms                 ipop-tincan              __tcp_push_pending_frames
+4877      0.0273  kallsyms                 ipop-tincan              tcp_cong_avoid_ai
+4859      0.0272  kallsyms                 ipop-tincan              migrate_task_rq_fair
+4833      0.0270  kallsyms                 ipop-tincan              __udp4_lib_rcv
+4791      0.0268  kallsyms                 ipop-tincan              x86_pmu_disable
+4773      0.0267  kallsyms                 ipop-tincan              __netif_receive_skb
+4664      0.0261  kallsyms                 ipop-tincan              __perf_event_task_sched_in
+4650      0.0260  ipop-tincan              ipop-tincan              talk_base::SocketAddress::operator=(talk_base::SocketAddress const&)
+4636      0.0259  kallsyms                 ipop-tincan              harmonize_features.isra.92.part.93
+4594      0.0257  kallsyms                 ipop-tincan              free_hot_cold_page
+4523      0.0253  kallsyms                 ipop-tincan              ctx_sched_out
+4517      0.0253  kallsyms                 ipop-tincan              timerqueue_add
+4503      0.0252  ipop-tincan              ipop-tincan              sigslot::_connection5<cricket::UDPPort, talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketTime const&, sigslot::single_threaded>::emit(talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketTime const&)
+4387      0.0245  kallsyms                 ipop-tincan              __put_user_4
+4363      0.0244  kallsyms                 ipop-tincan              intel_pmu_disable_all
+4356      0.0244  kallsyms                 ipop-tincan              idle_balance
+4295      0.0240  kallsyms                 ipop-tincan              sock_queue_rcv_skb
+4250      0.0238  kallsyms                 ipop-tincan              find_exception.isra.24
+4222      0.0236  ipop-tincan              ipop-tincan              talk_base::SocketAddress::ToSockAddrStorage(sockaddr_storage*) const
+4176      0.0233  kallsyms                 ipop-tincan              timespec_add_safe
+4150      0.0232  kallsyms                 ipop-tincan              check_preempt_curr
+4039      0.0226  kallsyms                 ipop-tincan              eth_header
+4011      0.0224  ipop-tincan              ipop-tincan              cricket::Port::GetConnection(talk_base::SocketAddress const&)
+4006      0.0224  kallsyms                 ipop-tincan              __build_skb
+4002      0.0224  kallsyms                 ipop-tincan              perf_event_context_sched_in
+3987      0.0223  ipop-tincan              ipop-tincan              sigslot::single_threaded::lock()
+3922      0.0219  kallsyms                 ipop-tincan              next_zones_zonelist
+3875      0.0217  kallsyms                 ipop-tincan              kfree_skb
+3803      0.0213  kallsyms                 ipop-tincan              apparmor_socket_recvmsg
+3795      0.0212  kallsyms                 ipop-tincan              get_seconds
+3774      0.0211  kallsyms                 ipop-tincan              csum_partial_ext
+3755      0.0210  kallsyms                 ipop-tincan              __skb_clone
+3737      0.0209  kallsyms                 ipop-tincan              rcu_note_context_switch
+3722      0.0208  kallsyms                 ipop-tincan              poll_select_set_timeout
+3710      0.0207  kallsyms                 ipop-tincan              dev_gro_receive
+3662      0.0205  kallsyms                 ipop-tincan              perf_pmu_rotate_start.isra.39
+3601      0.0201  kallsyms                 ipop-tincan              fib_validate_source
+3592      0.0201  ipop-tincan              ipop-tincan              sigslot::_connection1<talk_base::AsyncUDPSocket, talk_base::AsyncSocket*, sigslot::multi_threaded_local>::emit(talk_base::AsyncSocket*)
+3578      0.0200  kallsyms                 ipop-tincan              lock_sock_fast
+3578      0.0200  kallsyms                 ipop-tincan              skb_mac_gso_segment
+3570      0.0200  kallsyms                 ipop-tincan              skb_headers_offset_update
+3467      0.0194  kallsyms                 ipop-tincan              file_update_time
+3466      0.0194  kallsyms                 ipop-tincan              irq_entries_start
+3459      0.0193  kallsyms                 ipop-tincan              hrtimer_init
+3458      0.0193  kallsyms                 ipop-tincan              udp_queue_rcv_skb
+3428      0.0192  kallsyms                 ipop-tincan              sock_def_write_space
+3391      0.0190  kallsyms                 ipop-tincan              set_normalized_timespec
+3366      0.0188  kallsyms                 ipop-tincan              inet_gro_receive
+3359      0.0188  kallsyms                 ipop-tincan              sys_sendto
+3324      0.0186  ipop-tincan              ipop-tincan              sigslot::multi_threaded_local::lock()
+3315      0.0185  ipop-tincan              ipop-tincan              set_headers
+3285      0.0184  ipop-tincan              ipop-tincan              sigslot::_connection4<cricket::P2PTransportChannel, cricket::Connection*, char const*, unsigned long, talk_base::PacketTime const&, sigslot::single_threaded>::emit(cricket::Connection*, char const*, unsigned long, talk_base::PacketTime const&)
+3275      0.0183  kallsyms                 ipop-tincan              ip_send_skb
+3268      0.0183  kallsyms                 ipop-tincan              default_wake_function
+3257      0.0182  kallsyms                 ipop-tincan              getnstimeofday
+3233      0.0181  kallsyms                 ipop-tincan              pipe_iov_copy_to_user
+3207      0.0179  ipop-tincan              ipop-tincan              talk_base::EventDispatcher::GetRequestedEvents()
+3190      0.0178  kallsyms                 ipop-tincan              sched_clock
+3176      0.0178  ipop-tincan              ipop-tincan              talk_base::SocketAddress::SocketAddress()
+3173      0.0177  kallsyms                 ipop-tincan              tcp_v4_md5_lookup
+3117      0.0174  kallsyms                 ipop-tincan              check_preempt_wakeup
+3091      0.0173  kallsyms                 ipop-tincan              __netdev_alloc_frag
+3085      0.0172  ipop-tincan              ipop-tincan              talk_base::TimeMicros()
+3063      0.0171  kallsyms                 ipop-tincan              current_kernel_time
+3057      0.0171  kallsyms                 ipop-tincan              __zone_watermark_ok
+3056      0.0171  ipop-tincan              ipop-tincan              talk_base::SocketAddress::operator==(talk_base::SocketAddress const&) const
+3048      0.0170  kallsyms                 ipop-tincan              build_skb
+3046      0.0170  kallsyms                 ipop-tincan              msecs_to_jiffies
+3040      0.0170  kallsyms                 ipop-tincan              sys_recvfrom
+3017      0.0169  kallsyms                 ipop-tincan              tcp_v4_send_check
+3012      0.0168  kallsyms                 ipop-tincan              arch_local_irq_save
+2999      0.0168  kallsyms                 ipop-tincan              skb_checksum
+2991      0.0167  kallsyms                 ipop-tincan              csum_block_add_ext
+2981      0.0167  kallsyms                 ipop-tincan              anon_pipe_buf_release
+2952      0.0165  kallsyms                 ipop-tincan              x86_pmu_enable
+2949      0.0165  kallsyms                 ipop-tincan              current_fs_time
+2836      0.0159  kallsyms                 ipop-tincan              udp_v4_early_demux
+2835      0.0159  libpthread-2.19.so       ipop-tincan              read
+2811      0.0157  kallsyms                 ipop-tincan              __wake_up_sync_key
+2720      0.0152  libpthread-2.19.so       ipop-tincan              _L_unlock_722
+2719      0.0152  kallsyms                 ipop-tincan              security_socket_recvmsg
+2710      0.0152  kallsyms                 ipop-tincan              __inc_zone_state
+2708      0.0151  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::OnMessage(talk_base::Message*)
+2689      0.0150  ipop-tincan              ipop-tincan              talk_base::IPIsUnspec(talk_base::IPAddress const&)
+2681      0.0150  kallsyms                 ipop-tincan              drop_futex_key_refs.isra.14
+2676      0.0150  kallsyms                 ipop-tincan              apparmor_socket_getsockopt
+2647      0.0148  ipop-tincan              ipop-tincan              talk_base::SocketAddress::IsUnresolvedIP() const
+2581      0.0144  kallsyms                 ipop-tincan              __get_user_4
+2487      0.0139  kallsyms                 ipop-tincan              intel_pmu_enable_all
+2486      0.0139  kallsyms                 ipop-tincan              kmem_cache_alloc
+2485      0.0139  kallsyms                 ipop-tincan              security_socket_sendmsg
+2470      0.0138  kallsyms                 ipop-tincan              __unqueue_futex
+2463      0.0138  kallsyms                 ipop-tincan              iov_fault_in_pages_read
+2458      0.0137  kallsyms                 ipop-tincan              policy_zonelist
+2436      0.0136  kallsyms                 ipop-tincan              __cpuset_node_allowed_softwall
+2426      0.0136  kallsyms                 ipop-tincan              tcp_prequeue
+2360      0.0132  kallsyms                 ipop-tincan              find_next_bit
+2351      0.0131  kallsyms                 ipop-tincan              __skb_gso_segment
+2351      0.0131  kallsyms                 ipop-tincan              enqueue_hrtimer
+2351      0.0131  kallsyms                 ipop-tincan              perf_pmu_disable
+2347      0.0131  kallsyms                 ipop-tincan              get_partial_node.isra.50
+2346      0.0131  kallsyms                 ipop-tincan              __tcp_v4_send_check
+2337      0.0131  ipop-tincan              ipop-tincan              talk_base::EventDispatcher::OnPreEvent(unsigned int)
+2329      0.0130  kallsyms                 ipop-tincan              pipe_iov_copy_from_user
+2326      0.0130  ipop-tincan              ipop-tincan              talk_base::SocketDispatcher::IsDescriptorClosed()
+2322      0.0130  kallsyms                 ipop-tincan              consume_skb
+2287      0.0128  kallsyms                 ipop-tincan              security_sock_rcv_skb
+2246      0.0126  kallsyms                 ipop-tincan              pick_next_task_idle
+2224      0.0124  kallsyms                 ipop-tincan              ttwu_do_wakeup
+2206      0.0123  kallsyms                 ipop-tincan              update_stats_wait_end
+2184      0.0122  ipop-tincan              ipop-tincan              get_headers
+2169      0.0121  kallsyms                 ipop-tincan              __mod_zone_page_state
+2167      0.0121  kallsyms                 ipop-tincan              hrtick_update
+2166      0.0121  libc-2.19.so             ipop-tincan              __lll_unlock_wake_private
+2156      0.0121  ipop-tincan              ipop-tincan              sigslot::multi_threaded_local::unlock()
+2144      0.0120  ipop-tincan              ipop-tincan              sigslot::single_threaded::unlock()
+2130      0.0119  kallsyms                 ipop-tincan              __internal_add_timer
+2101      0.0117  kallsyms                 ipop-tincan              find_busiest_group
+2099      0.0117  kallsyms                 ipop-tincan              zone_statistics
+2025      0.0113  kallsyms                 ipop-tincan              generic_pipe_buf_map
+2024      0.0113  kallsyms                 ipop-tincan              deactivate_task
+2014      0.0113  kallsyms                 ipop-tincan              perf_pmu_enable
+1986      0.0111  kallsyms                 ipop-tincan              __skb_checksum_complete
+1923      0.0108  kallsyms                 ipop-tincan              ttwu_do_activate.constprop.74
+1826      0.0102  libpthread-2.19.so       ipop-tincan              recvfrom
+1789      0.0100  kallsyms                 ipop-tincan              tcp_sacktag_write_queue
+1782      0.0100  kallsyms                 ipop-tincan              device_not_available
+1762      0.0099  kallsyms                 ipop-tincan              activate_task
+1762      0.0099  kallsyms                 ipop-tincan              rb_next
+1754      0.0098  libc-2.19.so             ipop-tincan              select
+1747      0.0098  kallsyms                 ipop-tincan              set_next_entity
+1712      0.0096  kallsyms                 ipop-tincan              __bitmap_intersects
+1674      0.0094  kallsyms                 ipop-tincan              set_next_buddy
+1673      0.0094  kallsyms                 ipop-tincan              skb_trim
+1576      0.0088  kallsyms                 ipop-tincan              task_nice
+1545      0.0086  kallsyms                 ipop-tincan              hrtimer_try_to_cancel
+1534      0.0086  kallsyms                 ipop-tincan              __tcp_select_window
+1523      0.0085  kallsyms                 ipop-tincan              tcp_event_new_data_sent
+1519      0.0085  kallsyms                 ipop-tincan              free_compound_page
+1494      0.0084  kallsyms                 ipop-tincan              netif_receive_skb
+1487      0.0083  kallsyms                 ipop-tincan              math_state_restore
+1432      0.0080  ipop-tincan              ipop-tincan              talk_base::SocketDispatcher::OnPreEvent(unsigned int)
+1426      0.0080  ipop-tincan              ipop-tincan              talk_base::Signaler::OnEvent(unsigned int, int)
+1403      0.0078  kallsyms                 ipop-tincan              generic_pipe_buf_confirm
+1389      0.0078  kallsyms                 ipop-tincan              __sk_dst_check
+1359      0.0076  kallsyms                 ipop-tincan              reschedule_interrupt
+1344      0.0075  ipop-tincan              ipop-tincan              is_broadcast
+1324      0.0074  ipop-tincan              ipop-tincan              cricket::StunMessage::ValidateFingerprint(char const*, unsigned long)
+1300      0.0073  kallsyms                 ipop-tincan              pollwake
+1296      0.0072  kallsyms                 ipop-tincan              schedule_hrtimeout_range
+1295      0.0072  kallsyms                 ipop-tincan              __remove_hrtimer
+1285      0.0072  kallsyms                 ipop-tincan              __get_free_pages
+1233      0.0069  kallsyms                 ipop-tincan              sock_def_readable
+1217      0.0068  kallsyms                 ipop-tincan              update_wall_time
+1212      0.0068  kallsyms                 ipop-tincan              free_pages.part.64
+1211      0.0068  libpthread-2.19.so       ipop-tincan              __pthread_mutex_unlock_usercnt
+1203      0.0067  kallsyms                 ipop-tincan              udp_gro_receive
+1186      0.0066  kallsyms                 ipop-tincan              dev_kfree_skb_any
+1166      0.0065  kallsyms                 ipop-tincan              dql_completed
+1123      0.0063  kallsyms                 ipop-tincan              task_tick_fair
+1115      0.0062  kallsyms                 ipop-tincan              policy_nodemask
+1092      0.0061  kallsyms                 ipop-tincan              security_socket_getsockopt
+1091      0.0061  kallsyms                 ipop-tincan              kill_fasync
+1090      0.0061  kallsyms                 ipop-tincan              lock_timer_base.isra.35
+1080      0.0060  kallsyms                 ipop-tincan              irq_exit
+1076      0.0060  ipop-tincan              ipop-tincan              talk_base::TimeDiff(unsigned int, unsigned int)
+1076      0.0060  kallsyms                 ipop-tincan              __netdev_alloc_skb
+1066      0.0060  kallsyms                 ipop-tincan              skb_split
+1058      0.0059  kallsyms                 ipop-tincan              radix_tree_lookup_element
+1056      0.0059  kallsyms                 ipop-tincan              update_blocked_averages
+1044      0.0058  kallsyms                 ipop-tincan              __free_pages_ok.part.62
+997       0.0056  kallsyms                 ipop-tincan              trigger_load_balance
+989       0.0055  libpthread-2.19.so       ipop-tincan              _L_lock_953
+981       0.0055  kallsyms                 ipop-tincan              napi_gro_receive
+968       0.0054  kallsyms                 ipop-tincan              ktime_get
+941       0.0053  kallsyms                 ipop-tincan              tcp_options_write
+936       0.0052  kallsyms                 ipop-tincan              apic_timer_interrupt
+927       0.0052  kallsyms                 ipop-tincan              set_task_cpu
+923       0.0052  kallsyms                 ipop-tincan              tcp_sacktag_walk
+869       0.0049  kallsyms                 ipop-tincan              rcu_irq_enter
+857       0.0048  kallsyms                 ipop-tincan              internal_add_timer
+846       0.0047  kallsyms                 ipop-tincan              __mark_inode_dirty
+835       0.0047  kallsyms                 ipop-tincan              target_load
+823       0.0046  kallsyms                 ipop-tincan              __sk_mem_schedule
+814       0.0046  kallsyms                 ipop-tincan              update_vsyscall
+805       0.0045  kallsyms                 ipop-tincan              rcu_irq_exit
+804       0.0045  kallsyms                 ipop-tincan              swiotlb_unmap_page
+803       0.0045  kallsyms                 ipop-tincan              add_interrupt_randomness
+766       0.0043  kallsyms                 ipop-tincan              __irqentry_text_start
+750       0.0042  libpthread-2.19.so       ipop-tincan              _L_lock_909
+749       0.0042  kallsyms                 ipop-tincan              unmap_single
+728       0.0041  kallsyms                 ipop-tincan              tcp_fastretrans_alert
+718       0.0040  kallsyms                 ipop-tincan              __napi_complete
+712       0.0040  kallsyms                 ipop-tincan              detach_if_pending
+708       0.0040  kallsyms                 ipop-tincan              timerqueue_del
+688       0.0038  kallsyms                 ipop-tincan              cpus_share_cache
+687       0.0038  kallsyms                 ipop-tincan              handle_irq_event_percpu
+676       0.0038  kallsyms                 ipop-tincan              scheduler_ipi
+647       0.0036  kallsyms                 ipop-tincan              __napi_schedule
+631       0.0035  kallsyms                 ipop-tincan              unfreeze_partials.isra.44
+627       0.0035  kallsyms                 ipop-tincan              rcu_check_callbacks
+624       0.0035  ipop-tincan              ipop-tincan              BN_mod_word
+604       0.0034  kallsyms                 ipop-tincan              ipv4_pktinfo_prepare
+600       0.0034  kallsyms                 ipop-tincan              handle_edge_irq
+593       0.0033  kallsyms                 ipop-tincan              udp_rcv
+590       0.0033  kallsyms                 ipop-tincan              wake_up_state
+586       0.0033  kallsyms                 ipop-tincan              tcp_parse_options
+585       0.0033  kallsyms                 ipop-tincan              napi_complete
+573       0.0032  kallsyms                 ipop-tincan              notifier_call_chain
+563       0.0031  kallsyms                 ipop-tincan              skb_shift
+551       0.0031  kallsyms                 ipop-tincan              native_apic_mem_write
+549       0.0031  kallsyms                 ipop-tincan              irq_enter
+538       0.0030  kallsyms                 ipop-tincan              hrtimer_interrupt
+526       0.0029  kallsyms                 ipop-tincan              tcp_sacktag_one
+524       0.0029  kallsyms                 ipop-tincan              run_timer_softirq
+523       0.0029  kallsyms                 ipop-tincan              ack_apic_edge
+515       0.0029  kallsyms                 ipop-tincan              native_load_tls
+502       0.0028  ipop-tincan              ipop-tincan              talk_base::EventDispatcher::IsDescriptorClosed()
+499       0.0028  kallsyms                 ipop-tincan              tcp_mark_head_lost
+493       0.0028  kallsyms                 ipop-tincan              new_slab
+482       0.0027  kallsyms                 ipop-tincan              common_interrupt
+463       0.0026  kallsyms                 ipop-tincan              rcu_sysidle_exit
+459       0.0026  kallsyms                 ipop-tincan              load_balance
+459       0.0026  kallsyms                 ipop-tincan              note_interrupt
+456       0.0025  kallsyms                 ipop-tincan              __mnt_want_write
+454       0.0025  kvm                      ipop-tincan              /kvm
+447       0.0025  kallsyms                 ipop-tincan              irq_complete_move
+438       0.0024  kallsyms                 ipop-tincan              __rmqueue
+436       0.0024  kallsyms                 ipop-tincan              tcp_xmit_retransmit_queue
+432       0.0024  kallsyms                 ipop-tincan              tcp_shifted_skb
+426       0.0024  kallsyms                 ipop-tincan              cpumask_next_and
+423       0.0024  kallsyms                 ipop-tincan              cpu_needs_another_gp
+423       0.0024  libc-2.19.so             ipop-tincan              _L_lock_4651
+410       0.0023  kallsyms                 ipop-tincan              __put_compound_page
+399       0.0022  kallsyms                 ipop-tincan              skb_gro_reset_offset
+396       0.0022  ipop-tincan              ipop-tincan              sha1_block_data_order_ssse3
+367       0.0021  kallsyms                 ipop-tincan              free_pages
+364       0.0020  kallsyms                 ipop-tincan              tcp_validate_incoming
+359       0.0020  libc-2.19.so             ipop-tincan              _L_unlock_4803
+357       0.0020  kallsyms                 ipop-tincan              __udp_queue_rcv_skb
+357       0.0020  kallsyms                 ipop-tincan              cpumask_clear_cpu
+348       0.0019  kallsyms                 ipop-tincan              account_system_time
+339       0.0019  kallsyms                 ipop-tincan              __acct_update_integrals
+335       0.0019  kallsyms                 ipop-tincan              skb_checksum_help
+330       0.0018  kallsyms                 ipop-tincan              tcp_fragment
+326       0.0018  kallsyms                 ipop-tincan              rcu_sysidle_enter
+318       0.0018  kallsyms                 ipop-tincan              update_time
+312       0.0017  kallsyms                 ipop-tincan              napi_gro_flush
+312       0.0017  kallsyms                 ipop-tincan              ret_from_intr
+309       0.0017  kallsyms                 ipop-tincan              error_entry
+308       0.0017  libc-2.19.so             ipop-tincan              _L_lock_12779
+296       0.0017  kallsyms                 ipop-tincan              generic_pipe_buf_unmap
+284       0.0016  kallsyms                 ipop-tincan              cpuacct_account_field
+274       0.0015  kallsyms                 ipop-tincan              scheduler_tick
+271       0.0015  kallsyms                 ipop-tincan              restore_args
+265       0.0015  kallsyms                 ipop-tincan              radix_tree_lookup
+260       0.0015  kallsyms                 ipop-tincan              native_load_sp0
+243       0.0014  kallsyms                 ipop-tincan              tick_sched_timer
+239       0.0013  kallsyms                 ipop-tincan              tcp_cwnd_reduction
+238       0.0013  kallsyms                 ipop-tincan              __sb_start_write
+237       0.0013  kallsyms                 ipop-tincan              __run_hrtimer
+237       0.0013  kallsyms                 ipop-tincan              irq_move_irq
+235       0.0013  ipop-tincan              ipop-tincan              bn_sqr4x_mont
+235       0.0013  kallsyms                 ipop-tincan              error_exit
+234       0.0013  kallsyms                 ipop-tincan              fetch_task_cputime
+230       0.0013  kallsyms                 ipop-tincan              tcp_may_send_now
+229       0.0013  kallsyms                 ipop-tincan              sk_stream_alloc_skb
+222       0.0012  kallsyms                 ipop-tincan              raise_softirq
+216       0.0012  kallsyms                 ipop-tincan              hrtimer_run_queues
+208       0.0012  libc-2.19.so             ipop-tincan              _L_unlock_12791
+206       0.0012  kallsyms                 ipop-tincan              ktime_get_update_offsets
+205       0.0011  libc-2.19.so             ipop-tincan              vfprintf
+199       0.0011  kallsyms                 ipop-tincan              perf_event_task_tick
+198       0.0011  kallsyms                 ipop-tincan              handle_irq
+197       0.0011  kallsyms                 ipop-tincan              hrtimer_forward
+194       0.0011  kallsyms                 ipop-tincan              exit_intr
+193       0.0011  kallsyms                 ipop-tincan              rcu_process_callbacks
+190       0.0011  kallsyms                 ipop-tincan              account_process_tick
+189       0.0011  kallsyms                 ipop-tincan              prandom_u32_state
+186       0.0010  kallsyms                 ipop-tincan              sysret_careful
+182       0.0010  kallsyms                 ipop-tincan              irq_to_desc
+181       0.0010  kallsyms                 ipop-tincan              tcp_data_queue
+178      1.0e-03  kallsyms                 ipop-tincan              clockevents_program_event
+177      9.9e-04  kallsyms                 ipop-tincan              schedule_user
+175      9.8e-04  kallsyms                 ipop-tincan              local_apic_timer_interrupt
+172      9.6e-04  kallsyms                 ipop-tincan              run_posix_cpu_timers
+157      8.8e-04  kallsyms                 ipop-tincan              __update_cpu_load
+156      8.7e-04  kallsyms                 ipop-tincan              do_device_not_available
+153      8.6e-04  ipop-tincan              ipop-tincan              talk_base::UpdateCrc32(unsigned int, void const*, unsigned long)
+153      8.6e-04  kallsyms                 ipop-tincan              exit_idle
+151      8.4e-04  kallsyms                 ipop-tincan              tick_do_update_jiffies64
+148      8.3e-04  kallsyms                 ipop-tincan              nohz_balance_exit_idle.part.53
+143      8.0e-04  kallsyms                 ipop-tincan              handle_irq_event
+142      7.9e-04  kallsyms                 ipop-tincan              retint_swapgs
+140      7.8e-04  kallsyms                 ipop-tincan              atomic_notifier_call_chain
+136      7.6e-04  kallsyms                 ipop-tincan              native_iret
+131      7.3e-04  kallsyms                 ipop-tincan              mod_zone_page_state
+130      7.3e-04  kallsyms                 ipop-tincan              note_gp_changes
+130      7.3e-04  kallsyms                 ipop-tincan              setup_object.isra.47
+128      7.2e-04  kallsyms                 ipop-tincan              tcp_urg
+127      7.1e-04  kallsyms                 ipop-tincan              profile_tick
+125      7.0e-04  kallsyms                 ipop-tincan              __percpu_counter_add
+123      6.9e-04  kallsyms                 ipop-tincan              rebalance_domains
+123      6.9e-04  kallsyms                 ipop-tincan              update_process_times
+122      6.8e-04  kallsyms                 ipop-tincan              sched_avg_update
+117      6.5e-04  kallsyms                 ipop-tincan              account_user_time
+114      6.4e-04  kallsyms                 ipop-tincan              __sb_end_write
+114      6.4e-04  kallsyms                 ipop-tincan              irq_work_run
+114      6.4e-04  kallsyms                 ipop-tincan              smp_apic_timer_interrupt
+113      6.3e-04  kallsyms                 ipop-tincan              retint_restore_args
+112      6.3e-04  kallsyms                 ipop-tincan              sched_ttwu_pending
+111      6.2e-04  kallsyms                 ipop-tincan              snmp_fold_field
+109      6.1e-04  kallsyms                 ipop-tincan              smp_reschedule_interrupt
+107      6.0e-04  libpthread-2.19.so       ipop-tincan              _L_cond_lock_886
+106      5.9e-04  kallsyms                 ipop-tincan              tcp_stream_memory_free
+105      5.9e-04  kallsyms                 ipop-tincan              do_timer
+105      5.9e-04  kallsyms                 ipop-tincan              tcp_update_scoreboard
+104      5.8e-04  kallsyms                 ipop-tincan              jiffies_to_timeval
+103      5.8e-04  kallsyms                 ipop-tincan              retint_check
+102      5.7e-04  kallsyms                 ipop-tincan              skb_prepare_for_shift
+97       5.4e-04  kallsyms                 ipop-tincan              __irq_work_run
+97       5.4e-04  kallsyms                 ipop-tincan              wakeup_gran.isra.47
+96       5.4e-04  kallsyms                 ipop-tincan              autoremove_wake_function
+95       5.3e-04  kallsyms                 ipop-tincan              _mix_pool_bytes
+95       5.3e-04  kallsyms                 ipop-tincan              native_write_cr0
+94       5.3e-04  kallsyms                 ipop-tincan              tick_program_event
+90       5.0e-04  kallsyms                 ipop-tincan              uhci_hub_status_data
+87       4.9e-04  kallsyms                 ipop-tincan              acct_account_cputime
+87       4.9e-04  kallsyms                 ipop-tincan              wakeup_softirqd
+84       4.7e-04  kallsyms                 ipop-tincan              __mnt_want_write_file
+84       4.7e-04  kallsyms                 ipop-tincan              update_cpu_load_active
+83       4.6e-04  kallsyms                 ipop-tincan              task_cputime
+83       4.6e-04  libc-2.19.so             ipop-tincan              memset
+81       4.5e-04  kallsyms                 ipop-tincan              retint_careful
+79       4.4e-04  kallsyms                 ipop-tincan              ntp_tick_length
+78       4.4e-04  kallsyms                 ipop-tincan              rtnl_fill_ifinfo
+77       4.3e-04  ipop-tincan              ipop-tincan              EVP_DigestInit_ex
+77       4.3e-04  kallsyms                 ipop-tincan              calc_global_load
+76       4.2e-04  kallsyms                 ipop-tincan              any_ports_active
+74       4.1e-04  kallsyms                 ipop-tincan              update_group_power
+73       4.1e-04  kallsyms                 ipop-tincan              sched_clock_tick
+71       4.0e-04  kallsyms                 ipop-tincan              uhci_check_ports
+67       3.7e-04  libc-2.19.so             ipop-tincan              __memmove_ssse3
+66       3.7e-04  kallsyms                 ipop-tincan              credit_entropy_bits
+66       3.7e-04  libc-2.19.so             ipop-tincan              getifaddrs_internal
+65       3.6e-04  kallsyms                 ipop-tincan              iowrite8
+65       3.6e-04  kallsyms                 ipop-tincan              uhci_scan_schedule
+64       3.6e-04  kallsyms                 ipop-tincan              tick_sched_do_timer
+63       3.5e-04  kallsyms                 ipop-tincan              inet6_fill_ifla6_attrs
+60       3.4e-04  kallsyms                 ipop-tincan              hrtimer_run_pending
+57       3.2e-04  ipop-tincan              ipop-tincan              cricket::Connection::UpdateState(unsigned int)
+55       3.1e-04  ipop-tincan              ipop-tincan              bn_mul4x_mont
+54       3.0e-04  kallsyms                 ipop-tincan              delay_tsc
+53       3.0e-04  kallsyms                 ipop-tincan              error_swapgs
+50       2.8e-04  kallsyms                 ipop-tincan              perf_adjust_freq_unthr_context.part.79
+49       2.7e-04  kallsyms                 ipop-tincan              tick_sched_handle.isra.17
+48       2.7e-04  kallsyms                 ipop-tincan              __mnt_drop_write
+47       2.6e-04  ipop-tincan              ipop-tincan              talk_base::MessageQueue::DoDelayPost(int, unsigned int, talk_base::MessageHandler*, unsigned int, talk_base::MessageData*) [clone .part.86]
+47       2.6e-04  ipop-tincan              ipop-tincan              void __adjust_heap<vector<talk_base::DelayedMessage>::iterator, long, talk_base::DelayedMessage, less<talk_base::DelayedMessage>>(vector<talk_base::DelayedMessage>::iterator, long, long, talk_base::DelayedMessage, less<talk_base::DelayedMessage>)
+47       2.6e-04  libexpat.so.1.6.0        ipop-tincan              /lib/x86_64-linux-gnu/libexpat.so.1.6.0
+46       2.6e-04  ipop-tincan              ipop-tincan              ssleay_rand_bytes
+46       2.6e-04  kallsyms                 ipop-tincan              __mnt_drop_write_file
+46       2.6e-04  kallsyms                 ipop-tincan              clear_page_c
+45       2.5e-04  kallsyms                 ipop-tincan              can_migrate_task
+44       2.5e-04  kallsyms                 ipop-tincan              ioread8
+43       2.4e-04  kallsyms                 ipop-tincan              tcp_match_skb_to_sack
+42       2.3e-04  ipop-tincan              ipop-tincan              SHA1_Update
+41       2.3e-04  ipop-tincan              ipop-tincan              cricket::Port::GetStunMessage(char const*, unsigned long, talk_base::SocketAddress const&, cricket::IceMessage**, string*) [clone .part.99]
+40       2.2e-04  ipop-tincan              ipop-tincan              cricket::StunMessage::Read(talk_base::ByteBuffer*)
+40       2.2e-04  kallsyms                 ipop-tincan              __tcp_retransmit_skb
+40       2.2e-04  libc-2.19.so             ipop-tincan              _IO_default_xsputn
+39       2.2e-04  kallsyms                 ipop-tincan              run_rebalance_domains
+39       2.2e-04  kallsyms                 ipop-tincan              uhci_get_current_frame_number.part.24
+39       2.2e-04  libc-2.19.so             ipop-tincan              strchrnul
+38       2.1e-04  ipop-tincan              ipop-tincan              probable_prime
+38       2.1e-04  kallsyms                 ipop-tincan              prandom_u32
+37       2.1e-04  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ReserveWriteBuffer(unsigned long)
+37       2.1e-04  ipop-tincan              ipop-tincan              talk_base::NetworkManagerBase::MergeNetworkList(vector<talk_base::Network*> const&, bool*)
+37       2.1e-04  ipop-tincan              ipop-tincan              vector<cricket::StunAttribute*>::_M_insert_aux(vector<cricket::StunAttribute*>::iterator, cricket::StunAttribute* const&)
+36       2.0e-04  ipop-tincan              ipop-tincan              SHA1_Final
+36       2.0e-04  ipop-tincan              ipop-tincan              talk_base::MessageQueue::Clear(talk_base::MessageHandler*, unsigned int, list<talk_base::Message>*)
+36       2.0e-04  ipop-tincan              ipop-tincan              void __push_heap<vector<talk_base::DelayedMessage>::iterator, long, talk_base::DelayedMessage, less<talk_base::DelayedMessage>>(vector<talk_base::DelayedMessage>::iterator, long, long, talk_base::DelayedMessage, less<talk_base::DelayedMessage>)
+33       1.8e-04  ipop-tincan              ipop-tincan              engine_table_select
+33       1.8e-04  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::WriteUInt16(unsigned short)
+32       1.8e-04  kallsyms                 ipop-tincan              __free_slab
+32       1.8e-04  kallsyms                 ipop-tincan              invoke_rcu_core
+32       1.8e-04  kallsyms                 ipop-tincan              smp_call_function_many
+32       1.8e-04  libc-2.19.so             ipop-tincan              __strcmp_sse2_unaligned
+31       1.7e-04  ipop-tincan              ipop-tincan              cricket::StunMessage::~StunMessage()
+31       1.7e-04  kallsyms                 ipop-tincan              slab_node
+31       1.7e-04  kallsyms                 ipop-tincan              timekeeping_update.constprop.9
+30       1.7e-04  kallsyms                 ipop-tincan              wake_up_process
+30       1.7e-04  libc-2.19.so             ipop-tincan              __memcpy_sse2
+29       1.6e-04  ipop-tincan              ipop-tincan              cricket::ConnectionRequest::Prepare(cricket::StunMessage*)
+29       1.6e-04  ipop-tincan              ipop-tincan              sha1_block_data_order
+29       1.6e-04  ipop-tincan              ipop-tincan              talk_base::ComputeHmac(talk_base::MessageDigest*, void const*, unsigned long, void const*, unsigned long, void*, unsigned long)
+29       1.6e-04  ipop-tincan              ipop-tincan              talk_base::OpenSSLDigest::Size() const
+29       1.6e-04  kallsyms                 ipop-tincan              raw_notifier_call_chain
+29       1.6e-04  libc-2.19.so             ipop-tincan              _itoa_word
+28       1.6e-04  kallsyms                 ipop-tincan              find_first_bit
+28       1.6e-04  kallsyms                 ipop-tincan              update_rq_clock
+27       1.5e-04  ipop-tincan              ipop-tincan              talk_base::MakeNetworkKey(string const&, talk_base::IPAddress const&, int)
+27       1.5e-04  kallsyms                 ipop-tincan              inet6_dump_addr
+27       1.5e-04  kallsyms                 ipop-tincan              rtnl_dump_ifinfo
+25       1.4e-04  ipop-tincan              ipop-tincan              CRYPTO_malloc
+24       1.3e-04  ipop-tincan              ipop-tincan              EVP_MD_CTX_cleanup
+24       1.3e-04  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, cricket::StunRequest*>, string const>::find(string const&)
+24       1.3e-04  ipop-tincan              ipop-tincan              cricket::StunAttribute::Create(cricket::StunAttributeValueType, unsigned short, unsigned short, cricket::StunMessage*)
+24       1.3e-04  ipop-tincan              ipop-tincan              talk_base::BasicNetworkManager::ConvertIfAddrs(ifaddrs*, bool, vector<talk_base::Network*>*) const
+24       1.3e-04  kallsyms                 ipop-tincan              _raw_spin_trylock
+24       1.3e-04  libc-2.19.so             ipop-tincan              inet_ntop
+23       1.3e-04  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ReadUInt16(unsigned short*)
+23       1.3e-04  ipop-tincan              ipop-tincan              talk_base::CreateRandomString(unsigned long, char const*, int, string*)
+23       1.3e-04  kallsyms                 ipop-tincan              dev_get_stats
+23       1.3e-04  kallsyms                 ipop-tincan              lapic_next_event
+23       1.3e-04  kallsyms                 ipop-tincan              tcp_retransmit_skb
+23       1.3e-04  libc-2.19.so             ipop-tincan              _IO_old_init
+22       1.2e-04  ipop-tincan              ipop-tincan              SHA1_Init
+22       1.2e-04  ipop-tincan              ipop-tincan              cricket::StunMessage::ValidateMessageIntegrity(char const*, unsigned long, string const&)
+22       1.2e-04  kallsyms                 ipop-tincan              __queue_work
+22       1.2e-04  kallsyms                 ipop-tincan              _decode_session4
+22       1.2e-04  kallsyms                 ipop-tincan              inet_dump_ifaddr
+22       1.2e-04  libc-2.19.so             ipop-tincan              __memcpy_ssse3
+22       1.2e-04  libpthread-2.19.so       ipop-tincan              pthread_self
+21       1.2e-04  ipop-tincan              ipop-tincan              cricket::StunByteStringAttribute::Read(talk_base::ByteBuffer*)
+21       1.2e-04  ipop-tincan              ipop-tincan              default_malloc_ex
+21       1.2e-04  kallsyms                 ipop-tincan              snmp6_fill_stats.part.40
+20       1.1e-04  ipop-tincan              ipop-tincan              EVP_MD_CTX_init
+20       1.1e-04  ipop-tincan              ipop-tincan              cricket::IceMessage::GetAttributeValueType(int) const
+20       1.1e-04  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::WriteBytes(char const*, unsigned long)
+20       1.1e-04  kallsyms                 ipop-tincan              discard_slab
+19       1.1e-04  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, talk_base::Network*>, string const>::find(string const&)
+19       1.1e-04  ipop-tincan              ipop-tincan              cricket::StunMessage::AddAttribute(cricket::StunAttribute*)
+19       1.1e-04  ipop-tincan              ipop-tincan              cricket::StunMessage::GetAttributeValueType(int) const
+19       1.1e-04  ipop-tincan              ipop-tincan              cricket::StunRequestManager::SendDelayed(cricket::StunRequest*, int)
+19       1.1e-04  ipop-tincan              ipop-tincan              talk_base::SortNetworks(talk_base::Network const*, talk_base::Network const*)
+18       1.0e-04  ipop-tincan              ipop-tincan              CRYPTO_free
+18       1.0e-04  ipop-tincan              ipop-tincan              Json::valueToQuotedString(char const*)
+18       1.0e-04  ipop-tincan              ipop-tincan              OPENSSL_cleanse
+18       1.0e-04  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, cricket::StunRequest*>, string const>::_M_get_insert_hint_unique_pos(_Rb_tree_const_iterator<pair<string const, cricket::StunRequest*>>, string const&)
+18       1.0e-04  ipop-tincan              ipop-tincan              talk_base::OpenSSLDigest::GetDigestEVP(string const&, env_md_st const**)
+18       1.0e-04  kallsyms                 ipop-tincan              inet_fill_ifaddr
+18       1.0e-04  kallsyms                 ipop-tincan              native_read_cr0
+17       9.5e-05  ipop-tincan              ipop-tincan              CRYPTO_lock
+17       9.5e-05  ipop-tincan              ipop-tincan              _x86_64_AES_decrypt_compact
+17       9.5e-05  ipop-tincan              ipop-tincan              cricket::StunXorAddressAttribute::Write(talk_base::ByteBuffer*) const
+17       9.5e-05  ipop-tincan              ipop-tincan              void make_heap<vector<talk_base::DelayedMessage>::iterator, less<talk_base::DelayedMessage>>(vector<talk_base::DelayedMessage>::iterator, vector<talk_base::DelayedMessage>::iterator, less<talk_base::DelayedMessage>)
+17       9.5e-05  kallsyms                 ipop-tincan              inet6_fill_ifaddr
+17       9.5e-05  libc-2.19.so             ipop-tincan              _IO_no_init
+16       8.9e-05  ipop-tincan              ipop-tincan              cricket::Connection::MaybeAddPrflxCandidate(cricket::ConnectionRequest*, cricket::StunMessage*)
+16       8.9e-05  kallsyms                 ipop-tincan              call_timer_fn
+16       8.9e-05  kallsyms                 ipop-tincan              get_work_pool
+16       8.9e-05  libc-2.19.so             ipop-tincan              getpid
+15       8.4e-05  ipop-tincan              ipop-tincan              Json::Value::Value(Json::Value const&)
+15       8.4e-05  ipop-tincan              ipop-tincan              RAND_get_rand_method
+15       8.4e-05  ipop-tincan              ipop-tincan              char* string::_S_construct<char*>(char*, char*, allocator<char> const&, forward_iterator_tag)
+15       8.4e-05  ipop-tincan              ipop-tincan              cricket::Connection::local_candidate() const
+15       8.4e-05  ipop-tincan              ipop-tincan              getrn
+15       8.4e-05  ipop-tincan              ipop-tincan              talk_base::IPIsHelper(talk_base::IPAddress const&, in6_addr const&, int)
+15       8.4e-05  ipop-tincan              ipop-tincan              vector<talk_base::IPAddress>::operator=(vector<talk_base::IPAddress> const&)
+15       8.4e-05  kallsyms                 ipop-tincan              __nla_put
+15       8.4e-05  kallsyms                 ipop-tincan              __nla_reserve
+15       8.4e-05  kallsyms                 ipop-tincan              handle_mm_fault
+15       8.4e-05  kallsyms                 ipop-tincan              nla_put
+15       8.4e-05  kallsyms                 ipop-tincan              tcp_enter_recovery
+14       7.8e-05  ipop-tincan              ipop-tincan              cricket::StunRequest::OnMessage(talk_base::Message*)
+14       7.8e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ReadUInt64(unsigned long*)
+14       7.8e-05  ipop-tincan              ipop-tincan              talk_base::MessageDigestFactory::Create(string const&)
+14       7.8e-05  ipop-tincan              ipop-tincan              talk_base::Thread::Clear(talk_base::MessageHandler*, unsigned int, list<talk_base::Message>*)
+14       7.8e-05  kallsyms                 ipop-tincan              __free_memcg_kmem_pages
+14       7.8e-05  kallsyms                 ipop-tincan              free_pcppages_bulk
+14       7.8e-05  kallsyms                 ipop-tincan              tcp_init_cwnd_reduction
+14       7.8e-05  libc-2.19.so             ipop-tincan              __memcpy_chk_ssse3
+13       7.3e-05  ipop-tincan              ipop-tincan              Json::StyledWriter::writeValue(Json::Value const&)
+13       7.3e-05  ipop-tincan              ipop-tincan              Json::Value::CZString::CZString(Json::Value::CZString const&)
+13       7.3e-05  ipop-tincan              ipop-tincan              cricket::Port::SendBindingResponse(cricket::StunMessage*, talk_base::SocketAddress const&)
+13       7.3e-05  ipop-tincan              ipop-tincan              cricket::StunAddressAttribute::Read(talk_base::ByteBuffer*)
+13       7.3e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::AddMessageIntegrity(char const*, unsigned long)
+13       7.3e-05  ipop-tincan              ipop-tincan              cricket::UDPPort::OnSendPacket(void const*, unsigned long, cricket::StunRequest*)
+13       7.3e-05  ipop-tincan              ipop-tincan              ssl3_cbc_digest_record
+13       7.3e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::Construct(char const*, unsigned long, talk_base::ByteBuffer::ByteOrder)
+13       7.3e-05  ipop-tincan              ipop-tincan              talk_base::IPAddressPrecedence(talk_base::IPAddress const&)
+13       7.3e-05  ipop-tincan              ipop-tincan              talk_base::MessageQueue::PostDelayed(int, talk_base::MessageHandler*, unsigned int, talk_base::MessageData*)
+13       7.3e-05  kallsyms                 ipop-tincan              inet_sk_rebuild_header
+13       7.3e-05  kallsyms                 ipop-tincan              lookup_page_cgroup
+13       7.3e-05  libc-2.19.so             ipop-tincan              __vsnprintf_chk
+12       6.7e-05  ipop-tincan              ipop-tincan              ENGINE_get_digest_engine
+12       6.7e-05  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::UpdateConnectionStates()
+12       6.7e-05  ipop-tincan              ipop-tincan              cricket::StunRequestManager::CheckResponse(cricket::StunMessage*)
+12       6.7e-05  ipop-tincan              ipop-tincan              cricket::StunXorAddressAttribute::GetXoredIP() const
+12       6.7e-05  ipop-tincan              ipop-tincan              talk_base::ComputeHmac(string const&, void const*, unsigned long, void const*, unsigned long, void*, unsigned long)
+12       6.7e-05  kallsyms                 ipop-tincan              __dentry_kill
+12       6.7e-05  kallsyms                 ipop-tincan              __mem_cgroup_uncharge_common
+12       6.7e-05  kallsyms                 ipop-tincan              arch_scale_freq_power
+12       6.7e-05  kallsyms                 ipop-tincan              inet_fill_link_af
+12       6.7e-05  kallsyms                 ipop-tincan              kmem_cache_alloc_trace
+12       6.7e-05  kallsyms                 ipop-tincan              native_irq_return_iret
+11       6.2e-05  ipop-tincan              ipop-tincan              EVP_MD_size
+11       6.2e-05  ipop-tincan              ipop-tincan              Json::Value::getMemberNames() const
+11       6.2e-05  ipop-tincan              ipop-tincan              RAND_bytes
+11       6.2e-05  ipop-tincan              ipop-tincan              _Rb_tree<Json::Value::CZString, pair<Json::Value::CZString const, Json::Value>, Json::Value::CZString const>::_M_erase(_Rb_tree_node<pair<Json::Value::CZString const, Json::Value>>*)
+11       6.2e-05  ipop-tincan              ipop-tincan              _Rb_tree<Json::Value::CZString, pair<Json::Value::CZString const, Json::Value>, Json::Value::CZString const>::_M_lower_bound(_Rb_tree_node<pair<Json::Value::CZString const, Json::Value>>*, _Rb_tree_node<pair<Json::Value::CZString const, Json::Value>>*, Json::Value::CZString const&) [clone .isra.62]
+11       6.2e-05  ipop-tincan              ipop-tincan              cricket::Connection::OnConnectionRequestResponse(cricket::ConnectionRequest*, cricket::StunMessage*)
+11       6.2e-05  ipop-tincan              ipop-tincan              cricket::StunByteStringAttribute::~StunByteStringAttribute()
+11       6.2e-05  kallsyms                 ipop-tincan              ipmi_timeout
+11       6.2e-05  kallsyms                 ipop-tincan              netlink_sendmsg
+11       6.2e-05  kallsyms                 ipop-tincan              page_fault
+11       6.2e-05  kallsyms                 ipop-tincan              tcp_try_keep_open
+11       6.2e-05  libc-2.19.so             ipop-tincan              __GI_strchr
+10       5.6e-05  ipop-tincan              ipop-tincan              EVP_DigestUpdate
+10       5.6e-05  ipop-tincan              ipop-tincan              EVP_sha1
+10       5.6e-05  ipop-tincan              ipop-tincan              Json::Value::~Value()
+10       5.6e-05  ipop-tincan              ipop-tincan              cricket::Connection::Ping(unsigned int)
+10       5.6e-05  ipop-tincan              ipop-tincan              cricket::Connection::priority() const
+10       5.6e-05  ipop-tincan              ipop-tincan              cricket::StunByteStringAttribute::Write(talk_base::ByteBuffer*) const
+10       5.6e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::GetByteString(int) const
+10       5.6e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ReadBytes(char*, unsigned long)
+10       5.6e-05  ipop-tincan              ipop-tincan              talk_base::locking_function(int, int, char const*, int)
+10       5.6e-05  kallsyms                 ipop-tincan              mod_timer_pending
+10       5.6e-05  kallsyms                 ipop-tincan              second_overflow
+10       5.6e-05  kallsyms                 ipop-tincan              swiotlb_tbl_unmap_single
+10       5.6e-05  kallsyms                 ipop-tincan              uhci_irq
+10       5.6e-05  kallsyms                 ipop-tincan              unmap_page_range
+10       5.6e-05  libc-2.19.so             ipop-tincan              _IO_str_init_static_internal
+10       5.6e-05  libpthread-2.19.so       ipop-tincan              _L_unlock_554
+9        5.0e-05  ipop-tincan              ipop-tincan              EVP_MD_CTX_clear_flags
+9        5.0e-05  ipop-tincan              ipop-tincan              Json::Value::resolveReference(char const*, bool)
+9        5.0e-05  ipop-tincan              ipop-tincan              cricket::IceMessage::~IceMessage()
+9        5.0e-05  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::OnPing()
+9        5.0e-05  ipop-tincan              ipop-tincan              cricket::Port::GetIceRole() const
+9        5.0e-05  ipop-tincan              ipop-tincan              cricket::Port::MaybeIceRoleConflict(talk_base::SocketAddress const&, cricket::IceMessage*, string const&)
+9        5.0e-05  ipop-tincan              ipop-tincan              cricket::Port::ParseStunUsername(cricket::StunMessage const*, string*, string*, cricket::TransportProtocol*) const
+9        5.0e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::Write(talk_base::ByteBuffer*) const
+9        5.0e-05  ipop-tincan              ipop-tincan              lh_insert
+9        5.0e-05  ipop-tincan              ipop-tincan              sigslot::_connection3<cricket::UDPPort, void const*, unsigned long, cricket::StunRequest*, sigslot::single_threaded>::emit(void const*, unsigned long, cricket::StunRequest*)
+9        5.0e-05  ipop-tincan              ipop-tincan              ssleay_rand_nopseudo_bytes
+9        5.0e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ReadString(string*, unsigned long)
+9        5.0e-05  ipop-tincan              ipop-tincan              talk_base::MessageQueueManager::ClearInternal(talk_base::MessageHandler*)
+9        5.0e-05  ipop-tincan              ipop-tincan              talk_base::OpenSSLDigest::OpenSSLDigest(string const&)
+9        5.0e-05  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::OnNetworksChanged()
+9        5.0e-05  kallsyms                 ipop-tincan              __cpuset_node_allowed_hardwall
+9        5.0e-05  kallsyms                 ipop-tincan              bictcp_recalc_ssthresh
+9        5.0e-05  kallsyms                 ipop-tincan              kthread_data
+9        5.0e-05  kallsyms                 ipop-tincan              netdev_master_upper_dev_get
+9        5.0e-05  kallsyms                 ipop-tincan              rtnl_dump_all
+9        5.0e-05  kallsyms                 ipop-tincan              strlen
+9        5.0e-05  kallsyms                 ipop-tincan              tcp_verify_retransmit_hint
+9        5.0e-05  libc-2.19.so             ipop-tincan              _IO_setb
+9        5.0e-05  libc-2.19.so             ipop-tincan              __netlink_request
+9        5.0e-05  libpthread-2.19.so       ipop-tincan              pthread_once
+8        4.5e-05  ipop-tincan              ipop-tincan              BN_mod_exp_mont
+8        4.5e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, cricket::StunRequest*>, string const>::_M_get_insert_unique_pos(string const&)
+8        4.5e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>, _Select1st<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>, less<string>, allocator<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>>::_M_insert_unique_(_Rb_tree_const_iterator<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>, pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>> const&)
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunByteStringAttribute::CopyBytes(void const*, unsigned long)
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::AddMessageIntegrity(string const&)
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::CreateAttribute(int, unsigned long)
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::StunMessage()
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunRequest::StunRequest(cricket::StunMessage*)
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunUInt64Attribute::Read(talk_base::ByteBuffer*)
+8        4.5e-05  ipop-tincan              ipop-tincan              cricket::StunXorAddressAttribute::~StunXorAddressAttribute()
+8        4.5e-05  ipop-tincan              ipop-tincan              ssl3_cbc_copy_mac
+8        4.5e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ByteBuffer(char const*, unsigned long)
+8        4.5e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::WriteString(string const&)
+8        4.5e-05  ipop-tincan              ipop-tincan              talk_base::CountIPMaskBits(talk_base::IPAddress)
+8        4.5e-05  ipop-tincan              ipop-tincan              talk_base::SecureRandomGenerator::Generate(void*, unsigned long)
+8        4.5e-05  ipop-tincan              ipop-tincan              talk_base::SocketAddress::ipaddr() const
+8        4.5e-05  kallsyms                 ipop-tincan              __note_gp_changes
+8        4.5e-05  kallsyms                 ipop-tincan              __wake_up_bit
+8        4.5e-05  kallsyms                 ipop-tincan              _raw_read_lock_bh
+8        4.5e-05  kallsyms                 ipop-tincan              delayed_work_timer_fn
+8        4.5e-05  kallsyms                 ipop-tincan              hrtimer_force_reprogram
+8        4.5e-05  kallsyms                 ipop-tincan              hrtimer_wakeup
+8        4.5e-05  kallsyms                 ipop-tincan              loopback_get_stats64
+8        4.5e-05  kallsyms                 ipop-tincan              tcp_try_undo_recovery
+8        4.5e-05  kallsyms                 ipop-tincan              usb_hcd_poll_rh_status
+8        4.5e-05  kvm_intel                ipop-tincan              /kvm_intel
+8        4.5e-05  libc-2.19.so             ipop-tincan              __GI_strpbrk
+8        4.5e-05  libc-2.19.so             ipop-tincan              calloc
+8        4.5e-05  libc-2.19.so             ipop-tincan              vsprintf
+7        3.9e-05  ipmi_si                  ipop-tincan              /ipmi_si
+7        3.9e-05  ipop-tincan              ipop-tincan              BN_mod_mul_montgomery
+7        3.9e-05  ipop-tincan              ipop-tincan              _Rb_tree<Json::Value::CZString, pair<Json::Value::CZString const, Json::Value>, Json::Value::CZString const>::_M_copy(_Rb_tree_node<pair<Json::Value::CZString const, Json::Value>> const*, _Rb_tree_node<pair<Json::Value::CZString const, Json::Value>>*)
+7        3.9e-05  ipop-tincan              ipop-tincan              _x86_64_AES_encrypt_compact
+7        3.9e-05  ipop-tincan              ipop-tincan              buzz::QName::~QName()
+7        3.9e-05  ipop-tincan              ipop-tincan              cricket::BasicPortAllocatorSession::DoAllocate()
+7        3.9e-05  ipop-tincan              ipop-tincan              cricket::Connection::set_state(cricket::Connection::State)
+7        3.9e-05  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::FindNextPingableConnection()
+7        3.9e-05  ipop-tincan              ipop-tincan              cricket::StunUInt32Attribute::Read(talk_base::ByteBuffer*)
+7        3.9e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::WriteUInt32(unsigned int)
+7        3.9e-05  ipop-tincan              ipop-tincan              talk_base::TaskRunner::InternalRunTasks(bool) [clone .part.32]
+7        3.9e-05  ipop-tincan              ipop-tincan              talk_base::TruncateIP(talk_base::IPAddress const&, int)
+7        3.9e-05  ipop-tincan              ipop-tincan              traverse_string
+7        3.9e-05  kallsyms                 ipop-tincan              __kmalloc
+7        3.9e-05  kallsyms                 ipop-tincan              __mem_cgroup_commit_charge
+7        3.9e-05  kallsyms                 ipop-tincan              alloc_inode
+7        3.9e-05  kallsyms                 ipop-tincan              cascade
+7        3.9e-05  kallsyms                 ipop-tincan              do_notify_resume
+7        3.9e-05  kallsyms                 ipop-tincan              find_vma
+7        3.9e-05  kallsyms                 ipop-tincan              flush_tlb_mm_range
+7        3.9e-05  kallsyms                 ipop-tincan              netlink_insert
+7        3.9e-05  kallsyms                 ipop-tincan              netlink_recvmsg
+7        3.9e-05  kallsyms                 ipop-tincan              netlink_release
+7        3.9e-05  kallsyms                 ipop-tincan              rcu_advance_cbs
+7        3.9e-05  kallsyms                 ipop-tincan              sched_slice.isra.45
+7        3.9e-05  kallsyms                 ipop-tincan              wake_up_worker
+7        3.9e-05  kallsyms                 sudo                     page_fault
+7        3.9e-05  ld-2.19.so               ipop-tincan              _dl_relocate_object
+7        3.9e-05  ld-2.19.so               sudo                     do_lookup_x
+7        3.9e-05  libc-2.19.so             ipop-tincan              __GI_strcpy
+6        3.4e-05  ipop-tincan              ipop-tincan              ASN1_item_ex_i2d
+6        3.4e-05  ipop-tincan              ipop-tincan              EVP_DigestFinal_ex
+6        3.4e-05  ipop-tincan              ipop-tincan              buzz::XmlElement::~XmlElement()
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::BasicPortAllocatorSession::OnNetworksChanged()
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::GetStunSuccessResponseType(int)
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::PingConnection(cricket::Connection*)
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::StunAddressAttribute::StunAddressAttribute(unsigned short, talk_base::SocketAddress const&)
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::StunByteStringAttribute::value_type() const
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::StunRequest::~StunRequest()
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::StunRequestManager::CheckResponse(char const*, unsigned long)
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::StunRequestManager::Remove(cricket::StunRequest*)
+6        3.4e-05  ipop-tincan              ipop-tincan              cricket::StunUInt64Attribute::StunUInt64Attribute(unsigned short, unsigned long)
+6        3.4e-05  ipop-tincan              ipop-tincan              non-virtual thunk to cricket::P2PTransportChannel::OnMessage(talk_base::Message*)
+6        3.4e-05  ipop-tincan              ipop-tincan              talk_base::IPAddress::ToString() const
+6        3.4e-05  ipop-tincan              ipop-tincan              unsigned long talk_base::sprintfn<char>(char*, unsigned long, char const*, ...)
+6        3.4e-05  kallsyms                 ipop-tincan              ___sys_recvmsg
+6        3.4e-05  kallsyms                 ipop-tincan              __d_alloc
+6        3.4e-05  kallsyms                 ipop-tincan              __mix_pool_bytes
+6        3.4e-05  kallsyms                 ipop-tincan              apparmor_socket_post_create
+6        3.4e-05  kallsyms                 ipop-tincan              insert_work
+6        3.4e-05  kallsyms                 ipop-tincan              int_with_check
+6        3.4e-05  kallsyms                 ipop-tincan              lru_add_drain_cpu
+6        3.4e-05  kallsyms                 ipop-tincan              netlink_autobind.isra.38
+6        3.4e-05  kallsyms                 ipop-tincan              page_remove_rmap
+6        3.4e-05  kallsyms                 ipop-tincan              release_pages
+6        3.4e-05  kallsyms                 ipop-tincan              retint_with_reschedule
+6        3.4e-05  kallsyms                 ipop-tincan              rh_timer_func
+6        3.4e-05  kallsyms                 ipop-tincan              rtnetlink_rcv_msg
+6        3.4e-05  kallsyms                 ipop-tincan              sock_prot_inuse_add
+6        3.4e-05  libc-2.19.so             ipop-tincan              sprintf
+6        3.4e-05  sudoers.so               sudo                     /usr/lib/sudo/sudoers.so
+5        2.8e-05  ip6_tables               ipop-tincan              /ip6_tables
+5        2.8e-05  ipop-tincan              ipop-tincan              ASN1_item_ex_d2i
+5        2.8e-05  ipop-tincan              ipop-tincan              EVP_MD_CTX_copy_ex
+5        2.8e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, cricket::StunRequest*>, string const>::_M_erase_aux(_Rb_tree_const_iterator<pair<string const, cricket::StunRequest*>>)
+5        2.8e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>, _Select1st<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>, less<string>, allocator<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>>::_M_get_insert_hint_unique_pos(_Rb_tree_const_iterator<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>, string const&)
+5        2.8e-05  ipop-tincan              ipop-tincan              bn_mul_words
+5        2.8e-05  ipop-tincan              ipop-tincan              cricket::Connection::set_use_candidate_attr(bool)
+5        2.8e-05  ipop-tincan              ipop-tincan              cricket::StunRequestManager::Send(cricket::StunRequest*)
+5        2.8e-05  ipop-tincan              ipop-tincan              cricket::StunUInt32Attribute::Write(talk_base::ByteBuffer*) const
+5        2.8e-05  ipop-tincan              ipop-tincan              cricket::StunXorAddressAttribute::Read(talk_base::ByteBuffer*)
+5        2.8e-05  ipop-tincan              ipop-tincan              init
+5        2.8e-05  ipop-tincan              ipop-tincan              talk_base::CompareNetworks(talk_base::Network const*, talk_base::Network const*)
+5        2.8e-05  ipop-tincan              ipop-tincan              talk_base::OpenSSLDigest::Finish(void*, unsigned long)
+5        2.8e-05  ipop-tincan              ipop-tincan              tls1_cbc_remove_padding
+5        2.8e-05  ipop-tincan              ipop-tincan              vector<talk_base::Network*>::_M_insert_aux(vector<talk_base::Network*>::iterator, talk_base::Network* const&)
+5        2.8e-05  kallsyms                 ipop-tincan              __call_rcu
+5        2.8e-05  kallsyms                 ipop-tincan              __do_page_fault
+5        2.8e-05  kallsyms                 ipop-tincan              __netlink_sendskb
+5        2.8e-05  kallsyms                 ipop-tincan              __qdisc_run
+5        2.8e-05  kallsyms                 ipop-tincan              __sock_create
+5        2.8e-05  kallsyms                 ipop-tincan              apparmor_sk_alloc_security
+5        2.8e-05  kallsyms                 ipop-tincan              clear_inode
+5        2.8e-05  kallsyms                 ipop-tincan              d_flags_for_inode
+5        2.8e-05  kallsyms                 ipop-tincan              evict
+5        2.8e-05  kallsyms                 ipop-tincan              ext4_finish_bio
+5        2.8e-05  kallsyms                 ipop-tincan              find_get_page
+5        2.8e-05  kallsyms                 ipop-tincan              generic_exec_single
+5        2.8e-05  kallsyms                 ipop-tincan              get_empty_filp
+5        2.8e-05  kallsyms                 ipop-tincan              inet_proto_csum_replace4
+5        2.8e-05  kallsyms                 ipop-tincan              inode_init_always
+5        2.8e-05  kallsyms                 ipop-tincan              mem_cgroup_charge_common
+5        2.8e-05  kallsyms                 ipop-tincan              netlink_lookup
+5        2.8e-05  kallsyms                 ipop-tincan              pfifo_fast_dequeue
+5        2.8e-05  kallsyms                 ipop-tincan              pid_vnr
+5        2.8e-05  kallsyms                 ipop-tincan              rcu_accelerate_cbs
+5        2.8e-05  kallsyms                 ipop-tincan              read_hpet
+5        2.8e-05  kallsyms                 ipop-tincan              sock_alloc
+5        2.8e-05  kallsyms                 ipop-tincan              sys_madvise
+5        2.8e-05  kallsyms                 sudo                     unmap_page_range
+5        2.8e-05  ld-2.19.so               ipop-tincan              do_lookup_x
+5        2.8e-05  ld-2.19.so               sudo                     strcmp
+5        2.8e-05  libc-2.19.so             ipop-tincan              getifaddrs
+5        2.8e-05  libc-2.19.so             ipop-tincan              inet_pton
+5        2.8e-05  nf_nat_ipv4              ipop-tincan              /nf_nat_ipv4
+4        2.2e-05  ipop-tincan              ipop-tincan              BN_is_bit_set
+4        2.2e-05  ipop-tincan              ipop-tincan              CRYPTO_THREADID_current
+4        2.2e-05  ipop-tincan              ipop-tincan              _Rb_tree<Json::Value::CZString, pair<Json::Value::CZString const, Json::Value>, Json::Value::CZString const>::find(Json::Value::CZString const&)
+4        2.2e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>, _Select1st<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>, less<string>, allocator<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>>::_M_erase(_Rb_tree_node<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>*)
+4        2.2e-05  ipop-tincan              ipop-tincan              buzz::XmlPrinterImpl::PrintElement(buzz::XmlElement const*)
+4        2.2e-05  ipop-tincan              ipop-tincan              buzz::XmppEngineImpl::EnterExit::~EnterExit()
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::AllocationSequence::DisableEquivalentPhases(talk_base::Network*, cricket::PortConfiguration*, unsigned int*)
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::Connection::OnSendStunPacket(void const*, unsigned long, cricket::StunRequest*)
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::Connection::set_read_state(cricket::Connection::ReadState)
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::GetStats(vector<cricket::ConnectionInfo>*)
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::GetUInt64(int) const
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::StunRequest::GetNextDelay()
+4        2.2e-05  ipop-tincan              ipop-tincan              cricket::StunXorAddressAttribute::value_type() const
+4        2.2e-05  ipop-tincan              ipop-tincan              talk_base::BasicNetworkManager::CreateNetworks(bool, vector<talk_base::Network*>*) const
+4        2.2e-05  ipop-tincan              ipop-tincan              talk_base::BasicNetworkManager::DoUpdateNetworks()
+4        2.2e-05  ipop-tincan              ipop-tincan              talk_base::BasicNetworkManager::IsIgnoredNetwork(talk_base::Network const&) const
+4        2.2e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::Consume(unsigned long)
+4        2.2e-05  ipop-tincan              ipop-tincan              talk_base::IPIsLoopback(talk_base::IPAddress const&)
+4        2.2e-05  ipop-tincan              ipop-tincan              talk_base::OpenSSLDigest::~OpenSSLDigest()
+4        2.2e-05  ipop-tincan              ipop-tincan              tls1_enc
+4        2.2e-05  ipop-tincan              ipop-tincan              type_str
+4        2.2e-05  kallsyms                 dash                     _raw_spin_lock
+4        2.2e-05  kallsyms                 ipop-tincan              SYSC_getsockname
+4        2.2e-05  kallsyms                 ipop-tincan              __d_instantiate
+4        2.2e-05  kallsyms                 ipop-tincan              __mem_cgroup_try_charge
+4        2.2e-05  kallsyms                 ipop-tincan              __netlink_create
+4        2.2e-05  kallsyms                 ipop-tincan              __pagevec_lru_add_fn
+4        2.2e-05  kallsyms                 ipop-tincan              __sk_free
+4        2.2e-05  kallsyms                 ipop-tincan              _raw_read_lock
+4        2.2e-05  kallsyms                 ipop-tincan              _raw_read_unlock_bh
+4        2.2e-05  kallsyms                 ipop-tincan              acpi_map_lookup
+4        2.2e-05  kallsyms                 ipop-tincan              alloc_file
+4        2.2e-05  kallsyms                 ipop-tincan              bit_waitqueue
+4        2.2e-05  kallsyms                 ipop-tincan              dev_get_phys_port_id
+4        2.2e-05  kallsyms                 ipop-tincan              down_read
+4        2.2e-05  kallsyms                 ipop-tincan              fsnotify_clear_marks_by_inode
+4        2.2e-05  kallsyms                 ipop-tincan              group_balance_cpu
+4        2.2e-05  kallsyms                 ipop-tincan              inet6_fill_link_af
+4        2.2e-05  kallsyms                 ipop-tincan              init_timer_key
+4        2.2e-05  kallsyms                 ipop-tincan              int_signal
+4        2.2e-05  kallsyms                 ipop-tincan              mem_cgroup_charge_statistics.isra.25
+4        2.2e-05  kallsyms                 ipop-tincan              netlink_create
+4        2.2e-05  kallsyms                 ipop-tincan              netlink_skb_destructor
+4        2.2e-05  kallsyms                 ipop-tincan              netlink_trim
+4        2.2e-05  kallsyms                 ipop-tincan              nla_reserve
+4        2.2e-05  kallsyms                 ipop-tincan              pfifo_fast_enqueue
+4        2.2e-05  kallsyms                 ipop-tincan              sk_alloc
+4        2.2e-05  kallsyms                 ipop-tincan              sock_init_data
+4        2.2e-05  kallsyms                 ipop-tincan              sys_close
+4        2.2e-05  kallsyms                 ipop-tincan              sys_socket
+4        2.2e-05  kallsyms                 ipop-tincan              task_work_add
+4        2.2e-05  kallsyms                 sudo                     vma_interval_tree_insert
+4        2.2e-05  ld-2.19.so               ipop-tincan              _dl_lookup_symbol_x
+4        2.2e-05  sudo                     sudo                     /usr/bin/sudo
+3        1.7e-05  ipop-tincan              ipop-tincan              BIO_read
+3        1.7e-05  ipop-tincan              ipop-tincan              BN_div
+3        1.7e-05  ipop-tincan              ipop-tincan              EVP_PKEY_CTX_dup
+3        1.7e-05  ipop-tincan              ipop-tincan              HMAC_CTX_copy
+3        1.7e-05  ipop-tincan              ipop-tincan              Json::StyledWriter::writeIndent()
+3        1.7e-05  ipop-tincan              ipop-tincan              Json::Value::CZString::~CZString()
+3        1.7e-05  ipop-tincan              ipop-tincan              Json::Value::Value(string const&)
+3        1.7e-05  ipop-tincan              ipop-tincan              SSL_read
+3        1.7e-05  ipop-tincan              ipop-tincan              _Rb_tree<Json::Value::CZString, pair<Json::Value::CZString const, Json::Value>, Json::Value::CZString const>::_M_get_insert_hint_unique_pos(_Rb_tree_const_iterator<pair<Json::Value::CZString const, Json::Value>>, Json::Value::CZString const&)
+3        1.7e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>, _Select1st<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>, less<string>, allocator<pair<string const, pair<talk_base::Network*, vector<talk_base::IPAddress>>>>>::_M_get_insert_unique_pos(string const&)
+3        1.7e-05  ipop-tincan              ipop-tincan              asn1_template_noexp_d2i
+3        1.7e-05  ipop-tincan              ipop-tincan              bn_add_words
+3        1.7e-05  ipop-tincan              ipop-tincan              bn_sub_words
+3        1.7e-05  ipop-tincan              ipop-tincan              buzz::XmlnsStack::PrefixForNs(string const&, bool)
+3        1.7e-05  ipop-tincan              ipop-tincan              buzz::XmlnsStack::PushFrame()
+3        1.7e-05  ipop-tincan              ipop-tincan              buzz::XmppClient::Private::WriteOutput(char const*, unsigned long)
+3        1.7e-05  ipop-tincan              ipop-tincan              buzz::XmppTask::NextStanza()
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::Connection::set_write_state(cricket::Connection::WriteState)
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::ConnectionRequest::GetNextDelay()
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::Port::CreateStunUsername(string const&, string*) const
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::Port::username_fragment() const
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::StunBindingRequest::OnResponse(cricket::StunMessage*)
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::StunBindingRequest::~StunBindingRequest()
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::GetAddress(int) const
+3        1.7e-05  ipop-tincan              ipop-tincan              cricket::StunRequest::Elapsed() const
+3        1.7e-05  ipop-tincan              ipop-tincan              map<string, int>::operator[](string const&)
+3        1.7e-05  ipop-tincan              ipop-tincan              pkey_hmac_copy
+3        1.7e-05  ipop-tincan              ipop-tincan              ssl3_read_bytes
+3        1.7e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ByteBuffer()
+3        1.7e-05  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::WriteUInt8(unsigned char)
+3        1.7e-05  ipop-tincan              ipop-tincan              talk_base::GetGlobalRng()
+3        1.7e-05  ipop-tincan              ipop-tincan              talk_base::Network::SetIPs(vector<talk_base::IPAddress> const&, bool)
+3        1.7e-05  ipop-tincan              ipop-tincan              talk_base::OpenSSLDigest::Update(void const*, unsigned long)
+3        1.7e-05  ipop-tincan              ipop-tincan              talk_base::Thread::Current()
+3        1.7e-05  ipop-tincan              ipop-tincan              tincan::ControllerAccess::SendState(string const&, bool, talk_base::SocketAddress const&)
+3        1.7e-05  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::StateToJson(string const&, unsigned int, bool)
+3        1.7e-05  ipop-tincan              ipop-tincan              vector<talk_base::IPAddress>::_M_insert_aux(vector<talk_base::IPAddress>::iterator, talk_base::IPAddress const&)
+3        1.7e-05  ipop-tincan              ipop-tincan              void __insertion_sort<vector<talk_base::Network*>::iterator, bool (*)(talk_base::Network const*, talk_base::Network const*)>(vector<talk_base::Network*>::iterator, vector<talk_base::Network*>::iterator, bool (*)(talk_base::Network const*, talk_base::Network const*))
+3        1.7e-05  ipop-tincan              ipop-tincan              void __unguarded_linear_insert<vector<talk_base::Network*>::iterator, bool (*)(talk_base::Network const*, talk_base::Network const*)>(vector<talk_base::Network*>::iterator, bool (*)(talk_base::Network const*, talk_base::Network const*))
+3        1.7e-05  kallsyms                 dash                     page_fault
+3        1.7e-05  kallsyms                 ipop-tincan              SYSC_bind
+3        1.7e-05  kallsyms                 ipop-tincan              __bitmap_equal
+3        1.7e-05  kallsyms                 ipop-tincan              __d_free
+3        1.7e-05  kallsyms                 ipop-tincan              __fput
+3        1.7e-05  kallsyms                 ipop-tincan              __init_waitqueue_head
+3        1.7e-05  kallsyms                 ipop-tincan              __nlmsg_put
+3        1.7e-05  kallsyms                 ipop-tincan              anon_vma_prepare
+3        1.7e-05  kallsyms                 ipop-tincan              apparmor_socket_getpeersec_dgram
+3        1.7e-05  kallsyms                 ipop-tincan              ata_qc_issue
+3        1.7e-05  kallsyms                 ipop-tincan              bictcp_state
+3        1.7e-05  kallsyms                 ipop-tincan              blk_complete_request
+3        1.7e-05  kallsyms                 ipop-tincan              cpupri_set
+3        1.7e-05  kallsyms                 ipop-tincan              d_set_d_op
+3        1.7e-05  kallsyms                 ipop-tincan              do_page_fault
+3        1.7e-05  kallsyms                 ipop-tincan              free_pages_and_swap_cache
+3        1.7e-05  kallsyms                 ipop-tincan              get_vma_policy
+3        1.7e-05  kallsyms                 ipop-tincan              ghes_copy_tofrom_phys
+3        1.7e-05  kallsyms                 ipop-tincan              inet6_dump_ifaddr
+3        1.7e-05  kallsyms                 ipop-tincan              ip6_append_data
+3        1.7e-05  kallsyms                 ipop-tincan              mem_cgroup_page_lruvec
+3        1.7e-05  kallsyms                 ipop-tincan              mntput
+3        1.7e-05  kallsyms                 ipop-tincan              neigh_update
+3        1.7e-05  kallsyms                 ipop-tincan              netdev_run_todo
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_compare
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_dump
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_getname
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_getsockbyportid
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_skb_set_owner_r
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_table_grab
+3        1.7e-05  kallsyms                 ipop-tincan              netlink_table_ungrab
+3        1.7e-05  kallsyms                 ipop-tincan              rcu_report_qs_rnp
+3        1.7e-05  kallsyms                 ipop-tincan              sock_alloc_file
+3        1.7e-05  kallsyms                 ipop-tincan              sock_destroy_inode
+3        1.7e-05  kallsyms                 ipop-tincan              sysret_signal
+3        1.7e-05  kallsyms                 ipop-tincan              tasklet_action
+3        1.7e-05  kallsyms                 ipop-tincan              tcp_any_retrans_done.part.27
+3        1.7e-05  kallsyms                 ipop-tincan              tcp_recvmsg
+3        1.7e-05  kallsyms                 ipop-tincan              tcp_sendmsg
+3        1.7e-05  kallsyms                 ipop-tincan              tcp_skb_mark_lost_uncond_verify
+3        1.7e-05  kallsyms                 ipop-tincan              try_module_get
+3        1.7e-05  kallsyms                 ipop-tincan              udpv6_recvmsg
+3        1.7e-05  kallsyms                 ipop-tincan              udpv6_sendmsg
+3        1.7e-05  kallsyms                 ipop-tincan              up_read
+3        1.7e-05  kallsyms                 ipop-tincan              wake_up_nohz_cpu
+3        1.7e-05  kallsyms                 sudo                     clear_page_c
+3        1.7e-05  kallsyms                 sudo                     copy_page_rep
+3        1.7e-05  kallsyms                 sudo                     prepare_creds
+3        1.7e-05  libc-2.19.so             ipop-tincan              __netlink_close
+3        1.7e-05  libc-2.19.so             ipop-tincan              msort_with_tmp.part.0
+3        1.7e-05  libpthread-2.19.so       ipop-tincan              pthread_getspecific
+2        1.1e-05  ipop-tincan              ipop-tincan              AES_cbc_encrypt
+2        1.1e-05  ipop-tincan              ipop-tincan              ASN1_get_object
+2        1.1e-05  ipop-tincan              ipop-tincan              ASN1_primitive_new
+2        1.1e-05  ipop-tincan              ipop-tincan              BN_mod_inverse
+2        1.1e-05  ipop-tincan              ipop-tincan              BN_num_bits_word
+2        1.1e-05  ipop-tincan              ipop-tincan              BN_rshift
+2        1.1e-05  ipop-tincan              ipop-tincan              BN_uadd
+2        1.1e-05  ipop-tincan              ipop-tincan              CRYPTO_THREADID_cpy
+2        1.1e-05  ipop-tincan              ipop-tincan              EVP_CIPHER_block_size
+2        1.1e-05  ipop-tincan              ipop-tincan              EVP_MD_CTX_copy
+2        1.1e-05  ipop-tincan              ipop-tincan              EVP_PKEY_CTX_free
+2        1.1e-05  ipop-tincan              ipop-tincan              Json::Reader::readToken(Json::Reader::Token&)
+2        1.1e-05  ipop-tincan              ipop-tincan              Json::StyledWriter::writeCommentBeforeValue(Json::Value const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              Json::Value::CZString::operator<(Json::Value::CZString const&) const
+2        1.1e-05  ipop-tincan              ipop-tincan              Json::Value::Value(Json::ValueType)
+2        1.1e-05  ipop-tincan              ipop-tincan              Json::valueToString(unsigned long long)
+2        1.1e-05  ipop-tincan              ipop-tincan              SHA1_Transform
+2        1.1e-05  ipop-tincan              ipop-tincan              X509_NAME_cmp
+2        1.1e-05  ipop-tincan              ipop-tincan              _Rb_tree<Json::Value::CZString, pair<Json::Value::CZString const, Json::Value>, Json::Value::CZString const>::_M_insert_unique_(_Rb_tree_const_iterator<pair<Json::Value::CZString const, Json::Value>>, pair<Json::Value::CZString const, Json::Value> const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, talk_base::scoped_refptr<talk_base::RefCountedObject<tincan::TinCanConnectionManager::PeerState>>>, _Select1st<pair<string const, talk_base::scoped_refptr<talk_base::RefCountedObject<tincan::TinCanConnectionManager::PeerState>>>>, less<string>, allocator<pair<string const, talk_base::scoped_refptr<talk_base::RefCountedObject<tincan::TinCanConnectionManager::PeerState>>>>>::_M_lower_bound(_Rb_tree_node<pair<string const, talk_base::scoped_refptr<talk_base::RefCountedObject<tincan::TinCanConnectionManager::PeerState>>>>*, _Rb_tree_node<pair<string const, talk_base::scoped_refptr<talk_base::RefCountedObject<tincan::TinCanConnectionManager::PeerState>>>>*, string const&) [clone .isra.242]
+2        1.1e-05  ipop-tincan              ipop-tincan              asn1_check_tlen
+2        1.1e-05  ipop-tincan              ipop-tincan              asn1_i2d_ex_primitive
+2        1.1e-05  ipop-tincan              ipop-tincan              asn1_item_ex_combine_new
+2        1.1e-05  ipop-tincan              ipop-tincan              asn1_template_ex_i2d
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::Jid::PrepDomainLabel(string::const_iterator, string::const_iterator, string*, bool*)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::Jid::PrepNodeAscii(char, bool*)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::PingTask::ProcessStart()
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::QName::QName(buzz::StaticQName const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::XmlParser::ParseContext::ResolveQName(char const*, bool)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::XmlnsStack::NsForPrefix(string const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::XmppClient::SendStanza(buzz::XmlElement const*)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::XmppEngineImpl::HandleIqResponse(buzz::XmlElement const*)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::XmppTask::MatchResponseIq(buzz::XmlElement const*, buzz::Jid const&, string const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              buzz::XmppTaskBase::GetClient()
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::BasicPortAllocatorSession::DisableEquivalentPhases(talk_base::Network*, cricket::PortConfiguration*, unsigned int*)
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::Candidate::~Candidate()
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunBindingRequest::OnTimeout()
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunByteStringAttribute::StunByteStringAttribute(unsigned short, string const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunMessage::AddFingerprint()
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunUInt32Attribute::~StunUInt32Attribute()
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunUInt64Attribute::Write(talk_base::ByteBuffer*) const
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunUInt64Attribute::value_type() const
+2        1.1e-05  ipop-tincan              ipop-tincan              cricket::StunUInt64Attribute::~StunUInt64Attribute()
+2        1.1e-05  ipop-tincan              ipop-tincan              err_string_data_LHASH_HASH
+2        1.1e-05  ipop-tincan              ipop-tincan              expand
+2        1.1e-05  ipop-tincan              ipop-tincan              int_err_set_item
+2        1.1e-05  ipop-tincan              ipop-tincan              non-virtual thunk to buzz::XmppClient::jid() const
+2        1.1e-05  ipop-tincan              ipop-tincan              sigslot::_connection0<cricket::BasicPortAllocatorSession, sigslot::single_threaded>::emit()
+2        1.1e-05  ipop-tincan              ipop-tincan              sigslot::_connection0<tincan::TinCanConnectionManager, sigslot::single_threaded>::emit()
+2        1.1e-05  ipop-tincan              ipop-tincan              sk_insert
+2        1.1e-05  ipop-tincan              ipop-tincan              ssl3_read
+2        1.1e-05  ipop-tincan              ipop-tincan              ssl3_read_n
+2        1.1e-05  ipop-tincan              ipop-tincan              ssl_cipher_apply_rule.isra.1
+2        1.1e-05  ipop-tincan              ipop-tincan              talk_base::CreateRandomString(unsigned long)
+2        1.1e-05  ipop-tincan              ipop-tincan              talk_base::MessageQueueManager::Instance()
+2        1.1e-05  ipop-tincan              ipop-tincan              talk_base::OpenSSLAdapter::Recv(void*, unsigned long)
+2        1.1e-05  ipop-tincan              ipop-tincan              talk_base::SocketAddress::SetIP(string const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              talk_base::SocketAddress::ToString() const
+2        1.1e-05  ipop-tincan              ipop-tincan              talk_base::Task::Wake()
+2        1.1e-05  ipop-tincan              ipop-tincan              tincan::TinCanXmppSocket::OnReadEvent(talk_base::AsyncSocket*)
+2        1.1e-05  ipop-tincan              ipop-tincan              tincan::TinCanXmppSocket::Read(char*, unsigned long, unsigned long*)
+2        1.1e-05  ipop-tincan              ipop-tincan              tincan::XmppNetwork::OnMessage(talk_base::Message*)
+2        1.1e-05  ipop-tincan              ipop-tincan              vector<cricket::ConnectionInfo>::_M_insert_aux(vector<cricket::ConnectionInfo>::iterator, cricket::ConnectionInfo const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              vector<talk_base::Network*>::operator=(vector<talk_base::Network*> const&)
+2        1.1e-05  ipop-tincan              ipop-tincan              vector<talk_base::Task*>::iterator remove<vector<talk_base::Task*>::iterator, talk_base::Task*>(vector<talk_base::Task*>::iterator, vector<talk_base::Task*>::iterator, talk_base::Task* const&)
+2        1.1e-05  kallsyms                 dash                     copy_page_rep
+2        1.1e-05  kallsyms                 dash                     free_pgd_range
+2        1.1e-05  kallsyms                 dash                     unmap_page_range
+2        1.1e-05  kallsyms                 ipop-tincan              __call_rcu_nocb_enqueue
+2        1.1e-05  kallsyms                 ipop-tincan              __close_fd
+2        1.1e-05  kallsyms                 ipop-tincan              __compute_runnable_contrib.part.51
+2        1.1e-05  kallsyms                 ipop-tincan              __mem_cgroup_count_vm_event
+2        1.1e-05  kallsyms                 ipop-tincan              __netif_schedule
+2        1.1e-05  kallsyms                 ipop-tincan              __netlink_dump_start
+2        1.1e-05  kallsyms                 ipop-tincan              __tcp_ack_snd_check
+2        1.1e-05  kallsyms                 ipop-tincan              __udp6_lib_lookup
+2        1.1e-05  kallsyms                 ipop-tincan              _atomic_dec_and_lock
+2        1.1e-05  kallsyms                 ipop-tincan              add_timer_on
+2        1.1e-05  kallsyms                 ipop-tincan              apei_check_gar
+2        1.1e-05  kallsyms                 ipop-tincan              apparmor_file_alloc_security
+2        1.1e-05  kallsyms                 ipop-tincan              apparmor_sk_free_security
+2        1.1e-05  kallsyms                 ipop-tincan              apparmor_socket_create
+2        1.1e-05  kallsyms                 ipop-tincan              arch_irq_work_raise
+2        1.1e-05  kallsyms                 ipop-tincan              ata_bmdma_interrupt
+2        1.1e-05  kallsyms                 ipop-tincan              ata_bmdma_status
+2        1.1e-05  kallsyms                 ipop-tincan              ata_qc_new_init
+2        1.1e-05  kallsyms                 ipop-tincan              ata_sff_tf_load
+2        1.1e-05  kallsyms                 ipop-tincan              call_function_single_interrupt
+2        1.1e-05  kallsyms                 ipop-tincan              cap_inode_alloc_security
+2        1.1e-05  kallsyms                 ipop-tincan              cap_netlink_send
+2        1.1e-05  kallsyms                 ipop-tincan              change_protection_range
+2        1.1e-05  kallsyms                 ipop-tincan              clear_bdi_congested
+2        1.1e-05  kallsyms                 ipop-tincan              cpumask_any_but
+2        1.1e-05  kallsyms                 ipop-tincan              create_pipe_files
+2        1.1e-05  kallsyms                 ipop-tincan              cursor_timer_handler
+2        1.1e-05  kallsyms                 ipop-tincan              dentry_free
+2        1.1e-05  kallsyms                 ipop-tincan              dev_get_flags
+2        1.1e-05  kallsyms                 ipop-tincan              dput
+2        1.1e-05  kallsyms                 ipop-tincan              fib6_lookup_1
+2        1.1e-05  kallsyms                 ipop-tincan              filp_close
+2        1.1e-05  kallsyms                 ipop-tincan              get_pwq.isra.20
+2        1.1e-05  kallsyms                 ipop-tincan              ghes_read_estatus
+2        1.1e-05  kallsyms                 ipop-tincan              handle_new_recv_msgs
+2        1.1e-05  kallsyms                 ipop-tincan              inode_has_buffers
+2        1.1e-05  kallsyms                 ipop-tincan              inode_wait_for_writeback
+2        1.1e-05  kallsyms                 ipop-tincan              int_check_syscall_exit_work
+2        1.1e-05  kallsyms                 ipop-tincan              ioremap_page_range
+2        1.1e-05  kallsyms                 ipop-tincan              iowrite32
+2        1.1e-05  kallsyms                 ipop-tincan              ip6_push_pending_frames
+2        1.1e-05  kallsyms                 ipop-tincan              iput
+2        1.1e-05  kallsyms                 ipop-tincan              lockref_put_or_lock
+2        1.1e-05  kallsyms                 ipop-tincan              mem_cgroup_uncharge_start
+2        1.1e-05  kallsyms                 ipop-tincan              mem_cgroup_update_page_stat
+2        1.1e-05  kallsyms                 ipop-tincan              memcg_check_events
+2        1.1e-05  kallsyms                 ipop-tincan              native_set_pte_at
+2        1.1e-05  kallsyms                 ipop-tincan              netlink_alloc_skb
+2        1.1e-05  kallsyms                 ipop-tincan              netlink_broadcast_filtered
+2        1.1e-05  kallsyms                 ipop-tincan              netlink_rcv_wake
+2        1.1e-05  kallsyms                 ipop-tincan              netlink_unicast
+2        1.1e-05  kallsyms                 ipop-tincan              nla_nest_start
+2        1.1e-05  kallsyms                 ipop-tincan              pagevec_lru_move_fn
+2        1.1e-05  kallsyms                 ipop-tincan              put_cacheinfo
+2        1.1e-05  kallsyms                 ipop-tincan              rcu_gp_kthread_wake
+2        1.1e-05  kallsyms                 ipop-tincan              rtnl_calcit
+2        1.1e-05  kallsyms                 ipop-tincan              scsi_finish_command
+2        1.1e-05  kallsyms                 ipop-tincan              scsi_sg_free
+2        1.1e-05  kallsyms                 ipop-tincan              scsi_softirq_done
+2        1.1e-05  kallsyms                 ipop-tincan              security_file_alloc
+2        1.1e-05  kallsyms                 ipop-tincan              security_socket_create
+2        1.1e-05  kallsyms                 ipop-tincan              sk_prot_alloc
+2        1.1e-05  kallsyms                 ipop-tincan              swiotlb_map_sg_attrs
+2        1.1e-05  kallsyms                 ipop-tincan              swiotlb_unmap_sg_attrs
+2        1.1e-05  kallsyms                 ipop-tincan              sync_mm_rss
+2        1.1e-05  kallsyms                 ipop-tincan              sys_bind
+2        1.1e-05  kallsyms                 ipop-tincan              sys_recvmsg
+2        1.1e-05  kallsyms                 ipop-tincan              tcp_delack_timer_handler
+2        1.1e-05  kallsyms                 ipop-tincan              tcp_init_nondata_skb
+2        1.1e-05  kallsyms                 ipop-tincan              uhci_set_next_interrupt
+2        1.1e-05  kallsyms                 ipop-tincan              unlock_page
+2        1.1e-05  kallsyms                 ipop-tincan              verify_iovec
+2        1.1e-05  kallsyms                 ipop-tincan              vm_normal_page
+2        1.1e-05  kallsyms                 ipop-tincan              wq_worker_waking_up
+2        1.1e-05  kallsyms                 ipop-tincan              zap_page_range
+2        1.1e-05  kallsyms                 sudo                     copy_user_generic_string
+2        1.1e-05  kallsyms                 sudo                     do_dentry_open
+2        1.1e-05  kallsyms                 sudo                     find_get_page
+2        1.1e-05  kallsyms                 sudo                     find_vma
+2        1.1e-05  kallsyms                 sudo                     get_page_from_freelist
+2        1.1e-05  kallsyms                 sudo                     perf_event_aux_ctx
+2        1.1e-05  kallsyms                 sudo                     snmp_fold_field
+2        1.1e-05  kallsyms                 sudo                     vma_adjust
+2        1.1e-05  kallsyms                 sudo                     vma_interval_tree_remove
+2        1.1e-05  ld-2.19.so               sudo                     _dl_lookup_symbol_x
+2        1.1e-05  ld-2.19.so               sudo                     _dl_relocate_object
+2        1.1e-05  ld-2.19.so               sudo                     check_match.9458
+2        1.1e-05  libc-2.19.so             ipop-tincan              __GI___mempcpy
+2        1.1e-05  libc-2.19.so             ipop-tincan              memchr
+2        1.1e-05  libc-2.19.so             ipop-tincan              recvmsg
+2        1.1e-05  libc-2.19.so             ipop-tincan              sendto
+2        1.1e-05  libc-2.19.so             ipop-tincan              socket
+2        1.1e-05  libc-2.19.so             sudo                     malloc
+2        1.1e-05  libpthread-2.19.so       ipop-tincan              pthread_mutex_init
+2        1.1e-05  pam_umask.so             sudo                     /lib/x86_64-linux-gnu/security/pam_umask.so
+1        5.6e-06  ipop-tincan              ipop-tincan              ASN1_item_new
+1        5.6e-06  ipop-tincan              ipop-tincan              ASN1_mbstring_copy
+1        5.6e-06  ipop-tincan              ipop-tincan              BIO_write
+1        5.6e-06  ipop-tincan              ipop-tincan              BN_num_bits
+1        5.6e-06  ipop-tincan              ipop-tincan              BN_rshift1
+1        5.6e-06  ipop-tincan              ipop-tincan              BN_set_bit
+1        5.6e-06  ipop-tincan              ipop-tincan              BN_sub
+1        5.6e-06  ipop-tincan              ipop-tincan              BN_usub
+1        5.6e-06  ipop-tincan              ipop-tincan              ERR_get_state
+1        5.6e-06  ipop-tincan              ipop-tincan              EVP_MD_CTX_md
+1        5.6e-06  ipop-tincan              ipop-tincan              HMAC_CTX_cleanup
+1        5.6e-06  ipop-tincan              ipop-tincan              HMAC_Init_ex
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Reader::decodeString(Json::Reader::Token&, string&)
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Reader::parse(char const*, char const*, Json::Value&, bool)
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Reader::readObject(Json::Reader::Token&)
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Reader::readValue()
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::StyledWriter::indent()
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Value::Value(long long)
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Value::asUInt64() const
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Value::operator=(Json::Value const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Value::operator[](int) const
+1        5.6e-06  ipop-tincan              ipop-tincan              Json::Value::size() const
+1        5.6e-06  ipop-tincan              ipop-tincan              OBJ_bsearch_ex_
+1        5.6e-06  ipop-tincan              ipop-tincan              OBJ_nid2sn
+1        5.6e-06  ipop-tincan              ipop-tincan              SSL_SRP_CTX_init
+1        5.6e-06  ipop-tincan              ipop-tincan              SSL_get_error
+1        5.6e-06  ipop-tincan              ipop-tincan              SSL_write
+1        5.6e-06  ipop-tincan              ipop-tincan              X509_VERIFY_PARAM_lookup
+1        5.6e-06  ipop-tincan              ipop-tincan              _Deque_base<Json::Value*, allocator<Json::Value*>>::_M_initialize_map(unsigned long)
+1        5.6e-06  ipop-tincan              ipop-tincan              _Rb_tree<string, pair<string const, unsigned int>, string const>::_M_copy(_Rb_tree_node<pair<string const, unsigned int>> const*, _Rb_tree_node<pair<string const, unsigned int>>*)
+1        5.6e-06  ipop-tincan              ipop-tincan              _x86_64_AES_decrypt
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_d2i_ex_primitive
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_do_adb
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_enc_init
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_enc_restore
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_ex_c2i
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_ex_i2c
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_get_field_ptr
+1        5.6e-06  ipop-tincan              ipop-tincan              asn1_template_ex_d2i
+1        5.6e-06  ipop-tincan              ipop-tincan              bn_mul_mont
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::Jid::BareJid() const
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::Jid::Jid(string const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::Jid::PrepDomainLabelAscii(char, bool*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::Jid::PrepResource(string const&, bool*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::Jid::ValidateOrReset()
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlBuilder::EndElement(buzz::XmlParseContext*, char const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlBuilder::StartElement(buzz::XmlParseContext*, char const*, char const**)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlElement::~XmlElement()
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlParser::ExpatCharacterData(char const*, int)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlParser::ExpatEndElement(char const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlParser::Parse(char const*, unsigned long, bool)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlPrinterImpl::PrintQuotedValue(string const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlnsStack::AddNewPrefix(string const&, bool)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlnsStack::PopFrame()
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmlnsStack::PrefixMatchesNs(string const&, string const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppClient::Private::OnSocketRead()
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppEngineImpl::IncomingStanza(buzz::XmlElement const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppEngineImpl::SendStanza(buzz::XmlElement const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppPump::WakeTasks()
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppStanzaParser::IncomingEndElement(buzz::XmlParseContext*, char const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppStanzaParser::IncomingStartElement(buzz::XmlParseContext*, char const*, char const**)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppStanzaParser::ParseHandler::EndElement(buzz::XmlParseContext*, char const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppStanzaParser::ParseHandler::StartElement(buzz::XmlParseContext*, char const*, char const**)
+1        5.6e-06  ipop-tincan              ipop-tincan              buzz::XmppTask::SendStanza(buzz::XmlElement const*)
+1        5.6e-06  ipop-tincan              ipop-tincan              cpy_utf8
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::AllocationSequence::OnMessage(talk_base::Message*)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::Candidate::operator=(cricket::Candidate const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::ConnectionInfo::ConnectionInfo(cricket::ConnectionInfo const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::ConnectionRequest::~ConnectionRequest()
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::P2PTransportChannel::GetBestConnectionOnNetwork(talk_base::Network*)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::Port::Candidates() const
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::Port::SendBindingErrorResponse(cricket::StunMessage*, talk_base::SocketAddress const&, int, string const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunAttribute::SetOwner(cricket::StunMessage*)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunAttribute::WritePadding(talk_base::ByteBuffer*) const
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunMessage::CreateNew() const
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunMessage::GetUInt32(int) const
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunMessage::SetTransactionID(string const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunMessage::~StunMessage()
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::StunUInt32Attribute::value_type() const
+1        5.6e-06  ipop-tincan              ipop-tincan              cricket::UDPPort::OnStunBindingRequestSucceeded(talk_base::SocketAddress const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              err_load_strings
+1        5.6e-06  ipop-tincan              ipop-tincan              ex_class_item_LHASH_HASH
+1        5.6e-06  ipop-tincan              ipop-tincan              get_error_values
+1        5.6e-06  ipop-tincan              ipop-tincan              hmac_signctx
+1        5.6e-06  ipop-tincan              ipop-tincan              int_ctx_new
+1        5.6e-06  ipop-tincan              ipop-tincan              int_free_ex_data
+1        5.6e-06  ipop-tincan              ipop-tincan              load_builtin_compressions
+1        5.6e-06  ipop-tincan              ipop-tincan              md5_block_asm_data_order
+1        5.6e-06  ipop-tincan              ipop-tincan              non-virtual thunk to buzz::XmppClient::Private::WriteOutput(char const*, unsigned long)
+1        5.6e-06  ipop-tincan              ipop-tincan              non-virtual thunk to buzz::XmppPump::WakeTasks()
+1        5.6e-06  ipop-tincan              ipop-tincan              non-virtual thunk to tincan::XmppNetwork::OnMessage(talk_base::Message*)
+1        5.6e-06  ipop-tincan              ipop-tincan              obj_cmp_BSEARCH_CMP_FN
+1        5.6e-06  ipop-tincan              ipop-tincan              pkey_hmac_cleanup
+1        5.6e-06  ipop-tincan              ipop-tincan              sigslot::_connection0<buzz::XmppClient::Private, sigslot::single_threaded>::emit()
+1        5.6e-06  ipop-tincan              ipop-tincan              sigslot::_connection1<talk_base::AsyncSocketAdapter, talk_base::AsyncSocket*, sigslot::multi_threaded_local>::emit(talk_base::AsyncSocket*)
+1        5.6e-06  ipop-tincan              ipop-tincan              sigslot::_connection1<tincan::TinCanXmppSocket, talk_base::AsyncSocket*, sigslot::multi_threaded_local>::emit(talk_base::AsyncSocket*)
+1        5.6e-06  ipop-tincan              ipop-tincan              sigslot::_connection3<cricket::Connection, void const*, unsigned long, cricket::StunRequest*, sigslot::single_threaded>::emit(void const*, unsigned long, cricket::StunRequest*)
+1        5.6e-06  ipop-tincan              ipop-tincan              sigslot::_connection5<tincan::ControllerAccess, talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketTime const&, sigslot::single_threaded>::emit(talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketTime const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              sigslot::has_slots<sigslot::single_threaded>::signal_disconnect(sigslot::_signal_base_interface*)
+1        5.6e-06  ipop-tincan              ipop-tincan              sk_new
+1        5.6e-06  ipop-tincan              ipop-tincan              ssl3_read_internal
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::BasicNetworkManager::OnMessage(talk_base::Message*)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::ReadUInt32(unsigned int*)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::WriteUInt64(unsigned long)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::ByteBuffer::~ByteBuffer()
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::IPAddress::v4AddressAsHostOrderInteger() const
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::MessageQueue::MessageQueue(talk_base::SocketServer*)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::MessageQueueManager::Clear(talk_base::MessageHandler*)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::NetworkManagerBase::GetNetworks(vector<talk_base::Network*>*) const
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::PhysicalSocket::Recv(void*, unsigned long)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::RateTracker::total_units() const
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::SocketAddress::IsNil() const
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::SocketAddress::SocketAddress(string const&, int)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::SocketAddress::port() const
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::Task::Step()
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::Task::TimedOut()
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::Thread::Thread(talk_base::SocketServer*)
+1        5.6e-06  ipop-tincan              ipop-tincan              talk_base::operator<<(ostream&, talk_base::SocketAddress const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              tincan::ControllerAccess::HandlePacket(talk_base::AsyncPacketSocket*, char const*, unsigned long, talk_base::SocketAddress const&, talk_base::PacketTime const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              tincan::ControllerAccess::SendTo(char const*, unsigned long, talk_base::SocketAddress const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              tincan::TinCanConnectionManager::GetChannelStats_w(string const&, vector<cricket::ConnectionInfo>*)
+1        5.6e-06  ipop-tincan              ipop-tincan              tincan::TinCanXmppSocket::OnWriteEvent(talk_base::AsyncSocket*)
+1        5.6e-06  ipop-tincan              ipop-tincan              tls1_sha1_final_raw
+1        5.6e-06  ipop-tincan              ipop-tincan              vector<string>::_M_insert_aux(vector<string>::iterator, string const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              vector<talk_base::Dispatcher*>::_M_insert_aux(vector<talk_base::Dispatcher*>::iterator, talk_base::Dispatcher* const&)
+1        5.6e-06  ipop-tincan              ipop-tincan              void __insertion_sort<vector<cricket::Connection*>::iterator, ConnectionCompare>(vector<cricket::Connection*>::iterator, vector<cricket::Connection*>::iterator, ConnectionCompare) [clone .isra.263]
+1        5.6e-06  ipop-tincan              ipop-tincan              void __introsort_loop<vector<talk_base::Network*>::iterator, long, bool (*)(talk_base::Network const*, talk_base::Network const*)>(vector<talk_base::Network*>::iterator, vector<talk_base::Network*>::iterator, long, bool (*)(talk_base::Network const*, talk_base::Network const*))
+1        5.6e-06  ipop-tincan              ipop-tincan              x509_cb
+1        5.6e-06  ipop-tincan              ipop-tincan              x509_name_canon
+1        5.6e-06  ipop-tincan              ipop-tincan              x509_name_ex_d2i
+1        5.6e-06  ipop-tincan              ipop-tincan              x509_object_cmp
+1        5.6e-06  kallsyms                 dash                     __call_rcu
+1        5.6e-06  kallsyms                 dash                     __d_lookup_rcu
+1        5.6e-06  kallsyms                 dash                     __rb_erase_color
+1        5.6e-06  kallsyms                 dash                     __slab_free
+1        5.6e-06  kallsyms                 dash                     copy_page_range
+1        5.6e-06  kallsyms                 dash                     find_get_page
+1        5.6e-06  kallsyms                 dash                     find_vma
+1        5.6e-06  kallsyms                 dash                     flush_tlb_page
+1        5.6e-06  kallsyms                 dash                     get_empty_filp
+1        5.6e-06  kallsyms                 dash                     handle_mm_fault
+1        5.6e-06  kallsyms                 dash                     md5_transform
+1        5.6e-06  kallsyms                 dash                     page_remove_rmap
+1        5.6e-06  kallsyms                 dash                     pagevec_lru_move_fn
+1        5.6e-06  kallsyms                 dash                     proc_lookup_de
+1        5.6e-06  kallsyms                 dash                     sock_release
+1        5.6e-06  kallsyms                 dash                     unlink_file_vma
+1        5.6e-06  kallsyms                 dash                     up_read
+1        5.6e-06  kallsyms                 dash                     vma_compute_subtree_gap
+1        5.6e-06  kallsyms                 dash                     vma_interval_tree_insert
+1        5.6e-06  kallsyms                 dash                     vma_interval_tree_remove
+1        5.6e-06  kallsyms                 ipop-tincan              ____fput
+1        5.6e-06  kallsyms                 ipop-tincan              __alloc_fd
+1        5.6e-06  kallsyms                 ipop-tincan              __ata_qc_complete
+1        5.6e-06  kallsyms                 ipop-tincan              __ata_sff_port_intr
+1        5.6e-06  kallsyms                 ipop-tincan              __bitmap_empty
+1        5.6e-06  kallsyms                 ipop-tincan              __blk_segment_map_sg
+1        5.6e-06  kallsyms                 ipop-tincan              __copy_user_nocache
+1        5.6e-06  kallsyms                 ipop-tincan              __d_drop
+1        5.6e-06  kallsyms                 ipop-tincan              __dec_zone_page_state
+1        5.6e-06  kallsyms                 ipop-tincan              __destroy_inode
+1        5.6e-06  kallsyms                 ipop-tincan              __mutex_init
+1        5.6e-06  kallsyms                 ipop-tincan              __neigh_event_send
+1        5.6e-06  kallsyms                 ipop-tincan              __percpu_counter_sum
+1        5.6e-06  kallsyms                 ipop-tincan              __scsi_release_buffers
+1        5.6e-06  kallsyms                 ipop-tincan              __sg_free_table
+1        5.6e-06  kallsyms                 ipop-tincan              __split_huge_page
+1        5.6e-06  kallsyms                 ipop-tincan              __sw_hweight64
+1        5.6e-06  kallsyms                 ipop-tincan              __sys_recvmsg
+1        5.6e-06  kallsyms                 ipop-tincan              __tlb_remove_page
+1        5.6e-06  kallsyms                 ipop-tincan              __udp6_lib_rcv
+1        5.6e-06  kallsyms                 ipop-tincan              __udpv6_queue_rcv_skb
+1        5.6e-06  kallsyms                 ipop-tincan              __xfrm_decode_session
+1        5.6e-06  kallsyms                 ipop-tincan              _raw_write_lock_bh
+1        5.6e-06  kallsyms                 ipop-tincan              _raw_write_unlock_bh
+1        5.6e-06  kallsyms                 ipop-tincan              acpi_os_read_memory
+1        5.6e-06  kallsyms                 ipop-tincan              add_disk_randomness
+1        5.6e-06  kallsyms                 ipop-tincan              apic_send_IPI_self
+1        5.6e-06  kallsyms                 ipop-tincan              apparmor_file_free_security
+1        5.6e-06  kallsyms                 ipop-tincan              arp_process
+1        5.6e-06  kallsyms                 ipop-tincan              ata_bmdma_irq_clear
+1        5.6e-06  kallsyms                 ipop-tincan              ata_bmdma_qc_issue
+1        5.6e-06  kallsyms                 ipop-tincan              ata_bmdma_qc_prep
+1        5.6e-06  kallsyms                 ipop-tincan              ata_bmdma_start
+1        5.6e-06  kallsyms                 ipop-tincan              ata_build_rw_tf
+1        5.6e-06  kallsyms                 ipop-tincan              ata_scsi_qc_complete
+1        5.6e-06  kallsyms                 ipop-tincan              ata_scsi_queuecmd
+1        5.6e-06  kallsyms                 ipop-tincan              ata_scsi_rw_xlat
+1        5.6e-06  kallsyms                 ipop-tincan              ata_sg_clean
+1        5.6e-06  kallsyms                 ipop-tincan              bio_advance
+1        5.6e-06  kallsyms                 ipop-tincan              bio_put
+1        5.6e-06  kallsyms                 ipop-tincan              blk_account_io_completion
+1        5.6e-06  kallsyms                 ipop-tincan              blk_done_softirq
+1        5.6e-06  kallsyms                 ipop-tincan              blk_finish_request
+1        5.6e-06  kallsyms                 ipop-tincan              blk_flush_plug_list
+1        5.6e-06  kallsyms                 ipop-tincan              blk_rq_map_sg
+1        5.6e-06  kallsyms                 ipop-tincan              blk_start_plug
+1        5.6e-06  kallsyms                 ipop-tincan              blk_update_bidi_request
+1        5.6e-06  kallsyms                 ipop-tincan              copy_page_rep
+1        5.6e-06  kallsyms                 ipop-tincan              csum_partial_copy_generic
+1        5.6e-06  kallsyms                 ipop-tincan              d_alloc_pseudo
+1        5.6e-06  kallsyms                 ipop-tincan              dequeue_rt_stack
+1        5.6e-06  kallsyms                 ipop-tincan              destroy_inode
+1        5.6e-06  kallsyms                 ipop-tincan              dev_uevent
+1        5.6e-06  kallsyms                 ipop-tincan              do_munmap
+1        5.6e-06  kallsyms                 ipop-tincan              down_read_trylock
+1        5.6e-06  kallsyms                 ipop-tincan              end_buffer_async_write
+1        5.6e-06  kallsyms                 ipop-tincan              end_page_writeback
+1        5.6e-06  kallsyms                 ipop-tincan              enqueue_task_rt
+1        5.6e-06  kallsyms                 ipop-tincan              ext4_release_io_end
+1        5.6e-06  kallsyms                 ipop-tincan              fd_install
+1        5.6e-06  kallsyms                 ipop-tincan              fib6_get_table
+1        5.6e-06  kallsyms                 ipop-tincan              fib6_ifdown
+1        5.6e-06  kallsyms                 ipop-tincan              fib_create_info
+1        5.6e-06  kallsyms                 ipop-tincan              fib_table_flush
+1        5.6e-06  kallsyms                 ipop-tincan              filemap_fault
+1        5.6e-06  kallsyms                 ipop-tincan              find_entry.isra.9
+1        5.6e-06  kallsyms                 ipop-tincan              find_next_zero_bit
+1        5.6e-06  kallsyms                 ipop-tincan              find_vma_prev
+1        5.6e-06  kallsyms                 ipop-tincan              fire_user_return_notifiers
+1        5.6e-06  kallsyms                 ipop-tincan              flush_signal_handlers
+1        5.6e-06  kallsyms                 ipop-tincan              follow_page_mask
+1        5.6e-06  kallsyms                 ipop-tincan              generic_file_aio_read
+1        5.6e-06  kallsyms                 ipop-tincan              get_device
+1        5.6e-06  kallsyms                 ipop-tincan              get_next_ino
+1        5.6e-06  kallsyms                 ipop-tincan              get_unused_fd_flags
+1        5.6e-06  kallsyms                 ipop-tincan              getname_flags
+1        5.6e-06  kallsyms                 ipop-tincan              handle_fasteoi_irq
+1        5.6e-06  kallsyms                 ipop-tincan              ima_file_free
+1        5.6e-06  kallsyms                 ipop-tincan              ima_file_mmap
+1        5.6e-06  kallsyms                 ipop-tincan              ima_get_action
+1        5.6e-06  kallsyms                 ipop-tincan              inc_zone_page_state
+1        5.6e-06  kallsyms                 ipop-tincan              inet_bind_hash
+1        5.6e-06  kallsyms                 ipop-tincan              inet_frag_secret_rebuild
+1        5.6e-06  kallsyms                 ipop-tincan              inode_permission
+1        5.6e-06  kallsyms                 ipop-tincan              insert_header
+1        5.6e-06  kallsyms                 ipop-tincan              integrity_inode_free
+1        5.6e-06  kallsyms                 ipop-tincan              ip6_dst_hoplimit
+1        5.6e-06  kallsyms                 ipop-tincan              ip6_pol_route_output
+1        5.6e-06  kallsyms                 ipop-tincan              ipv6_fixup_options
+1        5.6e-06  kallsyms                 ipop-tincan              ipv6_rcv
+1        5.6e-06  kallsyms                 ipop-tincan              journal_end_buffer_io_sync
+1        5.6e-06  kallsyms                 ipop-tincan              kobject_put
+1        5.6e-06  kallsyms                 ipop-tincan              kobject_uevent_env
+1        5.6e-06  kallsyms                 ipop-tincan              kvm_check_and_clear_guest_paused
+1        5.6e-06  kallsyms                 ipop-tincan              kzfree
+1        5.6e-06  kallsyms                 ipop-tincan              legitimize_mnt
+1        5.6e-06  kallsyms                 ipop-tincan              link_path_walk
+1        5.6e-06  kallsyms                 ipop-tincan              lockref_get
+1        5.6e-06  kallsyms                 ipop-tincan              lockref_mark_dead
+1        5.6e-06  kallsyms                 ipop-tincan              locks_remove_posix
+1        5.6e-06  kallsyms                 ipop-tincan              loopback_xmit
+1        5.6e-06  kallsyms                 ipop-tincan              lru_add_page_tail
+1        5.6e-06  kallsyms                 ipop-tincan              make_kuid
+1        5.6e-06  kallsyms                 ipop-tincan              map_id_down
+1        5.6e-06  kallsyms                 ipop-tincan              md5_transform
+1        5.6e-06  kallsyms                 ipop-tincan              mem_cgroup_newpage_charge
+1        5.6e-06  kallsyms                 ipop-tincan              mem_cgroup_uncharge_end
+1        5.6e-06  kallsyms                 ipop-tincan              mem_cgroup_uncharge_page
+1        5.6e-06  kallsyms                 ipop-tincan              memcpy_fromiovec
+1        5.6e-06  kallsyms                 ipop-tincan              mempool_alloc
+1        5.6e-06  kallsyms                 ipop-tincan              mm_update_next_owner
+1        5.6e-06  kallsyms                 ipop-tincan              mmap_region
+1        5.6e-06  kallsyms                 ipop-tincan              mntput_no_expire
+1        5.6e-06  kallsyms                 ipop-tincan              module_put
+1        5.6e-06  kallsyms                 ipop-tincan              native_apic_mem_read
+1        5.6e-06  kallsyms                 ipop-tincan              neigh_flush_dev.isra.36
+1        5.6e-06  kallsyms                 ipop-tincan              neigh_lookup
+1        5.6e-06  kallsyms                 ipop-tincan              neigh_timer_handler
+1        5.6e-06  kallsyms                 ipop-tincan              net_tx_action
+1        5.6e-06  kallsyms                 ipop-tincan              netlink_sock_destruct
+1        5.6e-06  kallsyms                 ipop-tincan              nla_parse
+1        5.6e-06  kallsyms                 ipop-tincan              nla_put_string
+1        5.6e-06  kallsyms                 ipop-tincan              page_add_file_rmap
+1        5.6e-06  kallsyms                 ipop-tincan              page_add_new_anon_rmap
+1        5.6e-06  kallsyms                 ipop-tincan              page_mapping
+1        5.6e-06  kallsyms                 ipop-tincan              page_waitqueue
+1        5.6e-06  kallsyms                 ipop-tincan              path_get
+1        5.6e-06  kallsyms                 ipop-tincan              path_init
+1        5.6e-06  kallsyms                 ipop-tincan              pcpu_alloc_area
+1        5.6e-06  kallsyms                 ipop-tincan              perf_event_alloc
+1        5.6e-06  kallsyms                 ipop-tincan              perf_event_aux
+1        5.6e-06  kallsyms                 ipop-tincan              perf_event_aux_ctx
+1        5.6e-06  kallsyms                 ipop-tincan              perf_event_mmap
+1        5.6e-06  kallsyms                 ipop-tincan              put_dec_trunc8
+1        5.6e-06  kallsyms                 ipop-tincan              put_pid
+1        5.6e-06  kallsyms                 ipop-tincan              radix_tree_tag_clear
+1        5.6e-06  kallsyms                 ipop-tincan              release_sock
+1        5.6e-06  kallsyms                 ipop-tincan              res_counter_uncharge_until
+1        5.6e-06  kallsyms                 ipop-tincan              rtnetlink_rcv
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_decide_disposition
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_init_cmd_errh
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_init_io
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_io_completion
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_prep_state_check
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_put_command
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_request_fn
+1        5.6e-06  kallsyms                 ipop-tincan              scsi_setup_fs_cmnd
+1        5.6e-06  kallsyms                 ipop-tincan              security_file_ioctl
+1        5.6e-06  kallsyms                 ipop-tincan              security_inode_alloc
+1        5.6e-06  kallsyms                 ipop-tincan              select_task_rq_rt
+1        5.6e-06  kallsyms                 ipop-tincan              sg_next
+1        5.6e-06  kallsyms                 ipop-tincan              sha_transform
+1        5.6e-06  kallsyms                 ipop-tincan              sk_clone_lock
+1        5.6e-06  kallsyms                 ipop-tincan              sk_dst_check
+1        5.6e-06  kallsyms                 ipop-tincan              sk_setup_caps
+1        5.6e-06  kallsyms                 ipop-tincan              strlcpy
+1        5.6e-06  kallsyms                 ipop-tincan              swiotlb_tbl_map_single
+1        5.6e-06  kallsyms                 ipop-tincan              sys_pipe
+1        5.6e-06  kallsyms                 ipop-tincan              sysfs_create_link
+1        5.6e-06  kallsyms                 ipop-tincan              task_work_run
+1        5.6e-06  kallsyms                 ipop-tincan              tcp4_gro_receive
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_check_req
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_create_openreq_child
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_event_data_recv
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_gro_receive
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_queue_rcv
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_rcv_state_process
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_release_cb
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_send_ack
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_send_delayed_ack
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_send_mss
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_slow_start
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_update_metrics
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_v4_destroy_sock
+1        5.6e-06  kallsyms                 ipop-tincan              tcp_write_timer
+1        5.6e-06  kallsyms                 ipop-tincan              test_clear_page_writeback
+1        5.6e-06  kallsyms                 ipop-tincan              tlb_flush_mmu.part.57
+1        5.6e-06  kallsyms                 ipop-tincan              udp_v6_push_pending_frames
+1        5.6e-06  kallsyms                 ipop-tincan              unlink_file_vma
+1        5.6e-06  kallsyms                 ipop-tincan              unmap_single_vma
+1        5.6e-06  kallsyms                 ipop-tincan              update_cfs_rq_h_load
+1        5.6e-06  kallsyms                 ipop-tincan              vm_get_page_prot
+1        5.6e-06  kallsyms                 ipop-tincan              vma_adjust
+1        5.6e-06  kallsyms                 ipop-tincan              vma_compute_subtree_gap
+1        5.6e-06  kallsyms                 ipop-tincan              vma_interval_tree_insert
+1        5.6e-06  kallsyms                 ipop-tincan              vma_interval_tree_remove
+1        5.6e-06  kallsyms                 ipop-tincan              vma_merge
+1        5.6e-06  kallsyms                 ipop-tincan              vunmap_page_range
+1        5.6e-06  kallsyms                 ipop-tincan              wake_up_bit
+1        5.6e-06  kallsyms                 ipop-tincan              watchdog_timer_fn
+1        5.6e-06  kallsyms                 sudo                     __cmpxchg_double_slab.isra.40
+1        5.6e-06  kallsyms                 sudo                     __d_lookup
+1        5.6e-06  kallsyms                 sudo                     __d_lookup_rcu
+1        5.6e-06  kallsyms                 sudo                     __do_page_fault
+1        5.6e-06  kallsyms                 sudo                     __mem_cgroup_uncharge_common
+1        5.6e-06  kallsyms                 sudo                     __percpu_counter_add
+1        5.6e-06  kallsyms                 sudo                     __rb_insert_augmented
+1        5.6e-06  kallsyms                 sudo                     _cond_resched
+1        5.6e-06  kallsyms                 sudo                     aa_dup_task_context
+1        5.6e-06  kallsyms                 sudo                     alloc_pages_vma
+1        5.6e-06  kallsyms                 sudo                     anon_vma_clone
+1        5.6e-06  kallsyms                 sudo                     apparmor_file_alloc_security
+1        5.6e-06  kallsyms                 sudo                     apparmor_sk_free_security
+1        5.6e-06  kallsyms                 sudo                     arch_get_unmapped_area_topdown
+1        5.6e-06  kallsyms                 sudo                     bit_waitqueue
+1        5.6e-06  kallsyms                 sudo                     cap_inode_follow_link
+1        5.6e-06  kallsyms                 sudo                     change_protection_range
+1        5.6e-06  kallsyms                 sudo                     common_file_perm
+1        5.6e-06  kallsyms                 sudo                     copy_page_range
+1        5.6e-06  kallsyms                 sudo                     dnotify_flush
+1        5.6e-06  kallsyms                 sudo                     do_execve_common.isra.23
+1        5.6e-06  kallsyms                 sudo                     do_munmap
+1        5.6e-06  kallsyms                 sudo                     do_prlimit
+1        5.6e-06  kallsyms                 sudo                     enqueue_entity
+1        5.6e-06  kallsyms                 sudo                     filemap_fault
+1        5.6e-06  kallsyms                 sudo                     fput
+1        5.6e-06  kallsyms                 sudo                     free_pgd_range
+1        5.6e-06  kallsyms                 sudo                     generic_fillattr
+1        5.6e-06  kallsyms                 sudo                     inet6_fill_ifla6_attrs
+1        5.6e-06  kallsyms                 sudo                     link_path_walk
+1        5.6e-06  kallsyms                 sudo                     lookup_fast
+1        5.6e-06  kallsyms                 sudo                     lru_add_drain_cpu
+1        5.6e-06  kallsyms                 sudo                     mem_cgroup_uncharge_start
+1        5.6e-06  kallsyms                 sudo                     mutex_lock
+1        5.6e-06  kallsyms                 sudo                     native_set_pte_at
+1        5.6e-06  kallsyms                 sudo                     page_remove_rmap
+1        5.6e-06  kallsyms                 sudo                     path_openat
+1        5.6e-06  kallsyms                 sudo                     process_measurement
+1        5.6e-06  kallsyms                 sudo                     radix_tree_lookup_element
+1        5.6e-06  kallsyms                 sudo                     release_pages
+1        5.6e-06  kallsyms                 sudo                     sched_clock_cpu
+1        5.6e-06  kallsyms                 sudo                     sched_clock_local
+1        5.6e-06  kallsyms                 sudo                     skb_put
+1        5.6e-06  kallsyms                 sudo                     smp_call_function_many
+1        5.6e-06  kallsyms                 sudo                     sock_close
+1        5.6e-06  kallsyms                 sudo                     string.isra.5
+1        5.6e-06  kallsyms                 sudo                     strncpy_from_user
+1        5.6e-06  kallsyms                 sudo                     sys_mprotect
+1        5.6e-06  kallsyms                 sudo                     task_work_add
+1        5.6e-06  kallsyms                 sudo                     task_work_run
+1        5.6e-06  kallsyms                 sudo                     touch_atime
+1        5.6e-06  kallsyms                 sudo                     unlock_page
+1        5.6e-06  kallsyms                 sudo                     up_write
+1        5.6e-06  kallsyms                 sudo                     vm_normal_page
+1        5.6e-06  ld-2.19.so               dash                     _dl_relocate_object
+1        5.6e-06  ld-2.19.so               ipop-tincan              _dl_fixup
+1        5.6e-06  ld-2.19.so               ipop-tincan              _dl_map_object
+1        5.6e-06  ld-2.19.so               ipop-tincan              _dl_name_match_p
+1        5.6e-06  ld-2.19.so               ipop-tincan              check_match.9458
+1        5.6e-06  ld-2.19.so               ipop-tincan              memcpy
+1        5.6e-06  ld-2.19.so               ipop-tincan              strcmp
+1        5.6e-06  ld-2.19.so               ipop-tincan              version_check_doit
+1        5.6e-06  ld-2.19.so               sudo                     __sigsetjmp
+1        5.6e-06  ld-2.19.so               sudo                     _dl_add_to_namespace_list
+1        5.6e-06  ld-2.19.so               sudo                     _dl_check_map_versions
+1        5.6e-06  ld-2.19.so               sudo                     _dl_find_dso_for_object
+1        5.6e-06  ld-2.19.so               sudo                     _dl_map_object_from_fd
+1        5.6e-06  ld-2.19.so               sudo                     _dl_name_match_p
+1        5.6e-06  ld-2.19.so               sudo                     _dl_setup_hash
+1        5.6e-06  ld-2.19.so               sudo                     memset
+1        5.6e-06  ld-2.19.so               sudo                     mmap
+1        5.6e-06  libc-2.19.so             dash                     strncasecmp
+1        5.6e-06  libc-2.19.so             ipop-tincan              _IO_getline_info
+1        5.6e-06  libc-2.19.so             ipop-tincan              __GI___strcasecmp_l_ssse3
+1        5.6e-06  libc-2.19.so             ipop-tincan              __GI_stpcpy
+1        5.6e-06  libc-2.19.so             ipop-tincan              __check_pf
+1        5.6e-06  libc-2.19.so             ipop-tincan              __memset_chk
+1        5.6e-06  libc-2.19.so             ipop-tincan              __recvmsg_nocancel
+1        5.6e-06  libc-2.19.so             ipop-tincan              __strncpy_ssse3
+1        5.6e-06  libc-2.19.so             ipop-tincan              __vsprintf_chk
+1        5.6e-06  libc-2.19.so             ipop-tincan              _dl_addr
+1        5.6e-06  libc-2.19.so             ipop-tincan              do_dlopen
+1        5.6e-06  libc-2.19.so             ipop-tincan              getpagesize
+1        5.6e-06  libc-2.19.so             ipop-tincan              getsockname
+1        5.6e-06  libc-2.19.so             ipop-tincan              gmtime
+1        5.6e-06  libc-2.19.so             ipop-tincan              madvise
+1        5.6e-06  libc-2.19.so             ipop-tincan              qsort_r
+1        5.6e-06  libc-2.19.so             ipop-tincan              strcasecmp
+1        5.6e-06  libc-2.19.so             ipop-tincan              toupper
+1        5.6e-06  libc-2.19.so             ipop-tincan              wctype_l
+1        5.6e-06  libc-2.19.so             sudo                     _IO_getline_info
+1        5.6e-06  libc-2.19.so             sudo                     __GI___strcasecmp_l_ssse3
+1        5.6e-06  libc-2.19.so             sudo                     __errno_location
+1        5.6e-06  libc-2.19.so             sudo                     __libc_dlsym
+1        5.6e-06  libc-2.19.so             sudo                     __memcpy_sse2
+1        5.6e-06  libc-2.19.so             sudo                     __strftime_internal
+1        5.6e-06  libc-2.19.so             sudo                     _dl_addr
+1        5.6e-06  libc-2.19.so             sudo                     _int_free
+1        5.6e-06  libc-2.19.so             sudo                     alarm
+1        5.6e-06  libc-2.19.so             sudo                     getifaddrs_internal
+1        5.6e-06  libc-2.19.so             sudo                     getline
+1        5.6e-06  libc-2.19.so             sudo                     memchr
+1        5.6e-06  libc-2.19.so             sudo                     nscd_getgr_r
+1        5.6e-06  libc-2.19.so             sudo                     strrchr
+1        5.6e-06  libc-2.19.so             sudo                     tsearch
+1        5.6e-06  libnss_files-2.19.so     sudo                     _nss_files_gethostbyname4_r
+1        5.6e-06  libpthread-2.19.so       ipop-tincan              __close_nocancel
+1        5.6e-06  libpthread-2.19.so       ipop-tincan              __connect_nocancel
+1        5.6e-06  libpthread-2.19.so       ipop-tincan              frame_dummy
+1        5.6e-06  libpthread-2.19.so       ipop-tincan              pthread_mutexattr_init
+1        5.6e-06  libresolv-2.19.so        ipop-tincan              ns_name_ntop
+1        5.6e-06  pam_unix.so              sudo                     /lib/x86_64-linux-gnu/security/pam_unix.so
+1        5.6e-06  radeon                   ipop-tincan              /radeon
