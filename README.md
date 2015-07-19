@@ -1,6 +1,8 @@
 # Research-Project-2
 IPOP profiling results and source code of the implementations described in the paper
 
+Most of the code was not developed by me. I only introduced functionalities described in the paper and mentioned in comments in the source files. The original project repository can be found [here](https://github.com/ipop-project). The project homepage can be found [here](http://ipop-project.org/).
+
 
 ###This repository contains the following source files:
 
@@ -10,7 +12,7 @@ IPOP profiling results and source code of the implementations described in the p
 - ipoplib.py - code required by the controller. Also contains part of the implementation for selective security.
 - tincanconnectionmanager.cc - IPOP-Tincan code containing the implementation of selective security.
 
-Most of the code was not developed by me. I only introduced functionalities described in the paper and mentioned in comments in the source files. 
+ 
 	
 
 ####Reimplementation of packet forwarding:	
@@ -21,7 +23,7 @@ Most of the code was not developed by me. I only introduced functionalities desc
 
 	
 	
-###This repository also contains profiling test results:
+###This repository also contains the following profiling results:
 
 ####Oprofile results on the receiver side
 - reciperf - profiling iperf over direct connections
