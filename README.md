@@ -1,5 +1,5 @@
 # Research-Project-2
-IPOP profiling results and source code of the implementations described in the paper
+IPOP profiling results and source code of the implementations described in the paper.
 
 Most of the code was not developed by me. I only introduced functionalities described in the paper and mentioned in comments in the source files. The original project repository can be found [here](https://github.com/ipop-project). The project homepage can be found [here](http://ipop-project.org/).
 
@@ -8,18 +8,18 @@ Most of the code was not developed by me. I only introduced functionalities desc
 
 ####For selective security functionality:
 
-- gvpn_controller.py - controller code for IPOP containing the implementation of selective security.
-- ipoplib.py - code required by the controller. Also contains part of the implementation for selective security.
-- tincanconnectionmanager.cc - IPOP-Tincan code containing the implementation of selective security.
+- **gvpn_controller.py** - controller code for IPOP containing the implementation of selective security.
+- **ipoplib.py** - code required by the controller. Also contains part of the implementation for selective security.
+- **tincanconnectionmanager.cc** - IPOP-Tincan code containing the implementation of selective security.
 
  
 	
 
 ####Reimplementation of packet forwarding:	
-- packetioserial.c - The original implementation of the code handling packet forwarding in IPOP-Tap
-- packetioparalel.c - Parallel implementation of the Producer-Consumer pattern without mutexes.  
-- packetioparalelconditionalsignal.c - Parallel implementation using mutexes and conditional signals. Still needs work, race conditions are detected in some situations.
-- packetioasinchronous.c - Asynchronous parallel implementation 
+- **packetioserial.c** - The original implementation of the code handling packet forwarding in IPOP-Tap
+- **packetioparalel.c** - Parallel implementation of the Producer-Consumer pattern without mutexes.  
+- **packetioparalelconditionalsignal.c** - Parallel implementation using mutexes and conditional signals. Still needs work, race conditions are detected in some situations.
+- **packetioasinchronous.c** - Asynchronous parallel implementation 
 
 	
 	
